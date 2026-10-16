@@ -1,0 +1,61 @@
+  1 start                                         hash=00-home                        page=00-home                      ov=None fs=False 
+  2 click outer home crumb                        hash=00-home                        page=00-home                      ov=None fs=False 
+  3 click Projects(left)                          hash=07c-shell-projects             page=07c-shell-projects           ov=None fs=False 
+  4 escape                                        hash=07c-shell-projects             page=07c-shell-projects           ov=None fs=False 
+  5 click bubble [skip]                           hash=07c-shell-projects             page=07c-shell-projects           ov=None fs=False 
+  6 click hamburger                               hash=07b-shell-hamburger            page=07c-shell-projects           ov=07b fs=False 
+  7 click outer home crumb [skip]                 hash=07b-shell-hamburger            page=07c-shell-projects           ov=07b fs=False 
+  8 click outside (right-panel point)             hash=07c-shell-projects             page=07c-shell-projects           ov=None fs=False 
+  9 escape                                        hash=07c-shell-projects             page=07c-shell-projects           ov=None fs=False 
+ 10 click Projects(left)                          hash=07c-shell-projects             page=07c-shell-projects           ov=None fs=False 
+ 11 click header logo area                        hash=07c-shell-projects             page=07c-shell-projects           ov=None fs=False 
+ 12 click Projects(left)                          hash=07c-shell-projects             page=07c-shell-projects           ov=None fs=False 
+ 13 escape                                        hash=07c-shell-projects             page=07c-shell-projects           ov=None fs=False 
+ 14 click outer home crumb [skip]                 hash=07c-shell-projects             page=07c-shell-projects           ov=None fs=False 
+ 15 click bubble [skip]                           hash=07c-shell-projects             page=07c-shell-projects           ov=None fs=False 
+ 16 click fullscreen toggle [skip]                hash=07c-shell-projects             page=07c-shell-projects           ov=None fs=False 
+ 17 click bubble [skip]                           hash=07c-shell-projects             page=07c-shell-projects           ov=None fs=False 
+ 18 click outside (right-panel point)             hash=07c-shell-projects             page=07c-shell-projects           ov=None fs=False 
+ 19 click Projects(left)                          hash=07c-shell-projects             page=07c-shell-projects           ov=None fs=False 
+ 20 click bubble [skip]                           hash=07c-shell-projects             page=07c-shell-projects           ov=None fs=False 
+ 21 click header logo area                        hash=07c-shell-projects             page=07c-shell-projects           ov=None fs=False 
+ 22 click outer home crumb [skip]                 hash=07c-shell-projects             page=07c-shell-projects           ov=None fs=False 
+ 23 deeplink #07a-shell-mode-dropdown             hash=07a-shell-mode-dropdown        page=00-home                      ov=07a fs=False 
+ 24 click header logo area                        hash=00-home                        page=00-home                      ov=None fs=False 
+ 25 click hamburger                               hash=07b-shell-hamburger            page=00-home                      ov=07b fs=False 
+ 26 forward                                       hash=07b-shell-hamburger            page=00-home                      ov=07b fs=False 
+ 27 click outer home crumb                        hash=00-home                        page=00-home                      ov=None fs=False 
+ 28 back                                          hash=07c-shell-projects             page=07c-shell-projects           ov=None fs=False 
+ 29 escape                                        hash=07c-shell-projects             page=07c-shell-projects           ov=None fs=False 
+ 30 back                                          hash=00-home                        page=00-home                      ov=None fs=False 
+ 31 back                                          hash=07c-shell-projects             page=07c-shell-projects           ov=None fs=False 
+ 32 forward                                       hash=00-home                        page=00-home                      ov=None fs=False 
+ 33 forward                                       hash=07c-shell-projects             page=07c-shell-projects           ov=None fs=False 
+ 34 escape                                        hash=07c-shell-projects             page=07c-shell-projects           ov=None fs=False 
+ 35 click outside (right-panel point)             hash=07c-shell-projects             page=07c-shell-projects           ov=None fs=False 
+ 36 click hamburger                               hash=07b-shell-hamburger            page=07c-shell-projects           ov=07b fs=False 
+ 37 mask click                                    hash=07b-shell-hamburger            page=07c-shell-projects           ov=07b fs=False 
+ 38 forward                                       hash=00-home                        page=00-home                      ov=None fs=False 
+ 39 click header logo area                        hash=00-home                        page=00-home                      ov=None fs=False 
+ 40 click fullscreen toggle                       hash=00-home                        page=00-home                      ov=None fs=True 
+ 41 click fullscreen toggle                       hash=00-home                        page=00-home                      ov=None fs=False 
+ 42 click bubble [skip]                           hash=00-home                        page=00-home                      ov=None fs=False 
+ 43 click hamburger                               hash=07b-shell-hamburger            page=00-home                      ov=07b fs=False 
+ 44 RBAC btn [skip]                               hash=07b-shell-hamburger            page=00-home                      ov=07b fs=False 
+ 45 reload                                        hash=07b-shell-hamburger            page=00-home                      ov=07b fs=False 
+ 46 click Projects(left)                          hash=00-home                        page=00-home                      ov=None fs=False 
+ 47 click header logo area                        hash=00-home                        page=00-home                      ov=None fs=False 
+ 48 forward                                       hash=00-home                        page=00-home                      ov=None fs=False 
+ 49 click trigger                                 hash=07a-shell-mode-dropdown        page=00-home                      ov=07a fs=False 
+ 50 home card Firewall Overview                   hash=02-firewall                    page=02-firewall                  ov=None fs=False 
+ 51 click hamburger                               hash=07b-shell-hamburger            page=02-firewall                  ov=07b fs=False 
+ 52 click bubble [skip]                           hash=07b-shell-hamburger            page=02-firewall                  ov=07b fs=False 
+ 53 drawer X                                      hash=02-firewall                    page=02-firewall                  ov=None fs=False 
+ 54 click bubble [skip]                           hash=02-firewall                    page=02-firewall                  ov=None fs=False 
+ 55 click outer home crumb                        hash=00-home                        page=00-home                      ov=None fs=False 
+ 56 click outer home crumb                        hash=00-home                        page=00-home                      ov=None fs=False 
+ 57 home card Firewall Overview                   hash=02-firewall                    page=02-firewall                  ov=None fs=False 
+ 58 click Projects(left)                          hash=07c-shell-projects             page=07c-shell-projects           ov=None fs=False 
+ 59 forward                                       hash=07c-shell-projects             page=07c-shell-projects           ov=None fs=False 
+ 60 click outer home crumb [skip]                 hash=07c-shell-projects             page=07c-shell-projects           ov=None fs=False 
+ 61 escape                                        hash=07c-shell-projects             page=07c-shell-projects           ov=None fs=False 

@@ -1,0 +1,61 @@
+  1 start                                         hash=00-home                        page=00-home                      ov=None fs=False 
+  2 escape                                        hash=00-home                        page=00-home                      ov=None fs=False 
+  3 forward                                       hash=00-home                        page=00-home                      ov=None fs=False 
+  4 click outside (right-panel point)             hash=00-home                        page=00-home                      ov=None fs=False 
+  5 back                                          hash=07c-shell-projects             page=07c-shell-projects           ov=None fs=False 
+  6 click trigger                                 hash=07a-shell-mode-dropdown        page=07c-shell-projects           ov=07a fs=False 
+  7 pick AI Governance                            hash=00-home                        page=00-home                      ov=None fs=False 
+  8 home card Traffic Analysis                    hash=05-traffic                     page=05-traffic                   ov=None fs=False 
+  9 View Usage [skip]                             hash=05-traffic                     page=05-traffic                   ov=None fs=False 
+ 10 click bubble [skip]                           hash=05-traffic                     page=05-traffic                   ov=None fs=False 
+ 11 click Projects(left)                          hash=07c-shell-projects             page=07c-shell-projects           ov=None fs=False 
+ 12 back                                          hash=05-traffic                     page=05-traffic                   ov=None fs=False 
+ 13 inner crumb home [skip]                       hash=05-traffic                     page=05-traffic                   ov=None fs=False 
+ 14 click header logo area                        hash=05-traffic                     page=05-traffic                   ov=None fs=False 
+ 15 hub Applications                              hash=05e-traffic-applications       page=05e-traffic-applications     ov=None fs=False 
+ 16 click outer home crumb                        hash=00-home                        page=00-home                      ov=None fs=False 
+ 17 forward                                       hash=00-home                        page=00-home                      ov=None fs=False 
+ 18 click fullscreen toggle                       hash=00-home                        page=00-home                      ov=None fs=True 
+ 19 back                                          hash=05e-traffic-applications       page=05e-traffic-applications     ov=None fs=True 
+ 20 click bubble                                  hash=05e-traffic-applications       page=05e-traffic-applications     ov=None fs=False 
+ 21 click Projects(left)                          hash=07c-shell-projects             page=07c-shell-projects           ov=None fs=False 
+ 22 click Projects(left)                          hash=07c-shell-projects             page=07c-shell-projects           ov=None fs=False 
+ 23 click trigger                                 hash=07a-shell-mode-dropdown        page=07c-shell-projects           ov=07a fs=False 
+ 24 click Projects(left)                          hash=07c-shell-projects             page=07c-shell-projects           ov=None fs=False 
+ 25 click outside (right-panel point)             hash=07c-shell-projects             page=07c-shell-projects           ov=None fs=False 
+ 26 forward                                       hash=07c-shell-projects             page=07c-shell-projects           ov=None fs=False 
+ 27 forward                                       hash=07c-shell-projects             page=07c-shell-projects           ov=None fs=False 
+ 28 click header logo area                        hash=07c-shell-projects             page=07c-shell-projects           ov=None fs=False 
+ 29 forward                                       hash=07c-shell-projects             page=07c-shell-projects           ov=None fs=False 
+ 30 click outer home crumb [skip]                 hash=07c-shell-projects             page=07c-shell-projects           ov=None fs=False 
+ 31 click header logo area                        hash=07c-shell-projects             page=07c-shell-projects           ov=None fs=False 
+ 32 click outer home crumb [skip]                 hash=07c-shell-projects             page=07c-shell-projects           ov=None fs=False 
+ 33 back                                          hash=05e-traffic-applications       page=05e-traffic-applications     ov=None fs=False 
+ 34 click header logo area                        hash=05e-traffic-applications       page=05e-traffic-applications     ov=None fs=False 
+ 35 click outer home crumb                        hash=00-home                        page=00-home                      ov=None fs=False 
+ 36 forward                                       hash=00-home                        page=00-home                      ov=None fs=False 
+ 37 home card Policies                            hash=04-policies                    page=04-policies                  ov=None fs=False 
+ 38 click header logo area                        hash=04-policies                    page=04-policies                  ov=None fs=False 
+ 39 Policies Deck                                 hash=04-policies                    page=04-policies                  ov=None fs=False 
+ 40 sethash #06d-rbac-config-permissions          hash=06d-rbac-config-permissions    page=06d-rbac-config-permissions  ov=None fs=False 
+ 41 click outside (right-panel point)             hash=06d-rbac-config-permissions    page=06d-rbac-config-permissions  ov=None fs=False 
+ 42 tab RBAC Configuration                        hash=06d-rbac-config-permissions    page=06d-rbac-config-permissions  ov=None fs=False 
+ 43 back                                          hash=04-policies                    page=04-policies                  ov=None fs=False 
+ 44 Policies Deck                                 hash=04-policies                    page=04-policies                  ov=None fs=False 
+ 45 click header logo area                        hash=04-policies                    page=04-policies                  ov=None fs=False 
+ 46 Change Logs~                                  hash=04b-policies-changelogs        page=04b-policies-changelogs      ov=None fs=False 
+ 47 sethash #07c-shell-projects                   hash=07c-shell-projects             page=07c-shell-projects           ov=None fs=False 
+ 48 escape                                        hash=07c-shell-projects             page=07c-shell-projects           ov=None fs=False 
+ 49 click trigger                                 hash=07a-shell-mode-dropdown        page=07c-shell-projects           ov=07a fs=False 
+ 50 click bubble [skip]                           hash=07a-shell-mode-dropdown        page=07c-shell-projects           ov=07a fs=False 
+ 51 type search                                   hash=07a-shell-mode-dropdown        page=07c-shell-projects           ov=07a fs=False 
+ 52 click outer home crumb [skip]                 hash=07a-shell-mode-dropdown        page=07c-shell-projects           ov=07a fs=False 
+ 53 pick AI Governance                            hash=00-home                        page=00-home                      ov=None fs=False 
+ 54 click bubble [skip]                           hash=00-home                        page=00-home                      ov=None fs=False 
+ 55 click outside (right-panel point)             hash=00-home                        page=00-home                      ov=None fs=False 
+ 56 click outer home crumb                        hash=00-home                        page=00-home                      ov=None fs=False 
+ 57 back                                          hash=07a-shell-mode-dropdown        page=00-home                      ov=07a fs=False 
+ 58 pick AI Governance                            hash=00-home                        page=00-home                      ov=None fs=False 
+ 59 RBAC btn                                      hash=06-rbac-access                 page=06-rbac-access               ov=None fs=False 
+ 60 click outside (right-panel point)             hash=06-rbac-access                 page=06-rbac-access               ov=None fs=False 
+ 61 click outer home crumb                        hash=00-home                        page=00-home                      ov=None fs=False 

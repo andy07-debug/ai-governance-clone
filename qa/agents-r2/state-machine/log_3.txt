@@ -1,0 +1,61 @@
+  1 start                                         hash=00-home                        page=00-home                      ov=None fs=False 
+  2 home card Traffic Analysis                    hash=05-traffic                     page=05-traffic                   ov=None fs=False 
+  3 click header logo area                        hash=05-traffic                     page=05-traffic                   ov=None fs=False 
+  4 View Usage [skip]                             hash=05-traffic                     page=05-traffic                   ov=None fs=False 
+  5 click hamburger                               hash=07b-shell-hamburger            page=05-traffic                   ov=07b fs=False 
+  6 inner crumb home [skip]                       hash=07b-shell-hamburger            page=05-traffic                   ov=07b fs=False 
+  7 forward                                       hash=07b-shell-hamburger            page=05-traffic                   ov=07b fs=False 
+  8 drawer X                                      hash=05-traffic                     page=05-traffic                   ov=None fs=False 
+  9 Model Configuration [skip]                    hash=05-traffic                     page=05-traffic                   ov=None fs=False 
+ 10 click trigger                                 hash=07a-shell-mode-dropdown        page=05-traffic                   ov=07a fs=False 
+ 11 hub Error logs                                hash=05f-traffic-errorlogs          page=05f-traffic-errorlogs        ov=None fs=False 
+ 12 crumb Projects [skip]                         hash=05f-traffic-errorlogs          page=05f-traffic-errorlogs        ov=None fs=False 
+ 13 hub Applications [skip]                       hash=05f-traffic-errorlogs          page=05f-traffic-errorlogs        ov=None fs=False 
+ 14 back                                          hash=05-traffic                     page=05-traffic                   ov=None fs=False 
+ 15 click outside (right-panel point)             hash=05-traffic                     page=05-traffic                   ov=None fs=False 
+ 16 Model Configuration [skip]                    hash=05-traffic                     page=05-traffic                   ov=None fs=False 
+ 17 Model Configuration [skip]                    hash=05-traffic                     page=05-traffic                   ov=None fs=False 
+ 18 hub Projects                                  hash=05a-traffic-projects           page=05a-traffic-projects         ov=None fs=False 
+ 19 forward                                       hash=05a-traffic-projects           page=05a-traffic-projects         ov=None fs=False 
+ 20 Model Configuration                           hash=05c-traffic-model-config       page=05c-traffic-model-config     ov=None fs=False 
+ 21 crumb Projects                                hash=05a-traffic-projects           page=05a-traffic-projects         ov=None fs=False 
+ 22 crumb Projects                                hash=05a-traffic-projects           page=05a-traffic-projects         ov=None fs=False 
+ 23 Model Configuration                           hash=05c-traffic-model-config       page=05c-traffic-model-config     ov=None fs=False 
+ 24 click outer home crumb                        hash=00-home                        page=00-home                      ov=None fs=False 
+ 25 home card Firewall Overview                   hash=02-firewall                    page=02-firewall                  ov=None fs=False 
+ 26 click Projects(left)                          hash=07c-shell-projects             page=07c-shell-projects           ov=None fs=False 
+ 27 click outer home crumb [skip]                 hash=07c-shell-projects             page=07c-shell-projects           ov=None fs=False 
+ 28 click hamburger                               hash=07b-shell-hamburger            page=07c-shell-projects           ov=07b fs=False 
+ 29 click Projects(left)                          hash=07c-shell-projects             page=07c-shell-projects           ov=None fs=False 
+ 30 back                                          hash=02-firewall                    page=02-firewall                  ov=None fs=False 
+ 31 click outside (right-panel point)             hash=02-firewall                    page=02-firewall                  ov=None fs=False 
+ 32 click Projects(left)                          hash=07c-shell-projects             page=07c-shell-projects           ov=None fs=False 
+ 33 click trigger                                 hash=07a-shell-mode-dropdown        page=07c-shell-projects           ov=07a fs=False 
+ 34 click outside (right-panel point)             hash=07c-shell-projects             page=07c-shell-projects           ov=None fs=False 
+ 35 click Projects(left)                          hash=07c-shell-projects             page=07c-shell-projects           ov=None fs=False 
+ 36 back                                          hash=02-firewall                    page=02-firewall                  ov=None fs=False 
+ 37 click bubble [skip]                           hash=02-firewall                    page=02-firewall                  ov=None fs=False 
+ 38 escape                                        hash=02-firewall                    page=02-firewall                  ov=None fs=False 
+ 39 click hamburger                               hash=07b-shell-hamburger            page=02-firewall                  ov=07b fs=False 
+ 40 click outside (right-panel point)             hash=02-firewall                    page=02-firewall                  ov=None fs=False 
+ 41 click bubble [skip]                           hash=02-firewall                    page=02-firewall                  ov=None fs=False 
+ 42 click bubble [skip]                           hash=02-firewall                    page=02-firewall                  ov=None fs=False 
+ 43 click Projects(left)                          hash=07c-shell-projects             page=07c-shell-projects           ov=None fs=False 
+ 44 click outer home crumb [skip]                 hash=07c-shell-projects             page=07c-shell-projects           ov=None fs=False 
+ 45 click outside (right-panel point)             hash=07c-shell-projects             page=07c-shell-projects           ov=None fs=False 
+ 46 click outside (right-panel point)             hash=07c-shell-projects             page=07c-shell-projects           ov=None fs=False 
+ 47 back                                          hash=02-firewall                    page=02-firewall                  ov=None fs=False 
+ 48 click fullscreen toggle                       hash=02-firewall                    page=02-firewall                  ov=None fs=True 
+ 49 click trigger [skip]                          hash=02-firewall                    page=02-firewall                  ov=None fs=True 
+ 50 click outer home crumb                        hash=00-home                        page=00-home                      ov=None fs=True 
+ 51 click fullscreen toggle                       hash=00-home                        page=00-home                      ov=None fs=False 
+ 52 click trigger                                 hash=07a-shell-mode-dropdown        page=00-home                      ov=07a fs=False 
+ 53 type search                                   hash=07a-shell-mode-dropdown        page=00-home                      ov=07a fs=False 
+ 54 click bubble [skip]                           hash=07a-shell-mode-dropdown        page=00-home                      ov=07a fs=False 
+ 55 deeplink #06d-rbac-config-permissions         hash=06d-rbac-config-permissions    page=06d-rbac-config-permissions  ov=None fs=False 
+ 56 tab Permissions                               hash=06d-rbac-config-permissions    page=06d-rbac-config-permissions  ov=None fs=False 
+ 57 deeplink #07b-shell-hamburger                 hash=07b-shell-hamburger            page=00-home                      ov=07b fs=False 
+ 58 click hamburger [skip]                        hash=07b-shell-hamburger            page=00-home                      ov=07b fs=False 
+ 59 click outside (right-panel point)             hash=00-home                        page=00-home                      ov=None fs=False 
+ 60 home card Traffic Analysis                    hash=05-traffic                     page=05-traffic                   ov=None fs=False 
+ 61 click hamburger                               hash=07b-shell-hamburger            page=05-traffic                   ov=07b fs=False 

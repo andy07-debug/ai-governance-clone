@@ -1,0 +1,299 @@
+{
+ "home>01": [
+  "01-llm-analytics",
+  [
+   0.0,
+   null
+  ]
+ ],
+ "home>02": [
+  "02-firewall",
+  [
+   0.0,
+   null
+  ]
+ ],
+ "home>03": [
+  "03-live-events",
+  [
+   0.0,
+   null
+  ]
+ ],
+ "home>04": [
+  "04-policies",
+  [
+   0.0,
+   null
+  ]
+ ],
+ "home>05": [
+  "05-traffic",
+  [
+   0.0,
+   null
+  ]
+ ],
+ "home>06": [
+  "06-rbac-access",
+  [
+   0.0,
+   null
+  ]
+ ],
+ "01>home": [
+  "00-home",
+  [
+   0.0,
+   null
+  ]
+ ],
+ "05d>home": [
+  "00-home",
+  [
+   0.0,
+   null
+  ]
+ ],
+ "06f>home": [
+  "00-home",
+  [
+   0.0,
+   null
+  ]
+ ],
+ "07c>dd>home": [
+  "00-home",
+  [
+   0.0,
+   null
+  ]
+ ],
+ "05b>dd>home": [
+  "00-home",
+  [
+   0.0,
+   null
+  ]
+ ],
+ "04>04b": [
+  "04b-policies-changelogs",
+  [
+   0.0,
+   null
+  ]
+ ],
+ "04b>04": [
+  "04-policies",
+  [
+   0.0,
+   null
+  ]
+ ],
+ "04>04c": [
+  "04c-policies-newpolicy-modal",
+  [
+   0.0,
+   null
+  ]
+ ],
+ "04c>04": [
+  "04-policies",
+  [
+   0.0,
+   null
+  ]
+ ],
+ "05>05a": [
+  "05a-traffic-projects",
+  [
+   0.0,
+   null
+  ]
+ ],
+ "05>05d": [
+  "05d-traffic-statistics",
+  [
+   0.0,
+   null
+  ]
+ ],
+ "05>05e": [
+  "05e-traffic-applications",
+  [
+   0.0,
+   null
+  ]
+ ],
+ "05>05f": [
+  "05f-traffic-errorlogs",
+  [
+   0.0,
+   null
+  ]
+ ],
+ "05a>05b": [
+  "05b-traffic-project-usage",
+  [
+   0.0,
+   null
+  ]
+ ],
+ "05a>05c": [
+  "05c-traffic-model-config",
+  [
+   0.0,
+   null
+  ]
+ ],
+ "05b>05a": [
+  "05a-traffic-projects",
+  [
+   0.0,
+   null
+  ]
+ ],
+ "05c>05a": [
+  "05a-traffic-projects",
+  [
+   0.0,
+   null
+  ]
+ ],
+ "05d>05": [
+  "05-traffic",
+  [
+   0.0,
+   null
+  ]
+ ],
+ "06>06b": [
+  "06b-rbac-usergroups",
+  [
+   0.0,
+   null
+  ]
+ ],
+ "06b>06c": [
+  "06c-rbac-config-modules",
+  [
+   0.0,
+   null
+  ]
+ ],
+ "06c>06d": [
+  "06d-rbac-config-permissions",
+  [
+   0.0,
+   null
+  ]
+ ],
+ "06d>06e": [
+  "06e-rbac-config-roles",
+  [
+   0.0,
+   null
+  ]
+ ],
+ "06e>06f": [
+  "06f-rbac-config-mapping",
+  [
+   0.0,
+   null
+  ]
+ ],
+ "06f>06c": [
+  "06c-rbac-config-modules",
+  [
+   0.0,
+   null
+  ]
+ ],
+ "06c>06b": [
+  "06b-rbac-usergroups",
+  [
+   0.0,
+   null
+  ]
+ ],
+ "06b>06": [
+  "06-rbac-access",
+  [
+   0.0,
+   null
+  ]
+ ],
+ "home>07c": [
+  "07c-shell-projects",
+  [
+   0.0,
+   null
+  ]
+ ],
+ "05b>07c": [
+  "07c-shell-projects",
+  [
+   0.0,
+   null
+  ]
+ ],
+ "03 fs>home>fsoff": [
+  "00-home",
+  [
+   0.0,
+   null
+  ]
+ ],
+ "05b fs>05a>fsoff": [
+  "05a-traffic-projects",
+  [
+   0.0,
+   null
+  ]
+ ],
+ "01 fs>bubble": [
+  "01-llm-analytics",
+  [
+   0.0,
+   null
+  ]
+ ],
+ "home>01>back": [
+  "00-home",
+  [
+   0.0,
+   null
+  ]
+ ],
+ "home>01>back>fwd": [
+  "01-llm-analytics",
+  [
+   0.0,
+   null
+  ]
+ ],
+ "05a>05b>back(fs)": [
+  "05a-traffic-projects",
+  [
+   15.558,
+   [
+    0,
+    18,
+    1919,
+    935
+   ]
+  ]
+ ],
+ "07c>dd>back": [
+  "",
+  [
+   2.687,
+   [
+    0,
+    18,
+    1919,
+    935
+   ]
+  ]
+ ]
+}

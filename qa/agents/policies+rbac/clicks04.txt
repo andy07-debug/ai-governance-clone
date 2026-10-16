@@ -1,0 +1,83 @@
+===== 04-policies 18
+0 ['BUTTON', '', 1808, 27, 26, 26] NAV->07b-shell-hamburger
+1 ['BUTTON', 'Open sidebar', 1860, 20, 40, 40] NAV->07b-shell-hamburger
+2 ['BUTTON', 'Projects', 20, 102, 71, 16] NAV->07c-shell-projects
+3 ['BUTTON', 'Start New Chat', 673, 96, 48, 28] none
+4 ['BUTTON', 'Expand to right', 733, 86, 48, 48] none
+5 ['BUTTON', 'Chat tools', 793, 86, 48, 48] none
+6 ['BUTTON', 'Open guideline cart', 20, 790, 48, 36] none
+7 ['BUTTON', '', 69, 791, 46, 35] none
+8 ['BUTTON', 'Click to send message', 788, 827, 52, 40] none
+9 ['BUTTON', 'speaker button', 207, 888, 32, 32] CLICKFAIL Locator.click: Timeout 1500ms exceeded.
+10 ['BUTTON', 'microphone button', 622, 888, 32, 32] none
+11 ['BUTTON', 'Back to home', 886, 98, 24, 24] NAV->00-home
+12 ['BUTTON', 'Toggle Fullscreen', 1848, 100, 52, 20] DOMCHANGE
+13 ['BUTTON', 'Policies Deck', 1461, 212, 125, 48] none
+14 ['BUTTON', 'Change Logs', 1585, 212, 123, 48] NAV->04b-policies-changelogs
+15 ['BUTTON', 'New Policy', 1727, 216, 137, 40] NAV->04c-policies-newpolicy-modal
+16 ['INPUT', 'Search policies…', 922, 459, 288, 40] none
+17 ['BUTTON', 'Clear filter search', 1342, 800, 103, 16] none
+===== 04b-policies-changelogs 19
+0 ['BUTTON', '', 1808, 27, 26, 26] NAV->07b-shell-hamburger
+1 ['BUTTON', 'Open sidebar', 1860, 20, 40, 40] NAV->07b-shell-hamburger
+2 ['BUTTON', 'Projects', 20, 102, 71, 16] NAV->07c-shell-projects
+3 ['BUTTON', 'Start New Chat', 673, 96, 48, 28] none
+4 ['BUTTON', 'Expand to right', 733, 86, 48, 48] none
+5 ['BUTTON', 'Chat tools', 793, 86, 48, 48] none
+6 ['BUTTON', 'Open guideline cart', 20, 790, 48, 36] none
+7 ['BUTTON', '', 69, 791, 46, 35] none
+8 ['BUTTON', 'Click to send message', 788, 827, 52, 40] none
+9 ['BUTTON', 'speaker button', 207, 888, 32, 32] CLICKFAIL Locator.click: Timeout 1500ms exceeded.
+10 ['BUTTON', 'microphone button', 622, 888, 32, 32] none
+11 ['BUTTON', 'Back to home', 886, 98, 24, 24] NAV->00-home
+12 ['BUTTON', 'Toggle Fullscreen', 1848, 100, 52, 20] DOMCHANGE
+13 ['BUTTON', 'Policies Deck', 1601, 212, 129, 32] NAV->04-policies
+14 ['BUTTON', 'Change Logs', 1730, 212, 127, 32] none
+15 ['INPUT', 'Search...', 959, 472, 502, 40] none
+16 ['BUTTON', 'Select date', 1477, 472, 140, 40] none
+17 ['BUTTON', 'Filter', 1629, 472, 94, 40] none
+18 ['BUTTON', 'Sort', 1736, 472, 91, 40] none
+===== 04c-policies-newpolicy-modal 25
+0 ['BUTTON', '', 1808, 27, 26, 26] CLICKFAIL Locator.click: Timeout 1500ms exceeded.
+1 ['BUTTON', 'Open sidebar', 1860, 20, 40, 40] CLICKFAIL Locator.click: Timeout 1500ms exceeded.
+2 ['BUTTON', 'Projects', 20, 102, 71, 16] CLICKFAIL Locator.click: Timeout 1500ms exceeded.
+3 ['BUTTON', 'Start New Chat', 673, 96, 48, 28] CLICKFAIL Locator.click: Timeout 1500ms exceeded.
+4 ['BUTTON', 'Expand to right', 733, 86, 48, 48] CLICKFAIL Locator.click: Timeout 1500ms exceeded.
+5 ['BUTTON', 'Chat tools', 793, 86, 48, 48] CLICKFAIL Locator.click: Timeout 1500ms exceeded.
+6 ['BUTTON', 'Open guideline cart', 20, 790, 48, 36] CLICKFAIL Locator.click: Timeout 1500ms exceeded.
+7 ['BUTTON', '', 69, 791, 46, 35] CLICKFAIL Locator.click: Timeout 1500ms exceeded.
+8 ['BUTTON', 'Click to send message', 788, 827, 52, 40] CLICKFAIL Locator.click: Timeout 1500ms exceeded.
+9 ['BUTTON', 'speaker button', 207, 888, 32, 32] CLICKFAIL Locator.click: Timeout 1500ms exceeded.
+10 ['BUTTON', 'microphone button', 622, 888, 32, 32] CLICKFAIL Locator.click: Timeout 1500ms exceeded.
+11 ['BUTTON', 'Back to home', 886, 98, 24, 24] CLICKFAIL Locator.click: Timeout 1500ms exceeded.
+12 ['BUTTON', 'Toggle Fullscreen', 1848, 100, 52, 20] CLICKFAIL Locator.click: Timeout 1500ms exceeded.
+13 ['BUTTON', 'Policies Deck', 1461, 212, 125, 48] CLICKFAIL Locator.click: Timeout 1500ms exceeded.
+14 ['BUTTON', 'Change Logs', 1585, 212, 123, 48] CLICKFAIL Locator.click: Timeout 1500ms exceeded.
+15 ['BUTTON', 'New Policy', 1727, 216, 137, 40] CLICKFAIL Locator.click: Timeout 1500ms exceeded.
+16 ['INPUT', 'Search policies…', 922, 459, 288, 40] CLICKFAIL Locator.click: Timeout 1500ms exceeded.
+17 ['BUTTON', 'Clear filter search', 1342, 800, 103, 16] CLICKFAIL Locator.click: Timeout 1500ms exceeded.
+18 ['BUTTON', '', 1161, 178, 30, 30] NAV->04-policies
+19 ['INPUT', 'e.g., Financial Audit Intercept', 729, 292, 462, 40] none
+20 ['SELECT', 'Enhancement Safety Context Privacy Compl', 729, 380, 462, 40] none
+21 ['TEXTAREA', 'Provide a functional description explain', 729, 468, 462, 86] none
+22 ['TEXTAREA', 'Enter system prompt engine operational r', 729, 602, 462, 90] none
+23 ['BUTTON', 'Cancel', 969, 733, 79, 40] NAV->04-policies
+24 ['BUTTON', 'Deploy Policy', 1060, 733, 131, 40] none
+===== 06-rbac-access 16
+0 ['BUTTON', '', 1808, 27, 26, 26] NAV->07b-shell-hamburger
+1 ['BUTTON', 'Open sidebar', 1860, 20, 40, 40] NAV->07b-shell-hamburger
+2 ['BUTTON', 'Projects', 20, 102, 71, 16] NAV->07c-shell-projects
+3 ['BUTTON', 'Start New Chat', 673, 96, 48, 28] none
+4 ['BUTTON', 'Expand to right', 733, 86, 48, 48] none
+5 ['BUTTON', 'Chat tools', 793, 86, 48, 48] none
+6 ['BUTTON', 'Open guideline cart', 20, 790, 48, 36] none
+7 ['BUTTON', '', 69, 791, 46, 35] none
+8 ['BUTTON', 'Click to send message', 788, 827, 52, 40] none
+9 ['BUTTON', 'speaker button', 207, 888, 32, 32] CLICKFAIL Locator.click: Timeout 1500ms exceeded.
+10 ['BUTTON', 'microphone button', 622, 888, 32, 32] none
+11 ['BUTTON', 'Back to home', 886, 98, 24, 24] NAV->00-home
+12 ['BUTTON', 'Toggle Fullscreen', 1848, 100, 52, 20] DOMCHANGE
+13 ['BUTTON', 'Access Management', 911, 182, 185, 34] none
+14 ['BUTTON', 'RBAC Configuration', 1100, 182, 177, 34] NAV->06b-rbac-usergroups
+15 ['BUTTON', 'SMART_AI_PROMPT_POLICIES', 890, 234, 239, 42] none
+errs []

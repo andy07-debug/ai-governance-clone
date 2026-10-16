@@ -1,0 +1,293 @@
+===== 05-traffic 6
+    0 BUTTON 'Back to home'                                          @(886,98 24x24) clicked  NAV->00-home 
+    1 BUTTON 'Toggle Fullscreen'                                     @(1848,100 52x20) clicked  DOMCHANGE 
+    2 DIV    'Projects'                                              @(923,286 462x98) clicked  NAV->05a-traffic-projects 
+    3 DIV    'Statistics'                                            @(1401,286 462x98) clicked  NAV->05d-traffic-statistics 
+    4 DIV    'Applications'                                          @(923,400 462x98) clicked  NAV->05e-traffic-applications 
+    5 DIV    'Error logs'                                            @(1401,400 462x98) clicked  NAV->05f-traffic-errorlogs 
+===== 05a-traffic-projects 46
+    0 BUTTON 'Back to home'                                          @(886,98 24x24) clicked  NAV->00-home 
+    1 BUTTON 'Toggle Fullscreen'                                     @(1848,100 52x20) clicked  DOMCHANGE 
+    2 LI     'p-breadcrumb-home p-menuitem'                          @(882,157 32x24) clicked  NAV->05-traffic 
+    3 A      'p-menuitem-link'                                       @(882,157 32x24) clicked  NAV->05-traffic 
+    4 LI     'p-menuitem-separator'                                  @(922,161 16x16) clicked  inert 
+    5 LI     'Projects'                                              @(946,157 77x24) clicked  inert 
+    6 A      'Projects'                                              @(946,157 77x24) clicked  inert 
+    7 BUTTON 'p-2 rounded-full hover:bg-gray-100 transition-all'     @(1320,239 36x36) clicked  inert 
+    8 BUTTON 'Model Configuration'                                   @(915,359 214x40) clicked  NAV->05c-traffic-model-config 
+    9 BUTTON 'View Usage'                                            @(1142,359 214x40) clicked  NAV->05b-traffic-project-usage 
+   10 BUTTON 'p-2 rounded-full hover:bg-gray-100 transition-all'     @(1835,239 36x36) clicked  inert 
+   11 BUTTON 'Model Configuration'                                   @(1430,359 214x40) clicked  NAV->05c-traffic-model-config 
+   12 BUTTON 'View Usage'                                            @(1657,359 214x40) clicked  NAV->05b-traffic-project-usage 
+   13 BUTTON 'p-2 rounded-full hover:bg-gray-100 transition-all'     @(1320,465 36x36) clicked  inert 
+   14 BUTTON 'Model Configuration'                                   @(915,585 214x40) clicked  NAV->05c-traffic-model-config 
+   15 BUTTON 'View Usage'                                            @(1142,585 214x40) clicked  NAV->05b-traffic-project-usage 
+   16 BUTTON 'p-2 rounded-full hover:bg-gray-100 transition-all'     @(1835,461 36x36) clicked  inert 
+   17 BUTTON 'Model Configuration'                                   @(1430,581 214x40) clicked  NAV->05c-traffic-model-config 
+   18 BUTTON 'View Usage'                                            @(1657,581 214x40) clicked  NAV->05b-traffic-project-usage 
+   19 BUTTON 'p-2 rounded-full hover:bg-gray-100 transition-all'     @(1320,691 36x36) clicked  inert 
+   20 BUTTON 'Model Configuration'                                   @(915,811 214x40) clicked  NAV->05c-traffic-model-config 
+   21 BUTTON 'View Usage'                                            @(1142,811 214x40) clicked  NAV->05b-traffic-project-usage 
+   22 BUTTON 'p-2 rounded-full hover:bg-gray-100 transition-all'     @(1835,691 36x36) clicked  inert 
+   23 BUTTON 'Model Configuration'                                   @(1430,811 214x40) clicked  NAV->05c-traffic-model-config 
+   24 BUTTON 'View Usage'                                            @(1657,811 214x40) clicked  NAV->05b-traffic-project-usage 
+   25 BUTTON 'p-2 rounded-full hover:bg-gray-100 transition-all'     @(1320,917 36x36) clicked  inert 
+   26 BUTTON 'Model Configuration'                                   @(915,1037 214x40) clicked  NAV->05c-traffic-model-config 
+   27 BUTTON 'View Usage'                                            @(1142,1037 214x40) clicked  NAV->05b-traffic-project-usage 
+   28 BUTTON 'p-2 rounded-full hover:bg-gray-100 transition-all'     @(1835,917 36x36) clicked  inert 
+   29 BUTTON 'Model Configuration'                                   @(1430,1037 214x40) clicked  NAV->05c-traffic-model-config 
+   30 BUTTON 'View Usage'                                            @(1657,1037 214x40) clicked  NAV->05b-traffic-project-usage 
+   31 BUTTON 'p-2 rounded-full hover:bg-gray-100 transition-all'     @(1320,1143 36x36) clicked  inert 
+   32 BUTTON 'Model Configuration'                                   @(915,1263 214x40) clicked  NAV->05c-traffic-model-config 
+   33 BUTTON 'View Usage'                                            @(1142,1263 214x40) clicked  NAV->05b-traffic-project-usage 
+   34 BUTTON 'p-2 rounded-full hover:bg-gray-100 transition-all'     @(1835,1143 36x36) clicked  inert 
+   35 BUTTON 'Model Configuration'                                   @(1430,1263 214x40) clicked  NAV->05c-traffic-model-config 
+   36 BUTTON 'View Usage'                                            @(1657,1263 214x40) clicked  NAV->05b-traffic-project-usage 
+   37 BUTTON 'p-2 rounded-full hover:bg-gray-100 transition-all'     @(1320,1369 36x36) clicked  inert 
+   38 BUTTON 'Model Configuration'                                   @(915,1489 214x40) clicked  NAV->05c-traffic-model-config 
+   39 BUTTON 'View Usage'                                            @(1142,1489 214x40) clicked  NAV->05b-traffic-project-usage 
+   40 BUTTON 'p-2 rounded-full hover:bg-gray-100 transition-all'     @(1835,1369 36x36) clicked  inert 
+   41 BUTTON 'Model Configuration'                                   @(1430,1489 214x40) clicked  NAV->05c-traffic-model-config 
+   42 BUTTON 'View Usage'                                            @(1657,1489 214x40) clicked  NAV->05b-traffic-project-usage 
+   43 BUTTON 'p-2 rounded-full hover:bg-gray-100 transition-all'     @(1320,1595 36x36) clicked  inert 
+   44 BUTTON 'Model Configuration'                                   @(915,1715 214x40) clicked  NAV->05c-traffic-model-config 
+   45 BUTTON 'View Usage'                                            @(1142,1715 214x40) clicked  NAV->05b-traffic-project-usage 
+===== 05b-traffic-project-usage 63
+    0 BUTTON 'Back to home'                                          @(886,98 24x24) clicked  NAV->00-home 
+    1 BUTTON 'Toggle Fullscreen'                                     @(1848,100 52x20) clicked  DOMCHANGE 
+    2 LI     'p-breadcrumb-home p-menuitem'                          @(882,157 32x24) clicked  NAV->05-traffic 
+    3 A      'p-menuitem-link'                                       @(882,157 32x24) clicked  NAV->05-traffic 
+    4 LI     'p-menuitem-separator'                                  @(922,161 16x16) clicked  inert 
+    5 LI     'Projects'                                              @(946,157 77x24) clicked  NAV->05a-traffic-projects 
+    6 A      'Projects'                                              @(946,157 77x24) clicked  NAV->05a-traffic-projects 
+    7 LI     'p-menuitem-separator'                                  @(1031,161 16x16) clicked  inert 
+    8 LI     'Statistics'                                            @(1055,157 85x24) clicked  inert 
+    9 A      'Statistics'                                            @(1055,157 85x24) clicked  inert 
+   10 DIV    'gemini-3.1-flash-lite TOTAL 925 ERR % 86.5% AVG RP'    @(902,258 479x85) clicked  inert 
+   11 BUTTON 'Show regions'                                          @(1350,272 18x18) clicked  inert 
+   12 DIV    'gemini-embedding-001 TOTAL 690 ERR % 0.0% AVG RPM '    @(902,355 479x85) clicked  inert 
+   13 BUTTON 'Show regions'                                          @(1350,369 18x18) clicked  inert 
+   14 DIV    'gemini-3.5-flash-lite TOTAL 52 ERR % 0.0% AVG RPM '    @(902,451 479x85) clicked  inert 
+   15 BUTTON 'Show regions'                                          @(1350,465 18x18) clicked  inert 
+   16 DIV    'claude-haiku-4-5 TOTAL 43 ERR % 0.0% AVG RPM 7.17 '    @(902,548 479x85) clicked  inert 
+   17 BUTTON 'Show regions'                                          @(1350,562 18x18) clicked  inert 
+   18 DIV    'gemini-2.5-flash TOTAL 41 ERR % 2.4% AVG RPM 6.83 '    @(902,644 479x85) clicked  inert 
+   19 BUTTON 'Show regions'                                          @(1350,658 18x18) clicked  inert 
+   20 DIV    'gpt-5.6-luna TOTAL 31 ERR % 0.0% AVG RPM 6.2 MAX R'    @(902,741 479x85) clicked  inert 
+   21 BUTTON 'Show regions'                                          @(1350,755 18x18) clicked  inert 
+   22 DIV    'gemini-3-flash-preview TOTAL 22 ERR % 0.0% AVG RPM'    @(902,837 479x85) clicked  inert 
+   23 BUTTON 'Show regions'                                          @(1350,851 18x18) clicked  inert 
+   24 DIV    'gemini-3.7-flash TOTAL 16 ERR % 0.0% AVG RPM 3.2 M'    @(902,934 479x85) clicked  inert 
+   25 BUTTON 'Show regions'                                          @(1350,948 18x18) clicked  inert 
+   26 DIV    'claude-haiku-5-5 TOTAL 4 ERR % 0.0% AVG RPM 2 MAX '    @(902,1030 479x85) clicked  inert 
+   27 BUTTON 'Show regions'                                          @(1350,1044 18x18) clicked  inert 
+   28 DIV    'gemini-3.5-flash TOTAL 2 ERR % 0.0% AVG RPM 1 MAX '    @(902,1127 479x85) clicked  inert 
+   29 BUTTON 'Show regions'                                          @(1350,1141 18x18) clicked  inert 
+   30 DIV    'gemini-3.6-flash TOTAL 2 ERR % 0.0% AVG RPM 1 MAX '    @(902,1223 479x85) clicked  inert 
+   31 BUTTON 'Show regions'                                          @(1350,1237 18x18) clicked  inert 
+   32 DIV    'gemini-3.1-pro-preview TOTAL 1 ERR % 0.0% AVG RPM '    @(902,1320 479x85) clicked  inert 
+   33 BUTTON 'Show regions'                                          @(1350,1334 18x18) clicked  inert 
+   34 BUTTON '5 min'                                                 @(1406,259 44x52) clicked  inert 
+   35 BUTTON '1 hour'                                                @(1454,259 48x52) clicked  inert 
+   36 BUTTON '4 hours'                                               @(1506,259 56x52) clicked  inert 
+   37 BUTTON '12 hours'                                              @(1565,259 61x52) clicked  inert 
+   38 BUTTON '1 day'                                                 @(1630,259 42x52) clicked  inert 
+   39 BUTTON '7 days'                                                @(1676,259 49x52) clicked  inert 
+   40 BUTTON '30 days'                                               @(1730,259 58x52) clicked  inert 
+   41 BUTTON 'Custom'                                                @(1792,259 91x52) clicked  inert 
+   42 BUTTON 'more'                                                  @(1851,1100 24x15) clicked  inert 
+   43 BUTTON 'more'                                                  @(1851,1172 24x15) clicked  inert 
+   44 BUTTON 'more'                                                  @(1851,1244 24x15) clicked  inert 
+   45 BUTTON 'more'                                                  @(1851,1316 24x15) clicked  inert 
+   46 BUTTON 'more'                                                  @(1851,1388 24x15) clicked  inert 
+   47 BUTTON 'more'                                                  @(1851,1460 24x15) clicked  inert 
+   48 BUTTON 'more'                                                  @(1851,1532 24x15) clicked  inert 
+   49 BUTTON 'more'                                                  @(1851,1604 24x15) clicked  inert 
+   50 BUTTON 'more'                                                  @(1851,1676 24x15) clicked  inert 
+   51 BUTTON 'more'                                                  @(1851,1748 24x15) clicked  inert 
+   52 BUTTON 'more'                                                  @(1851,1820 24x15) clicked  inert 
+   53 BUTTON 'more'                                                  @(1851,1892 24x15) clicked  inert 
+   54 BUTTON 'more'                                                  @(1851,1964 24x15) clicked  inert 
+   55 BUTTON 'more'                                                  @(1851,2036 24x15) clicked  inert 
+   56 BUTTON 'more'                                                  @(1851,2108 24x15) clicked  inert 
+   57 BUTTON 'more'                                                  @(1851,2180 24x15) clicked  inert 
+   58 BUTTON 'more'                                                  @(1851,2252 24x15) clicked  inert 
+   59 BUTTON 'more'                                                  @(1851,2324 24x15) clicked  inert 
+   60 BUTTON 'more'                                                  @(1851,2396 24x15) clicked  inert 
+   61 BUTTON 'more'                                                  @(1851,2468 24x15) clicked  inert 
+   62 BUTTON 'Load more'                                             @(1414,1395 60x16) clicked  inert 
+===== 05c-traffic-model-config 73
+    0 BUTTON 'Back to home'                                          @(886,98 24x24) clicked  NAV->00-home 
+    1 BUTTON 'Toggle Fullscreen'                                     @(1848,100 52x20) clicked  DOMCHANGE 
+    2 LI     'p-breadcrumb-home p-menuitem'                          @(882,157 32x24) clicked  NAV->05-traffic 
+    3 A      'p-menuitem-link'                                       @(882,157 32x24) clicked  NAV->05-traffic 
+    4 LI     'p-menuitem-separator'                                  @(922,161 16x16) clicked  inert 
+    5 LI     'Projects'                                              @(946,157 77x24) clicked  NAV->05a-traffic-projects 
+    6 A      'Projects'                                              @(946,157 77x24) clicked  NAV->05a-traffic-projects 
+    7 LI     'p-menuitem-separator'                                  @(1031,161 16x16) clicked  inert 
+    8 LI     'Model Config'                                          @(1055,157 117x24) clicked  inert 
+    9 A      'Model Config'                                          @(1055,157 117x24) clicked  inert 
+   10 BUTTON 'Refresh Cache'                                         @(1578,206 171x40) clicked  inert 
+   11 BUTTON 'Add Model'                                             @(1757,206 139x40) clicked  inert 
+   12 BUTTON 'Save Changes'                                          @(1732,287 140x38) forced   inert 
+   13 A      'claude-3-5-haiku Run Model Test'                       @(907,334 972x72) clicked  NAV->pr_id_185_content_0 
+   14 BUTTON 'Run Model Test'                                        @(1611,351 131x38) clicked  NAV->pr_id_185_content_0 
+   15 BUTTON 'text-gray-600 hover:text-gray-800 hover:bg-gray-20'    @(1750,351 36x36) clicked  NAV->pr_id_185_content_0 
+   16 BUTTON 'text-gray-600 hover:text-gray-800 hover:bg-gray-20'    @(1794,351 36x36) clicked  NAV->pr_id_185_content_0 
+   17 BUTTON 'text-gray-500 px-2 py-1 p-button p-component p-but'    @(1680,436 48x32) clicked  inert 
+   18 BUTTON 'text-red-500 px-2 py-1 p-button p-component p-butt'    @(1736,436 48x32) clicked  inert 
+   19 BUTTON 'text-gray-500 px-2 py-1 p-button p-component p-but'    @(1680,485 48x32) clicked  inert 
+   20 BUTTON 'text-red-500 px-2 py-1 p-button p-component p-butt'    @(1736,485 48x32) clicked  inert 
+   21 BUTTON 'text-gray-500 px-2 py-1 p-button p-component p-but'    @(1680,534 48x32) clicked  inert 
+   22 BUTTON 'text-red-500 px-2 py-1 p-button p-component p-butt'    @(1736,534 48x32) clicked  inert 
+   23 BUTTON 'text-gray-500 px-2 py-1 p-button p-component p-but'    @(1680,583 48x32) clicked  inert 
+   24 BUTTON 'text-red-500 px-2 py-1 p-button p-component p-butt'    @(1736,583 48x32) clicked  inert 
+   25 A      'claude-3-5-sonnet Run Model Test'                      @(907,658 972x72) clicked  NAV->pr_id_185_content_1 
+   26 BUTTON 'Run Model Test'                                        @(1611,675 131x38) clicked  NAV->pr_id_185_content_1 
+   27 BUTTON 'text-gray-600 hover:text-gray-800 hover:bg-gray-20'    @(1750,675 36x36) clicked  NAV->pr_id_185_content_1 
+   28 BUTTON 'text-gray-600 hover:text-gray-800 hover:bg-gray-20'    @(1794,675 36x36) clicked  NAV->pr_id_185_content_1 
+   29 A      'claude-3-5-sonnet-v2 Run Model Test'                   @(907,744 972x72) clicked  NAV->pr_id_185_content_2 
+   30 BUTTON 'Run Model Test'                                        @(1611,761 131x38) clicked  NAV->pr_id_185_content_2 
+   31 BUTTON 'text-gray-600 hover:text-gray-800 hover:bg-gray-20'    @(1750,761 36x36) clicked  NAV->pr_id_185_content_2 
+   32 BUTTON 'text-gray-600 hover:text-gray-800 hover:bg-gray-20'    @(1794,761 36x36) clicked  NAV->pr_id_185_content_2 
+   33 A      'claude-3-7-sonnet Run Model Test'                      @(907,830 972x72) clicked  NAV->pr_id_185_content_3 
+   34 BUTTON 'Run Model Test'                                        @(1611,847 131x38) clicked  NAV->pr_id_185_content_3 
+   35 BUTTON 'text-gray-600 hover:text-gray-800 hover:bg-gray-20'    @(1750,847 36x36) clicked  NAV->pr_id_185_content_3 
+   36 BUTTON 'text-gray-600 hover:text-gray-800 hover:bg-gray-20'    @(1794,847 36x36) clicked  NAV->pr_id_185_content_3 
+   37 A      'claude-3-haiku Run Model Test'                         @(907,916 972x72) clicked  NAV->pr_id_185_content_4 
+   38 BUTTON 'Run Model Test'                                        @(1611,933 131x38) clicked  NAV->pr_id_185_content_4 
+   39 BUTTON 'text-gray-600 hover:text-gray-800 hover:bg-gray-20'    @(1750,933 36x36) clicked  NAV->pr_id_185_content_4 
+   40 BUTTON 'text-gray-600 hover:text-gray-800 hover:bg-gray-20'    @(1794,933 36x36) clicked  NAV->pr_id_185_content_4 
+   41 A      'claude-sonnet-4 Run Model Test'                        @(907,1002 972x72) clicked  NAV->pr_id_185_content_5 
+   42 BUTTON 'Run Model Test'                                        @(1611,1019 131x38) clicked  NAV->pr_id_185_content_5 
+   43 BUTTON 'text-gray-600 hover:text-gray-800 hover:bg-gray-20'    @(1750,1019 36x36) clicked  NAV->pr_id_185_content_5 
+   44 BUTTON 'text-gray-600 hover:text-gray-800 hover:bg-gray-20'    @(1794,1019 36x36) clicked  NAV->pr_id_185_content_5 
+   45 A      'claude-sonnet-4-5 Run Model Test'                      @(907,1088 972x72) clicked  NAV->pr_id_185_content_6 
+   46 BUTTON 'Run Model Test'                                        @(1611,1105 131x38) clicked  NAV->pr_id_185_content_6 
+   47 BUTTON 'text-gray-600 hover:text-gray-800 hover:bg-gray-20'    @(1750,1105 36x36) clicked  NAV->pr_id_185_content_6 
+   48 BUTTON 'text-gray-600 hover:text-gray-800 hover:bg-gray-20'    @(1794,1105 36x36) clicked  NAV->pr_id_185_content_6 
+   49 A      'gemini-2.0-flash Run Model Test'                       @(907,1174 972x72) clicked  NAV->pr_id_185_content_7 
+   50 BUTTON 'Run Model Test'                                        @(1611,1191 131x38) clicked  NAV->pr_id_185_content_7 
+   51 BUTTON 'text-gray-600 hover:text-gray-800 hover:bg-gray-20'    @(1750,1191 36x36) clicked  NAV->pr_id_185_content_7 
+   52 BUTTON 'text-gray-600 hover:text-gray-800 hover:bg-gray-20'    @(1794,1191 36x36) clicked  NAV->pr_id_185_content_7 
+   53 A      'gemini-2.0-flash-001 Run Model Test'                   @(907,1260 972x72) clicked  NAV->pr_id_185_content_8 
+   54 BUTTON 'Run Model Test'                                        @(1611,1277 131x38) clicked  NAV->pr_id_185_content_8 
+   55 BUTTON 'text-gray-600 hover:text-gray-800 hover:bg-gray-20'    @(1750,1277 36x36) clicked  NAV->pr_id_185_content_8 
+   56 BUTTON 'text-gray-600 hover:text-gray-800 hover:bg-gray-20'    @(1794,1277 36x36) clicked  NAV->pr_id_185_content_8 
+   57 A      'gemini-2.5-flash Run Model Test'                       @(907,1346 972x72) clicked  NAV->pr_id_185_content_9 
+   58 BUTTON 'Run Model Test'                                        @(1611,1363 131x38) clicked  NAV->pr_id_185_content_9 
+   59 BUTTON 'text-gray-600 hover:text-gray-800 hover:bg-gray-20'    @(1750,1363 36x36) clicked  NAV->pr_id_185_content_9 
+   60 BUTTON 'text-gray-600 hover:text-gray-800 hover:bg-gray-20'    @(1794,1363 36x36) clicked  NAV->pr_id_185_content_9 
+   61 A      'gemini-2.5-flash-lite Run Model Test'                  @(907,1432 972x72) clicked  NAV->pr_id_185_content_10 
+   62 BUTTON 'Run Model Test'                                        @(1611,1449 131x38) clicked  NAV->pr_id_185_content_10 
+   63 BUTTON 'text-gray-600 hover:text-gray-800 hover:bg-gray-20'    @(1750,1449 36x36) clicked  NAV->pr_id_185_content_10 
+   64 BUTTON 'text-gray-600 hover:text-gray-800 hover:bg-gray-20'    @(1794,1449 36x36) clicked  NAV->pr_id_185_content_10 
+   65 A      'gemini-2.5-pro Run Model Test'                         @(907,1518 972x72) clicked  NAV->pr_id_185_content_11 
+   66 BUTTON 'Run Model Test'                                        @(1611,1535 131x38) clicked  NAV->pr_id_185_content_11 
+   67 BUTTON 'text-gray-600 hover:text-gray-800 hover:bg-gray-20'    @(1750,1535 36x36) clicked  NAV->pr_id_185_content_11 
+   68 BUTTON 'text-gray-600 hover:text-gray-800 hover:bg-gray-20'    @(1794,1535 36x36) clicked  NAV->pr_id_185_content_11 
+   69 A      'gemini-embedding-001 Run Model Test'                   @(907,1604 972x72) clicked  NAV->pr_id_185_content_12 
+   70 BUTTON 'Run Model Test'                                        @(1611,1621 131x38) clicked  NAV->pr_id_185_content_12 
+   71 BUTTON 'text-gray-600 hover:text-gray-800 hover:bg-gray-20'    @(1750,1621 36x36) clicked  NAV->pr_id_185_content_12 
+   72 BUTTON 'text-gray-600 hover:text-gray-800 hover:bg-gray-20'    @(1794,1621 36x36) clicked  NAV->pr_id_185_content_12 
+===== 05d-traffic-statistics 65
+    0 BUTTON 'Back to home'                                          @(886,98 24x24) clicked  NAV->00-home 
+    1 BUTTON 'Toggle Fullscreen'                                     @(1848,100 52x20) clicked  DOMCHANGE 
+    2 LI     'p-breadcrumb-home p-menuitem'                          @(882,157 32x24) clicked  NAV->05-traffic 
+    3 A      'p-menuitem-link'                                       @(882,157 32x24) clicked  NAV->05-traffic 
+    4 LI     'p-menuitem-separator'                                  @(922,161 16x16) clicked  inert 
+    5 LI     'Projects'                                              @(946,157 77x24) clicked  NAV->05a-traffic-projects 
+    6 A      'Projects'                                              @(946,157 77x24) clicked  NAV->05a-traffic-projects 
+    7 LI     'p-menuitem-separator'                                  @(1031,161 16x16) clicked  inert 
+    8 LI     'Statistics'                                            @(1055,157 85x24) clicked  inert 
+    9 A      'Statistics'                                            @(1055,157 85x24) clicked  inert 
+   10 DIV    'gemini-3.1-flash-lite TOTAL 931 ERR % 85.3% AVG RP'    @(902,258 479x85) clicked  inert 
+   11 BUTTON 'Show regions'                                          @(1350,272 18x18) clicked  inert 
+   12 DIV    'gemini-embedding-001 TOTAL 878 ERR % 0.0% AVG RPM '    @(902,355 479x85) clicked  inert 
+   13 BUTTON 'Show regions'                                          @(1350,369 18x18) clicked  inert 
+   14 DIV    'gemini-3.5-flash-lite TOTAL 58 ERR % 0.0% AVG RPM '    @(902,451 479x85) clicked  inert 
+   15 BUTTON 'Show regions'                                          @(1350,465 18x18) clicked  inert 
+   16 DIV    'claude-haiku-4-5 TOTAL 46 ERR % 0.0% AVG RPM 9.2 M'    @(902,548 479x85) clicked  inert 
+   17 BUTTON 'Show regions'                                          @(1350,562 18x18) clicked  inert 
+   18 DIV    'gemini-2.5-flash TOTAL 38 ERR % 2.6% AVG RPM 7.6 M'    @(902,644 479x85) clicked  inert 
+   19 BUTTON 'Show regions'                                          @(1350,658 18x18) clicked  inert 
+   20 DIV    'gpt-5.6-luna TOTAL 24 ERR % 0.0% AVG RPM 4.8 MAX R'    @(902,741 479x85) clicked  inert 
+   21 BUTTON 'Show regions'                                          @(1350,755 18x18) clicked  inert 
+   22 DIV    'gemini-3-flash-preview TOTAL 22 ERR % 0.0% AVG RPM'    @(902,837 479x85) clicked  inert 
+   23 BUTTON 'Show regions'                                          @(1350,851 18x18) clicked  inert 
+   24 DIV    'gemini-3.7-flash TOTAL 12 ERR % 0.0% AVG RPM 2.4 M'    @(902,934 479x85) clicked  inert 
+   25 BUTTON 'Show regions'                                          @(1350,948 18x18) clicked  inert 
+   26 DIV    'claude-haiku-5-5 TOTAL 8 ERR % 0.0% AVG RPM 4 MAX '    @(902,1030 479x85) clicked  inert 
+   27 BUTTON 'Show regions'                                          @(1350,1044 18x18) clicked  inert 
+   28 DIV    'gemini-3.5-flash TOTAL 2 ERR % 0.0% AVG RPM 1 MAX '    @(902,1127 479x85) clicked  inert 
+   29 BUTTON 'Show regions'                                          @(1350,1141 18x18) clicked  inert 
+   30 DIV    'gemini-3.1-pro-preview TOTAL 1 ERR % 0.0% AVG RPM '    @(902,1223 479x85) clicked  inert 
+   31 BUTTON 'Show regions'                                          @(1350,1237 18x18) clicked  inert 
+   32 DIV    'gemini-3.8-flash TOTAL 1 ERR % 0.0% AVG RPM 1 MAX '    @(902,1320 479x85) clicked  inert 
+   33 BUTTON 'Show regions'                                          @(1350,1334 18x18) clicked  inert 
+   34 DIV    'gemini-3.6-flash TOTAL 1 ERR % 0.0% AVG RPM 1 MAX '    @(902,1416 479x85) clicked  inert 
+   35 BUTTON 'Show regions'                                          @(1350,1430 18x18) clicked  inert 
+   36 BUTTON '5 min'                                                 @(1406,259 44x52) clicked  inert 
+   37 BUTTON '1 hour'                                                @(1454,259 48x52) clicked  inert 
+   38 BUTTON '4 hours'                                               @(1506,259 56x52) clicked  inert 
+   39 BUTTON '12 hours'                                              @(1565,259 61x52) clicked  inert 
+   40 BUTTON '1 day'                                                 @(1630,259 42x52) clicked  inert 
+   41 BUTTON '7 days'                                                @(1676,259 49x52) clicked  inert 
+   42 BUTTON '30 days'                                               @(1730,259 58x52) clicked  inert 
+   43 BUTTON 'Custom'                                                @(1792,259 91x52) clicked  inert 
+   44 BUTTON 'more'                                                  @(1851,1100 24x15) clicked  inert 
+   45 BUTTON 'more'                                                  @(1851,1172 24x15) clicked  inert 
+   46 BUTTON 'more'                                                  @(1851,1244 24x15) clicked  inert 
+   47 BUTTON 'more'                                                  @(1851,1316 24x15) clicked  inert 
+   48 BUTTON 'more'                                                  @(1851,1388 24x15) clicked  inert 
+   49 BUTTON 'more'                                                  @(1851,1460 24x15) clicked  inert 
+   50 BUTTON 'more'                                                  @(1851,1532 24x15) clicked  inert 
+   51 BUTTON 'more'                                                  @(1851,1604 24x15) clicked  inert 
+   52 BUTTON 'more'                                                  @(1851,1676 24x15) clicked  inert 
+   53 BUTTON 'more'                                                  @(1851,1748 24x15) clicked  inert 
+   54 BUTTON 'more'                                                  @(1851,1820 24x15) clicked  inert 
+   55 BUTTON 'more'                                                  @(1851,1892 24x15) clicked  inert 
+   56 BUTTON 'more'                                                  @(1851,1964 24x15) clicked  inert 
+   57 BUTTON 'more'                                                  @(1851,2036 24x15) clicked  inert 
+   58 BUTTON 'more'                                                  @(1851,2108 24x15) clicked  inert 
+   59 BUTTON 'more'                                                  @(1851,2180 24x15) clicked  inert 
+   60 BUTTON 'more'                                                  @(1851,2252 24x15) clicked  inert 
+   61 BUTTON 'more'                                                  @(1851,2324 24x15) clicked  inert 
+   62 BUTTON 'more'                                                  @(1851,2396 24x15) clicked  inert 
+   63 BUTTON 'more'                                                  @(1851,2468 24x15) clicked  inert 
+   64 BUTTON 'Load more'                                             @(1414,1395 60x16) clicked  inert 
+===== 05e-traffic-applications 25
+    0 BUTTON 'Back to home'                                          @(886,98 24x24) clicked  NAV->00-home 
+    1 BUTTON 'Toggle Fullscreen'                                     @(1848,100 52x20) clicked  DOMCHANGE 
+    2 LI     'p-breadcrumb-home p-menuitem'                          @(882,157 32x24) clicked  NAV->05-traffic 
+    3 A      'p-menuitem-link'                                       @(882,157 32x24) clicked  NAV->05-traffic 
+    4 LI     'p-menuitem-separator'                                  @(922,161 16x16) clicked  inert 
+    5 LI     'Projects'                                              @(946,157 77x24) clicked  NAV->05a-traffic-projects 
+    6 A      'Projects'                                              @(946,157 77x24) clicked  NAV->05a-traffic-projects 
+    7 LI     'p-menuitem-separator'                                  @(1031,161 16x16) clicked  inert 
+    8 LI     'Applications'                                          @(1055,157 109x24) clicked  inert 
+    9 A      'Applications'                                          @(1055,157 109x24) clicked  inert 
+   10 BUTTON 'Filter by Time'                                        @(1752,206 144x40) clicked  inert 
+   11 DIV    'Unknown_concierge Avg usage: 86.8 RPM Max usage: 5'    @(890,262 1006x78) clicked  inert 
+   12 DIV    'Ggcllm_2_2_2 Avg usage: 39.5 RPM Max usage: 152.0 '    @(890,356 1006x78) clicked  inert 
+   13 DIV    'Metadataassistant Avg usage: 20.9 RPM Max usage: 9'    @(890,450 1006x78) clicked  inert 
+   14 DIV    'Bookfinderagenttest Avg usage: 11.0 RPM Max usage:'    @(890,544 1006x78) clicked  inert 
+   15 DIV    'Testwebsearch Avg usage: 8.6 RPM Max usage: 29.0 R'    @(890,638 1006x78) clicked  inert 
+   16 DIV    'Cwsystempromptgen Avg usage: 7.9 RPM Max usage: 38'    @(890,732 1006x78) clicked  inert 
+   17 DIV    'Unknown_concierge Avg usage: 7.5 RPM Max usage: 20'    @(890,826 1006x78) clicked  inert 
+   18 DIV    'Ggcllm_ab Avg usage: 5.4 RPM Max usage: 12.0 RPM T'    @(890,920 1006x78) clicked  inert 
+   19 DIV    'Cwsystempromptgen Avg usage: 3.5 RPM Max usage: 14'    @(890,1014 1006x78) clicked  inert 
+   20 DIV    'Qaecgplanner Avg usage: 2.0 RPM Max usage: 7.0 RPM'    @(890,1108 1006x78) clicked  inert 
+   21 DIV    'Ggcllm_a Avg usage: 2.0 RPM Max usage: 2.0 RPM Tot'    @(890,1202 1006x78) clicked  inert 
+   22 DIV    'Lokfaqagent Avg usage: 1.6 RPM Max usage: 6.0 RPM '    @(890,1296 1006x78) clicked  inert 
+   23 DIV    'Faqcatagenttest Avg usage: 1.2 RPM Max usage: 6.0 '    @(890,1390 1006x78) clicked  inert 
+   24 DIV    'Devkaushiktest Avg usage: 1.2 RPM Max usage: 6.0 R'    @(890,1484 1006x78) clicked  inert 
+===== 05f-traffic-errorlogs 8
+    0 BUTTON 'Back to home'                                          @(886,98 24x24) clicked  NAV->00-home 
+    1 BUTTON 'Toggle Fullscreen'                                     @(1848,100 52x20) clicked  DOMCHANGE 
+    2 LI     'p-breadcrumb-home p-menuitem'                          @(882,157 32x24) clicked  NAV->05-traffic 
+    3 A      'p-menuitem-link'                                       @(882,157 32x24) clicked  NAV->05-traffic 
+    4 LI     'p-menuitem-separator'                                  @(922,161 16x16) clicked  inert 
+    5 LI     'Error Logs'                                            @(946,157 94x24) clicked  inert 
+    6 A      'Error Logs'                                            @(946,157 94x24) clicked  inert 
+    7 BUTTON 'Filters'                                               @(1801,218 87x40) clicked  inert 

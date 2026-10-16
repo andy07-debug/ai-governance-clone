@@ -1,0 +1,61 @@
+  1 start                                         hash=00-home                        page=00-home                      ov=None fs=False 
+  2 click fullscreen toggle                       hash=00-home                        page=00-home                      ov=None fs=True 
+  3 home card LLM Studio Analytics                hash=01-llm-analytics               page=01-llm-analytics             ov=None fs=True 
+  4 back                                          hash=00-home                        page=00-home                      ov=None fs=True 
+  5 click trigger [skip]                          hash=00-home                        page=00-home                      ov=None fs=True 
+  6 home card LLM Studio Analytics                hash=01-llm-analytics               page=01-llm-analytics             ov=None fs=True 
+  7 click bubble                                  hash=01-llm-analytics               page=01-llm-analytics             ov=None fs=False 
+  8 click trigger                                 hash=07a-shell-mode-dropdown        page=01-llm-analytics             ov=07a fs=False 
+  9 click Projects(left)                          hash=07c-shell-projects             page=07c-shell-projects           ov=None fs=False 
+ 10 click outer home crumb [skip]                 hash=07c-shell-projects             page=07c-shell-projects           ov=None fs=False 
+ 11 click trigger                                 hash=07a-shell-mode-dropdown        page=07c-shell-projects           ov=07a fs=False 
+ 12 type search                                   hash=07a-shell-mode-dropdown        page=07c-shell-projects           ov=07a fs=False 
+ 13 click Projects(left)                          hash=07c-shell-projects             page=07c-shell-projects           ov=None fs=False 
+ 14 click bubble [skip]                           hash=07c-shell-projects             page=07c-shell-projects           ov=None fs=False 
+ 15 click header logo area                        hash=07c-shell-projects             page=07c-shell-projects           ov=None fs=False 
+ 16 click outer home crumb [skip]                 hash=07c-shell-projects             page=07c-shell-projects           ov=None fs=False 
+ 17 click fullscreen toggle [skip]                hash=07c-shell-projects             page=07c-shell-projects           ov=None fs=False 
+ 18 click fullscreen toggle [skip]                hash=07c-shell-projects             page=07c-shell-projects           ov=None fs=False 
+ 19 click bubble [skip]                           hash=07c-shell-projects             page=07c-shell-projects           ov=None fs=False 
+ 20 click trigger                                 hash=07a-shell-mode-dropdown        page=07c-shell-projects           ov=07a fs=False 
+ 21 click fullscreen toggle [skip]                hash=07a-shell-mode-dropdown        page=07c-shell-projects           ov=07a fs=False 
+ 22 pick AI Governance                            hash=00-home                        page=00-home                      ov=None fs=False 
+ 23 back                                          hash=07a-shell-mode-dropdown        page=00-home                      ov=07a fs=False 
+ 24 click other mode li                           hash=07a-shell-mode-dropdown        page=00-home                      ov=07a fs=False 
+ 25 forward                                       hash=00-home                        page=00-home                      ov=None fs=False 
+ 26 RBAC btn                                      hash=06-rbac-access                 page=06-rbac-access               ov=None fs=False 
+ 27 back                                          hash=00-home                        page=00-home                      ov=None fs=False 
+ 28 home card Policies                            hash=04-policies                    page=04-policies                  ov=None fs=False 
+ 29 click outside (right-panel point)             hash=04-policies                    page=04-policies                  ov=None fs=False 
+ 30 click bubble [skip]                           hash=04-policies                    page=04-policies                  ov=None fs=False 
+ 31 Policies Deck                                 hash=04-policies                    page=04-policies                  ov=None fs=False 
+ 32 reload                                        hash=04-policies                    page=04-policies                  ov=None fs=False 
+ 33 click outside (right-panel point)             hash=04-policies                    page=04-policies                  ov=None fs=False 
+ 34 click bubble [skip]                           hash=04-policies                    page=04-policies                  ov=None fs=False 
+ 35 Change Logs~                                  hash=04b-policies-changelogs        page=04b-policies-changelogs      ov=None fs=False 
+ 36 click outside (right-panel point)             hash=04b-policies-changelogs        page=04b-policies-changelogs      ov=None fs=False 
+ 37 click header logo area                        hash=04b-policies-changelogs        page=04b-policies-changelogs      ov=None fs=False 
+ 38 click fullscreen toggle                       hash=04b-policies-changelogs        page=04b-policies-changelogs      ov=None fs=True 
+ 39 Change Logs                                   hash=04b-policies-changelogs        page=04b-policies-changelogs      ov=None fs=True 
+ 40 New Policy~ (ERR Locator.click: Timeout 800ms hash=04b-policies-changelogs        page=04b-policies-changelogs      ov=None fs=True 
+ 41 click outer home crumb                        hash=00-home                        page=00-home                      ov=None fs=True 
+ 42 click hamburger [skip]                        hash=00-home                        page=00-home                      ov=None fs=True 
+ 43 escape                                        hash=00-home                        page=00-home                      ov=None fs=True 
+ 44 home card Live Events                         hash=03-live-events                 page=03-live-events               ov=None fs=True 
+ 45 deeplink #07a-shell-mode-dropdown             hash=07a-shell-mode-dropdown        page=00-home                      ov=07a fs=False 
+ 46 RBAC btn                                      hash=06-rbac-access                 page=06-rbac-access               ov=None fs=False 
+ 47 tab Access Management                         hash=06-rbac-access                 page=06-rbac-access               ov=None fs=False 
+ 48 tab RBAC Configuration                        hash=06b-rbac-usergroups            page=06b-rbac-usergroups          ov=None fs=False 
+ 49 tab RBAC Configuration                        hash=06b-rbac-usergroups            page=06b-rbac-usergroups          ov=None fs=False 
+ 50 tab Mapping [skip]                            hash=06b-rbac-usergroups            page=06b-rbac-usergroups          ov=None fs=False 
+ 51 click trigger                                 hash=07a-shell-mode-dropdown        page=06b-rbac-usergroups          ov=07a fs=False 
+ 52 tab Permissions [skip]                        hash=07a-shell-mode-dropdown        page=06b-rbac-usergroups          ov=07a fs=False 
+ 53 escape                                        hash=06b-rbac-usergroups            page=06b-rbac-usergroups          ov=None fs=False 
+ 54 click outside (right-panel point)             hash=06b-rbac-usergroups            page=06b-rbac-usergroups          ov=None fs=False 
+ 55 click bubble [skip]                           hash=06b-rbac-usergroups            page=06b-rbac-usergroups          ov=None fs=False 
+ 56 tab Permissions [skip]                        hash=06b-rbac-usergroups            page=06b-rbac-usergroups          ov=None fs=False 
+ 57 forward                                       hash=06b-rbac-usergroups            page=06b-rbac-usergroups          ov=None fs=False 
+ 58 click hamburger                               hash=07b-shell-hamburger            page=06b-rbac-usergroups          ov=07b fs=False 
+ 59 mask click                                    hash=07b-shell-hamburger            page=06b-rbac-usergroups          ov=07b fs=False 
+ 60 click fullscreen toggle [skip]                hash=07b-shell-hamburger            page=06b-rbac-usergroups          ov=07b fs=False 
+ 61 click trigger                                 hash=06b-rbac-usergroups            page=06b-rbac-usergroups          ov=None fs=False 

@@ -1,0 +1,64 @@
+00-home fs on/off [(0.0, None), (0.0, None)]
+00-home fs->nav->fsoff->nav (0.0, None)
+00-home dd/drawer [(0.0, None), (0.0, None)]
+01-llm-analytics fs on/off [(0.0, None), (0.0, None)]
+01-llm-analytics fs->nav->fsoff->nav (0.0, None)
+01-llm-analytics dd/drawer [(0.0, None), (0.0, None)]
+02-firewall fs on/off [(0.0, None), (0.0, None)]
+02-firewall fs->nav->fsoff->nav (0.0, None)
+02-firewall dd/drawer [(0.0, None), (0.0, None)]
+03-live-events fs on/off [(0.0, None), (0.0, None)]
+03-live-events fs->nav->fsoff->nav (0.0, None)
+03-live-events dd/drawer [(0.0, None), (0.0, None)]
+04-policies fs on/off [(0.0, None), (0.0, None)]
+04-policies fs->nav->fsoff->nav (0.0, None)
+04-policies dd/drawer [(0.0, None), (0.0, None)]
+04b-policies-changelogs fs on/off [(0.0, None), (0.0, None)]
+04b-policies-changelogs fs->nav->fsoff->nav (0.0, None)
+04b-policies-changelogs dd/drawer [(0.0, None), (0.0, None)]
+04c-policies-newpolicy-modal fs on/off [(np.float64(83.514), (0, 0, 1919, 935)), None]
+04c-policies-newpolicy-modal fs->nav->fsoff->nav (np.float64(4.515), (0, 18, 1919, 935))
+04c-policies-newpolicy-modal dd/drawer [(np.float64(83.596), (0, 0, 1919, 935)), (np.float64(83.596), (0, 0, 1919, 935))]
+05-traffic fs on/off [(0.0, None), (0.0, None)]
+05-traffic fs->nav->fsoff->nav (0.0, None)
+05-traffic dd/drawer [(0.0, None), (0.0, None)]
+05a-traffic-projects fs on/off [(0.0, None), (0.0, None)]
+05a-traffic-projects fs->nav->fsoff->nav (0.0, None)
+05a-traffic-projects dd/drawer [(0.0, None), (0.0, None)]
+05b-traffic-project-usage fs on/off [(0.0, None), (0.0, None)]
+05b-traffic-project-usage fs->nav->fsoff->nav (0.0, None)
+05b-traffic-project-usage dd/drawer [(0.0, None), (0.0, None)]
+05c-traffic-model-config fs on/off [(0.0, None), (0.0, None)]
+05c-traffic-model-config fs->nav->fsoff->nav (0.0, None)
+05c-traffic-model-config dd/drawer [(0.0, None), (0.0, None)]
+05d-traffic-statistics fs on/off [(0.0, None), (0.0, None)]
+05d-traffic-statistics fs->nav->fsoff->nav (0.0, None)
+05d-traffic-statistics dd/drawer [(0.0, None), (0.0, None)]
+05e-traffic-applications fs on/off [(0.0, None), (0.0, None)]
+05e-traffic-applications fs->nav->fsoff->nav (0.0, None)
+05e-traffic-applications dd/drawer [(0.0, None), (0.0, None)]
+05f-traffic-errorlogs fs on/off [(0.0, None), (0.0, None)]
+05f-traffic-errorlogs fs->nav->fsoff->nav (0.0, None)
+05f-traffic-errorlogs dd/drawer [(0.0, None), (0.0, None)]
+06-rbac-access fs on/off [(0.0, None), (0.0, None)]
+06-rbac-access fs->nav->fsoff->nav (0.0, None)
+06-rbac-access dd/drawer [(np.float64(0.0), (1121, 194, 1123, 204)), (np.float64(0.0), (1121, 194, 1123, 204))]
+06b-rbac-usergroups fs on/off [(0.0, None), (0.0, None)]
+06b-rbac-usergroups fs->nav->fsoff->nav (0.0, None)
+06b-rbac-usergroups dd/drawer [(0.0, None), (0.0, None)]
+06c-rbac-config-modules fs on/off [(0.0, None), (0.0, None)]
+06c-rbac-config-modules fs->nav->fsoff->nav (0.0, None)
+06c-rbac-config-modules dd/drawer [(0.0, None), (0.0, None)]
+06d-rbac-config-permissions fs on/off [(0.0, None), (0.0, None)]
+06d-rbac-config-permissions fs->nav->fsoff->nav (0.0, None)
+06d-rbac-config-permissions dd/drawer [(0.0, None), (0.0, None)]
+06e-rbac-config-roles fs on/off [(0.0, None), (0.0, None)]
+06e-rbac-config-roles fs->nav->fsoff->nav (0.0, None)
+06e-rbac-config-roles dd/drawer [(0.0, None), (0.0, None)]
+06f-rbac-config-mapping fs on/off [(0.0, None), (0.0, None)]
+06f-rbac-config-mapping fs->nav->fsoff->nav (0.0, None)
+06f-rbac-config-mapping dd/drawer [(0.0, None), (0.0, None)]
+07c-shell-projects fs on/off no toggle
+07c-shell-projects fs->nav->fsoff->nav no toggle
+07c-shell-projects dd/drawer [(0.0, None), (0.0, None)]
+pageerrors []

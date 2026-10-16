@@ -1,0 +1,1428 @@
+[
+ {
+  "view": "01-llm-analytics",
+  "idx": 14,
+  "clicked": "Requests",
+  "group": [
+   "Cost",
+   "Requests"
+  ],
+  "changed": [
+   [
+    "Cost",
+    [
+     "bg-[#5928ED]",
+     "shadow-sm",
+     "text-white"
+    ],
+    [
+     "hover:text-[#5928ED]",
+     "text-slate-500"
+    ]
+   ],
+   [
+    "Requests",
+    [
+     "hover:text-[#5928ED]",
+     "text-slate-500"
+    ],
+    [
+     "bg-[#5928ED]",
+     "shadow-sm",
+     "text-white"
+    ]
+   ]
+  ],
+  "sidebar": false
+ },
+ {
+  "view": "01-llm-analytics",
+  "idx": 15,
+  "clicked": "Today",
+  "group": [
+   "Today",
+   "Yesterday",
+   "7 days",
+   "30 days",
+   "This month",
+   "Last month",
+   "3 months",
+   "Custom"
+  ],
+  "changed": [
+   [
+    "Today",
+    [
+     "hover:text-[#5928ED]",
+     "text-slate-500"
+    ],
+    [
+     "bg-[#5928ED]",
+     "shadow-sm",
+     "text-white"
+    ]
+   ],
+   [
+    "7 days",
+    [
+     "bg-[#5928ED]",
+     "shadow-sm",
+     "text-white"
+    ],
+    [
+     "hover:text-[#5928ED]",
+     "text-slate-500"
+    ]
+   ]
+  ],
+  "sidebar": false
+ },
+ {
+  "view": "01-llm-analytics",
+  "idx": 16,
+  "clicked": "Yesterday",
+  "group": [
+   "Today",
+   "Yesterday",
+   "7 days",
+   "30 days",
+   "This month",
+   "Last month",
+   "3 months",
+   "Custom"
+  ],
+  "changed": [
+   [
+    "Yesterday",
+    [
+     "hover:text-[#5928ED]",
+     "text-slate-500"
+    ],
+    [
+     "bg-[#5928ED]",
+     "shadow-sm",
+     "text-white"
+    ]
+   ],
+   [
+    "7 days",
+    [
+     "bg-[#5928ED]",
+     "shadow-sm",
+     "text-white"
+    ],
+    [
+     "hover:text-[#5928ED]",
+     "text-slate-500"
+    ]
+   ]
+  ],
+  "sidebar": false
+ },
+ {
+  "view": "01-llm-analytics",
+  "idx": 18,
+  "clicked": "30 days",
+  "group": [
+   "Today",
+   "Yesterday",
+   "7 days",
+   "30 days",
+   "This month",
+   "Last month",
+   "3 months",
+   "Custom"
+  ],
+  "changed": [
+   [
+    "7 days",
+    [
+     "bg-[#5928ED]",
+     "shadow-sm",
+     "text-white"
+    ],
+    [
+     "hover:text-[#5928ED]",
+     "text-slate-500"
+    ]
+   ],
+   [
+    "30 days",
+    [
+     "hover:text-[#5928ED]",
+     "text-slate-500"
+    ],
+    [
+     "bg-[#5928ED]",
+     "shadow-sm",
+     "text-white"
+    ]
+   ]
+  ],
+  "sidebar": false
+ },
+ {
+  "view": "01-llm-analytics",
+  "idx": 19,
+  "clicked": "This month",
+  "group": [
+   "Today",
+   "Yesterday",
+   "7 days",
+   "30 days",
+   "This month",
+   "Last month",
+   "3 months",
+   "Custom"
+  ],
+  "changed": [
+   [
+    "7 days",
+    [
+     "bg-[#5928ED]",
+     "shadow-sm",
+     "text-white"
+    ],
+    [
+     "hover:text-[#5928ED]",
+     "text-slate-500"
+    ]
+   ],
+   [
+    "This month",
+    [
+     "hover:text-[#5928ED]",
+     "text-slate-500"
+    ],
+    [
+     "bg-[#5928ED]",
+     "shadow-sm",
+     "text-white"
+    ]
+   ]
+  ],
+  "sidebar": false
+ },
+ {
+  "view": "01-llm-analytics",
+  "idx": 20,
+  "clicked": "Last month",
+  "group": [
+   "Today",
+   "Yesterday",
+   "7 days",
+   "30 days",
+   "This month",
+   "Last month",
+   "3 months",
+   "Custom"
+  ],
+  "changed": [
+   [
+    "7 days",
+    [
+     "bg-[#5928ED]",
+     "shadow-sm",
+     "text-white"
+    ],
+    [
+     "hover:text-[#5928ED]",
+     "text-slate-500"
+    ]
+   ],
+   [
+    "Last month",
+    [
+     "hover:text-[#5928ED]",
+     "text-slate-500"
+    ],
+    [
+     "bg-[#5928ED]",
+     "shadow-sm",
+     "text-white"
+    ]
+   ]
+  ],
+  "sidebar": false
+ },
+ {
+  "view": "01-llm-analytics",
+  "idx": 21,
+  "clicked": "3 months",
+  "group": [
+   "Today",
+   "Yesterday",
+   "7 days",
+   "30 days",
+   "This month",
+   "Last month",
+   "3 months",
+   "Custom"
+  ],
+  "changed": [
+   [
+    "7 days",
+    [
+     "bg-[#5928ED]",
+     "shadow-sm",
+     "text-white"
+    ],
+    [
+     "hover:text-[#5928ED]",
+     "text-slate-500"
+    ]
+   ],
+   [
+    "3 months",
+    [
+     "hover:text-[#5928ED]",
+     "text-slate-500"
+    ],
+    [
+     "bg-[#5928ED]",
+     "shadow-sm",
+     "text-white"
+    ]
+   ]
+  ],
+  "sidebar": false
+ },
+ {
+  "view": "01-llm-analytics",
+  "idx": 22,
+  "clicked": "Custom",
+  "group": [
+   "Today",
+   "Yesterday",
+   "7 days",
+   "30 days",
+   "This month",
+   "Last month",
+   "3 months",
+   "Custom"
+  ],
+  "changed": [
+   [
+    "7 days",
+    [
+     "bg-[#5928ED]",
+     "shadow-sm",
+     "text-white"
+    ],
+    [
+     "hover:text-[#5928ED]",
+     "text-slate-500"
+    ]
+   ],
+   [
+    "Custom",
+    [
+     "hover:text-[#5928ED]",
+     "text-slate-500"
+    ],
+    [
+     "bg-[#5928ED]",
+     "shadow-sm",
+     "text-white"
+    ]
+   ]
+  ],
+  "sidebar": false
+ },
+ {
+  "view": "01-llm-analytics",
+  "idx": 26,
+  "clicked": "Top assistants",
+  "group": [
+   "Top applications",
+   "Top assistants",
+   "Top users",
+   "Top user groups",
+   "Top agents"
+  ],
+  "changed": [
+   [
+    "Top applications",
+    [
+     "bg-[#5928ED]",
+     "shadow-sm",
+     "text-white"
+    ],
+    [
+     "hover:text-[#5928ED]",
+     "text-slate-500"
+    ]
+   ],
+   [
+    "Top assistants",
+    [
+     "hover:text-[#5928ED]",
+     "text-slate-500"
+    ],
+    [
+     "bg-[#5928ED]",
+     "shadow-sm",
+     "text-white"
+    ]
+   ]
+  ],
+  "sidebar": false
+ },
+ {
+  "view": "01-llm-analytics",
+  "idx": 27,
+  "clicked": "Top users",
+  "group": [
+   "Top applications",
+   "Top assistants",
+   "Top users",
+   "Top user groups",
+   "Top agents"
+  ],
+  "changed": [
+   [
+    "Top applications",
+    [
+     "bg-[#5928ED]",
+     "shadow-sm",
+     "text-white"
+    ],
+    [
+     "hover:text-[#5928ED]",
+     "text-slate-500"
+    ]
+   ],
+   [
+    "Top users",
+    [
+     "hover:text-[#5928ED]",
+     "text-slate-500"
+    ],
+    [
+     "bg-[#5928ED]",
+     "shadow-sm",
+     "text-white"
+    ]
+   ]
+  ],
+  "sidebar": false
+ },
+ {
+  "view": "01-llm-analytics",
+  "idx": 28,
+  "clicked": "Top user groups",
+  "group": [
+   "Top applications",
+   "Top assistants",
+   "Top users",
+   "Top user groups",
+   "Top agents"
+  ],
+  "changed": [
+   [
+    "Top applications",
+    [
+     "bg-[#5928ED]",
+     "shadow-sm",
+     "text-white"
+    ],
+    [
+     "hover:text-[#5928ED]",
+     "text-slate-500"
+    ]
+   ],
+   [
+    "Top user groups",
+    [
+     "hover:text-[#5928ED]",
+     "text-slate-500"
+    ],
+    [
+     "bg-[#5928ED]",
+     "shadow-sm",
+     "text-white"
+    ]
+   ]
+  ],
+  "sidebar": false
+ },
+ {
+  "view": "01-llm-analytics",
+  "idx": 29,
+  "clicked": "Top agents",
+  "group": [
+   "Top applications",
+   "Top assistants",
+   "Top users",
+   "Top user groups",
+   "Top agents"
+  ],
+  "changed": [
+   [
+    "Top applications",
+    [
+     "bg-[#5928ED]",
+     "shadow-sm",
+     "text-white"
+    ],
+    [
+     "hover:text-[#5928ED]",
+     "text-slate-500"
+    ]
+   ],
+   [
+    "Top agents",
+    [
+     "hover:text-[#5928ED]",
+     "text-slate-500"
+    ],
+    [
+     "bg-[#5928ED]",
+     "shadow-sm",
+     "text-white"
+    ]
+   ]
+  ],
+  "sidebar": false
+ },
+ {
+  "view": "01-llm-analytics",
+  "idx": 32,
+  "clicked": "By Assistant",
+  "group": [
+   "All Records",
+   "By Assistant",
+   "By Application",
+   "By User",
+   "By Model"
+  ],
+  "changed": [
+   [
+    "All Records",
+    [
+     "bg-[#5928ED]",
+     "shadow-sm",
+     "text-white"
+    ],
+    [
+     "hover:bg-purple-50",
+     "hover:text-[#5928ED]",
+     "text-slate-500"
+    ]
+   ],
+   [
+    "By Assistant",
+    [
+     "hover:bg-purple-50",
+     "hover:text-[#5928ED]",
+     "text-slate-500"
+    ],
+    [
+     "bg-[#5928ED]",
+     "shadow-sm",
+     "text-white"
+    ]
+   ]
+  ],
+  "sidebar": false
+ },
+ {
+  "view": "01-llm-analytics",
+  "idx": 33,
+  "clicked": "By Application",
+  "group": [
+   "All Records",
+   "By Assistant",
+   "By Application",
+   "By User",
+   "By Model"
+  ],
+  "changed": [
+   [
+    "All Records",
+    [
+     "bg-[#5928ED]",
+     "shadow-sm",
+     "text-white"
+    ],
+    [
+     "hover:bg-purple-50",
+     "hover:text-[#5928ED]",
+     "text-slate-500"
+    ]
+   ],
+   [
+    "By Application",
+    [
+     "hover:bg-purple-50",
+     "hover:text-[#5928ED]",
+     "text-slate-500"
+    ],
+    [
+     "bg-[#5928ED]",
+     "shadow-sm",
+     "text-white"
+    ]
+   ]
+  ],
+  "sidebar": false
+ },
+ {
+  "view": "01-llm-analytics",
+  "idx": 34,
+  "clicked": "By User",
+  "group": [
+   "All Records",
+   "By Assistant",
+   "By Application",
+   "By User",
+   "By Model"
+  ],
+  "changed": [
+   [
+    "All Records",
+    [
+     "bg-[#5928ED]",
+     "shadow-sm",
+     "text-white"
+    ],
+    [
+     "hover:bg-purple-50",
+     "hover:text-[#5928ED]",
+     "text-slate-500"
+    ]
+   ],
+   [
+    "By User",
+    [
+     "hover:bg-purple-50",
+     "hover:text-[#5928ED]",
+     "text-slate-500"
+    ],
+    [
+     "bg-[#5928ED]",
+     "shadow-sm",
+     "text-white"
+    ]
+   ]
+  ],
+  "sidebar": false
+ },
+ {
+  "view": "01-llm-analytics",
+  "idx": 35,
+  "clicked": "By Model",
+  "group": [
+   "All Records",
+   "By Assistant",
+   "By Application",
+   "By User",
+   "By Model"
+  ],
+  "changed": [
+   [
+    "All Records",
+    [
+     "bg-[#5928ED]",
+     "shadow-sm",
+     "text-white"
+    ],
+    [
+     "hover:bg-purple-50",
+     "hover:text-[#5928ED]",
+     "text-slate-500"
+    ]
+   ],
+   [
+    "By Model",
+    [
+     "hover:bg-purple-50",
+     "hover:text-[#5928ED]",
+     "text-slate-500"
+    ],
+    [
+     "bg-[#5928ED]",
+     "shadow-sm",
+     "text-white"
+    ]
+   ]
+  ],
+  "sidebar": false
+ },
+ {
+  "view": "02-firewall",
+  "idx": 14,
+  "clicked": "Blocked",
+  "group": [
+   "All",
+   "Blocked",
+   "Alerts"
+  ],
+  "changed": [
+   [
+    "All",
+    [
+     "bg-white",
+     "shadow-sm",
+     "text-slate-800"
+    ],
+    [
+     "hover:text-slate-700",
+     "text-slate-500"
+    ]
+   ],
+   [
+    "Blocked",
+    [
+     "hover:text-slate-700",
+     "text-slate-500"
+    ],
+    [
+     "bg-white",
+     "shadow-sm",
+     "text-slate-800"
+    ]
+   ]
+  ],
+  "sidebar": false
+ },
+ {
+  "view": "02-firewall",
+  "idx": 15,
+  "clicked": "Alerts",
+  "group": [
+   "All",
+   "Blocked",
+   "Alerts"
+  ],
+  "changed": [
+   [
+    "All",
+    [
+     "bg-white",
+     "shadow-sm",
+     "text-slate-800"
+    ],
+    [
+     "hover:text-slate-700",
+     "text-slate-500"
+    ]
+   ],
+   [
+    "Alerts",
+    [
+     "hover:text-slate-700",
+     "text-slate-500"
+    ],
+    [
+     "bg-white",
+     "shadow-sm",
+     "text-slate-800"
+    ]
+   ]
+  ],
+  "sidebar": false
+ },
+ {
+  "view": "02-firewall",
+  "idx": 16,
+  "clicked": "24h",
+  "group": [
+   "24h",
+   "7d",
+   "30d",
+   "Custom"
+  ],
+  "changed": [
+   [
+    "24h",
+    [
+     "hover:text-slate-700",
+     "text-slate-500"
+    ],
+    [
+     "bg-white",
+     "shadow-sm",
+     "text-slate-800"
+    ]
+   ],
+   [
+    "7d",
+    [
+     "bg-white",
+     "shadow-sm",
+     "text-slate-800"
+    ],
+    [
+     "hover:text-slate-700",
+     "text-slate-500"
+    ]
+   ]
+  ],
+  "sidebar": false
+ },
+ {
+  "view": "02-firewall",
+  "idx": 18,
+  "clicked": "30d",
+  "group": [
+   "24h",
+   "7d",
+   "30d",
+   "Custom"
+  ],
+  "changed": [
+   [
+    "7d",
+    [
+     "bg-white",
+     "shadow-sm",
+     "text-slate-800"
+    ],
+    [
+     "hover:text-slate-700",
+     "text-slate-500"
+    ]
+   ],
+   [
+    "30d",
+    [
+     "hover:text-slate-700",
+     "text-slate-500"
+    ],
+    [
+     "bg-white",
+     "shadow-sm",
+     "text-slate-800"
+    ]
+   ]
+  ],
+  "sidebar": false
+ },
+ {
+  "view": "02-firewall",
+  "idx": 19,
+  "clicked": "Custom",
+  "group": [
+   "24h",
+   "7d",
+   "30d",
+   "Custom"
+  ],
+  "changed": [
+   [
+    "7d",
+    [
+     "bg-white",
+     "shadow-sm",
+     "text-slate-800"
+    ],
+    [
+     "hover:text-slate-700",
+     "text-slate-500"
+    ]
+   ],
+   [
+    "Custom",
+    [
+     "hover:text-slate-700",
+     "text-slate-500"
+    ],
+    [
+     "bg-white",
+     "shadow-sm",
+     "text-slate-800"
+    ]
+   ]
+  ],
+  "sidebar": false
+ },
+ {
+  "view": "05b-traffic-project-usage",
+  "idx": 26,
+  "clicked": "1 hour",
+  "group": [
+   "5 min",
+   "1 hour",
+   "4 hours",
+   "12 hours",
+   "1 day",
+   "7 days",
+   "30 days",
+   "Custom"
+  ],
+  "changed": [
+   [
+    "5 min",
+    [
+     "bg-gray-200",
+     "text-slate-800"
+    ],
+    [
+     "hover:bg-slate-50",
+     "hover:text-slate-800",
+     "text-slate-600"
+    ]
+   ],
+   [
+    "1 hour",
+    [
+     "hover:bg-slate-50",
+     "hover:text-slate-800",
+     "text-slate-600"
+    ],
+    [
+     "bg-gray-200",
+     "text-slate-800"
+    ]
+   ]
+  ],
+  "sidebar": false
+ },
+ {
+  "view": "05b-traffic-project-usage",
+  "idx": 27,
+  "clicked": "4 hours",
+  "group": [
+   "5 min",
+   "1 hour",
+   "4 hours",
+   "12 hours",
+   "1 day",
+   "7 days",
+   "30 days",
+   "Custom"
+  ],
+  "changed": [
+   [
+    "5 min",
+    [
+     "bg-gray-200",
+     "text-slate-800"
+    ],
+    [
+     "hover:bg-slate-50",
+     "hover:text-slate-800",
+     "text-slate-600"
+    ]
+   ],
+   [
+    "4 hours",
+    [
+     "hover:bg-slate-50",
+     "hover:text-slate-800",
+     "text-slate-600"
+    ],
+    [
+     "bg-gray-200",
+     "text-slate-800"
+    ]
+   ]
+  ],
+  "sidebar": false
+ },
+ {
+  "view": "05b-traffic-project-usage",
+  "idx": 28,
+  "clicked": "12 hours",
+  "group": [
+   "5 min",
+   "1 hour",
+   "4 hours",
+   "12 hours",
+   "1 day",
+   "7 days",
+   "30 days",
+   "Custom"
+  ],
+  "changed": [
+   [
+    "5 min",
+    [
+     "bg-gray-200",
+     "text-slate-800"
+    ],
+    [
+     "hover:bg-slate-50",
+     "hover:text-slate-800",
+     "text-slate-600"
+    ]
+   ],
+   [
+    "12 hours",
+    [
+     "hover:bg-slate-50",
+     "hover:text-slate-800",
+     "text-slate-600"
+    ],
+    [
+     "bg-gray-200",
+     "text-slate-800"
+    ]
+   ]
+  ],
+  "sidebar": false
+ },
+ {
+  "view": "05b-traffic-project-usage",
+  "idx": 29,
+  "clicked": "1 day",
+  "group": [
+   "5 min",
+   "1 hour",
+   "4 hours",
+   "12 hours",
+   "1 day",
+   "7 days",
+   "30 days",
+   "Custom"
+  ],
+  "changed": [
+   [
+    "5 min",
+    [
+     "bg-gray-200",
+     "text-slate-800"
+    ],
+    [
+     "hover:bg-slate-50",
+     "hover:text-slate-800",
+     "text-slate-600"
+    ]
+   ],
+   [
+    "1 day",
+    [
+     "hover:bg-slate-50",
+     "hover:text-slate-800",
+     "text-slate-600"
+    ],
+    [
+     "bg-gray-200",
+     "text-slate-800"
+    ]
+   ]
+  ],
+  "sidebar": false
+ },
+ {
+  "view": "05b-traffic-project-usage",
+  "idx": 30,
+  "clicked": "7 days",
+  "group": [
+   "5 min",
+   "1 hour",
+   "4 hours",
+   "12 hours",
+   "1 day",
+   "7 days",
+   "30 days",
+   "Custom"
+  ],
+  "changed": [
+   [
+    "5 min",
+    [
+     "bg-gray-200",
+     "text-slate-800"
+    ],
+    [
+     "hover:bg-slate-50",
+     "hover:text-slate-800",
+     "text-slate-600"
+    ]
+   ],
+   [
+    "7 days",
+    [
+     "hover:bg-slate-50",
+     "hover:text-slate-800",
+     "text-slate-600"
+    ],
+    [
+     "bg-gray-200",
+     "text-slate-800"
+    ]
+   ]
+  ],
+  "sidebar": false
+ },
+ {
+  "view": "05b-traffic-project-usage",
+  "idx": 31,
+  "clicked": "30 days",
+  "group": [
+   "5 min",
+   "1 hour",
+   "4 hours",
+   "12 hours",
+   "1 day",
+   "7 days",
+   "30 days",
+   "Custom"
+  ],
+  "changed": [
+   [
+    "5 min",
+    [
+     "bg-gray-200",
+     "text-slate-800"
+    ],
+    [
+     "hover:bg-slate-50",
+     "hover:text-slate-800",
+     "text-slate-600"
+    ]
+   ],
+   [
+    "30 days",
+    [
+     "hover:bg-slate-50",
+     "hover:text-slate-800",
+     "text-slate-600"
+    ],
+    [
+     "bg-gray-200",
+     "text-slate-800"
+    ]
+   ]
+  ],
+  "sidebar": false
+ },
+ {
+  "view": "05b-traffic-project-usage",
+  "idx": 32,
+  "clicked": "Custom",
+  "group": [
+   "5 min",
+   "1 hour",
+   "4 hours",
+   "12 hours",
+   "1 day",
+   "7 days",
+   "30 days",
+   "Custom"
+  ],
+  "changed": [
+   [
+    "5 min",
+    [
+     "bg-gray-200",
+     "text-slate-800"
+    ],
+    [
+     "hover:bg-slate-50",
+     "hover:text-slate-800",
+     "text-slate-600"
+    ]
+   ],
+   [
+    "Custom",
+    [
+     "hover:bg-slate-50",
+     "hover:text-slate-800",
+     "text-slate-600"
+    ],
+    [
+     "bg-gray-200",
+     "text-slate-800"
+    ]
+   ]
+  ],
+  "sidebar": false
+ },
+ {
+  "view": "05d-traffic-statistics",
+  "idx": 27,
+  "clicked": "1 hour",
+  "group": [
+   "5 min",
+   "1 hour",
+   "4 hours",
+   "12 hours",
+   "1 day",
+   "7 days",
+   "30 days",
+   "Custom"
+  ],
+  "changed": [
+   [
+    "5 min",
+    [
+     "bg-gray-200",
+     "text-slate-800"
+    ],
+    [
+     "hover:bg-slate-50",
+     "hover:text-slate-800",
+     "text-slate-600"
+    ]
+   ],
+   [
+    "1 hour",
+    [
+     "hover:bg-slate-50",
+     "hover:text-slate-800",
+     "text-slate-600"
+    ],
+    [
+     "bg-gray-200",
+     "text-slate-800"
+    ]
+   ]
+  ],
+  "sidebar": false
+ },
+ {
+  "view": "05d-traffic-statistics",
+  "idx": 28,
+  "clicked": "4 hours",
+  "group": [
+   "5 min",
+   "1 hour",
+   "4 hours",
+   "12 hours",
+   "1 day",
+   "7 days",
+   "30 days",
+   "Custom"
+  ],
+  "changed": [
+   [
+    "5 min",
+    [
+     "bg-gray-200",
+     "text-slate-800"
+    ],
+    [
+     "hover:bg-slate-50",
+     "hover:text-slate-800",
+     "text-slate-600"
+    ]
+   ],
+   [
+    "4 hours",
+    [
+     "hover:bg-slate-50",
+     "hover:text-slate-800",
+     "text-slate-600"
+    ],
+    [
+     "bg-gray-200",
+     "text-slate-800"
+    ]
+   ]
+  ],
+  "sidebar": false
+ },
+ {
+  "view": "05d-traffic-statistics",
+  "idx": 29,
+  "clicked": "12 hours",
+  "group": [
+   "5 min",
+   "1 hour",
+   "4 hours",
+   "12 hours",
+   "1 day",
+   "7 days",
+   "30 days",
+   "Custom"
+  ],
+  "changed": [
+   [
+    "5 min",
+    [
+     "bg-gray-200",
+     "text-slate-800"
+    ],
+    [
+     "hover:bg-slate-50",
+     "hover:text-slate-800",
+     "text-slate-600"
+    ]
+   ],
+   [
+    "12 hours",
+    [
+     "hover:bg-slate-50",
+     "hover:text-slate-800",
+     "text-slate-600"
+    ],
+    [
+     "bg-gray-200",
+     "text-slate-800"
+    ]
+   ]
+  ],
+  "sidebar": false
+ },
+ {
+  "view": "05d-traffic-statistics",
+  "idx": 30,
+  "clicked": "1 day",
+  "group": [
+   "5 min",
+   "1 hour",
+   "4 hours",
+   "12 hours",
+   "1 day",
+   "7 days",
+   "30 days",
+   "Custom"
+  ],
+  "changed": [
+   [
+    "5 min",
+    [
+     "bg-gray-200",
+     "text-slate-800"
+    ],
+    [
+     "hover:bg-slate-50",
+     "hover:text-slate-800",
+     "text-slate-600"
+    ]
+   ],
+   [
+    "1 day",
+    [
+     "hover:bg-slate-50",
+     "hover:text-slate-800",
+     "text-slate-600"
+    ],
+    [
+     "bg-gray-200",
+     "text-slate-800"
+    ]
+   ]
+  ],
+  "sidebar": false
+ },
+ {
+  "view": "05d-traffic-statistics",
+  "idx": 31,
+  "clicked": "7 days",
+  "group": [
+   "5 min",
+   "1 hour",
+   "4 hours",
+   "12 hours",
+   "1 day",
+   "7 days",
+   "30 days",
+   "Custom"
+  ],
+  "changed": [
+   [
+    "5 min",
+    [
+     "bg-gray-200",
+     "text-slate-800"
+    ],
+    [
+     "hover:bg-slate-50",
+     "hover:text-slate-800",
+     "text-slate-600"
+    ]
+   ],
+   [
+    "7 days",
+    [
+     "hover:bg-slate-50",
+     "hover:text-slate-800",
+     "text-slate-600"
+    ],
+    [
+     "bg-gray-200",
+     "text-slate-800"
+    ]
+   ]
+  ],
+  "sidebar": false
+ },
+ {
+  "view": "05d-traffic-statistics",
+  "idx": 32,
+  "clicked": "30 days",
+  "group": [
+   "5 min",
+   "1 hour",
+   "4 hours",
+   "12 hours",
+   "1 day",
+   "7 days",
+   "30 days",
+   "Custom"
+  ],
+  "changed": [
+   [
+    "5 min",
+    [
+     "bg-gray-200",
+     "text-slate-800"
+    ],
+    [
+     "hover:bg-slate-50",
+     "hover:text-slate-800",
+     "text-slate-600"
+    ]
+   ],
+   [
+    "30 days",
+    [
+     "hover:bg-slate-50",
+     "hover:text-slate-800",
+     "text-slate-600"
+    ],
+    [
+     "bg-gray-200",
+     "text-slate-800"
+    ]
+   ]
+  ],
+  "sidebar": false
+ },
+ {
+  "view": "05d-traffic-statistics",
+  "idx": 33,
+  "clicked": "Custom",
+  "group": [
+   "5 min",
+   "1 hour",
+   "4 hours",
+   "12 hours",
+   "1 day",
+   "7 days",
+   "30 days",
+   "Custom"
+  ],
+  "changed": [
+   [
+    "5 min",
+    [
+     "bg-gray-200",
+     "text-slate-800"
+    ],
+    [
+     "hover:bg-slate-50",
+     "hover:text-slate-800",
+     "text-slate-600"
+    ]
+   ],
+   [
+    "Custom",
+    [
+     "hover:bg-slate-50",
+     "hover:text-slate-800",
+     "text-slate-600"
+    ],
+    [
+     "bg-gray-200",
+     "text-slate-800"
+    ]
+   ]
+  ],
+  "sidebar": false
+ }
+]

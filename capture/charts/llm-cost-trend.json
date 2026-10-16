@@ -1,0 +1,332 @@
+{
+ "raw": {
+  "responsive": true,
+  "maintainAspectRatio": false,
+  "interaction": {
+   "intersect": false,
+   "mode": "index"
+  },
+  "plugins": {
+   "legend": {
+    "display": false
+   },
+   "tooltip": {
+    "callbacks": {
+     "label": "FN:function(e){var t,n=Number(null!==(t=e.raw)&&void 0!==t?t:0);return o?\"Cost: \".concat(Bt(n)):\"Requests: \".concat(Ut(n))}"
+    }
+   }
+  },
+  "scales": {
+   "x": {
+    "axis": "x",
+    "title": {
+     "display": true,
+     "text": "Date",
+     "color": "#64748b",
+     "font": {
+      "weight": "bold"
+     },
+     "padding": {
+      "top": 4,
+      "bottom": 4
+     }
+    },
+    "grid": {
+     "display": false,
+     "lineWidth": 1,
+     "drawOnChartArea": true,
+     "drawTicks": true,
+     "tickLength": 8,
+     "tickWidth": "FN:(e,t)=>t.lineWidth",
+     "tickColor": "FN:(e,t)=>t.color",
+     "offset": false,
+     "color": "rgba(0,0,0,0.1)"
+    },
+    "ticks": {
+     "color": "#64748b",
+     "callback": "FN:function Wo(e){const t=this.getLabels();return e>=0&&e<t.length?t[e]:e}",
+     "minRotation": 0,
+     "maxRotation": 50,
+     "mirror": false,
+     "textStrokeWidth": 0,
+     "textStrokeColor": "",
+     "padding": 3,
+     "display": true,
+     "autoSkip": true,
+     "autoSkipPadding": 3,
+     "labelOffset": 0,
+     "minor": {},
+     "major": {},
+     "align": "center",
+     "crossAlign": "near",
+     "showLabelBackdrop": false,
+     "backdropColor": "rgba(255, 255, 255, 0.75)",
+     "backdropPadding": 2
+    },
+    "type": "category",
+    "display": true,
+    "offset": false,
+    "reverse": false,
+    "beginAtZero": false,
+    "bounds": "ticks",
+    "clip": true,
+    "grace": 0,
+    "border": {
+     "display": true,
+     "dash": [],
+     "dashOffset": 0,
+     "width": 1,
+     "color": "rgba(0,0,0,0.1)"
+    },
+    "id": "x",
+    "position": "bottom"
+   },
+   "y": {
+    "axis": "y",
+    "beginAtZero": true,
+    "title": {
+     "display": true,
+     "text": "Cost (USD)",
+     "color": "#64748b",
+     "font": {
+      "weight": "bold"
+     },
+     "padding": {
+      "top": 4,
+      "bottom": 4
+     }
+    },
+    "grid": {
+     "color": "#e2e8f0",
+     "display": true,
+     "lineWidth": 1,
+     "drawOnChartArea": true,
+     "drawTicks": true,
+     "tickLength": 8,
+     "tickWidth": "FN:(e,t)=>t.lineWidth",
+     "tickColor": "FN:(e,t)=>t.color",
+     "offset": false
+    },
+    "ticks": {
+     "color": "#64748b",
+     "callback": "FN:function(e){var t=Number(e);return o?Bt(t):zt(t)}",
+     "minRotation": 0,
+     "maxRotation": 50,
+     "mirror": false,
+     "textStrokeWidth": 0,
+     "textStrokeColor": "",
+     "padding": 3,
+     "display": true,
+     "autoSkip": true,
+     "autoSkipPadding": 3,
+     "labelOffset": 0,
+     "minor": {},
+     "major": {},
+     "align": "center",
+     "crossAlign": "near",
+     "showLabelBackdrop": false,
+     "backdropColor": "rgba(255, 255, 255, 0.75)",
+     "backdropPadding": 2
+    },
+    "type": "linear",
+    "display": true,
+    "offset": false,
+    "reverse": false,
+    "bounds": "ticks",
+    "clip": true,
+    "grace": 0,
+    "border": {
+     "display": true,
+     "dash": [],
+     "dashOffset": 0,
+     "width": 1,
+     "color": "rgba(0,0,0,0.1)"
+    },
+    "id": "y",
+    "position": "left"
+   }
+  }
+ },
+ "data": {
+  "labels": [
+   "10/09",
+   "10/10",
+   "10/11",
+   "10/12",
+   "10/13",
+   "10/14",
+   "10/15"
+  ],
+  "datasets": [
+   {
+    "data": [
+     530.0280780000003,
+     45.579979,
+     19.359871999999996,
+     604.7357749999993,
+     549.7861160000002,
+     541.9825619999998,
+     708.1169140000006
+    ],
+    "borderColor": "#7549F2",
+    "backgroundColor": "rgba(117, 73, 242, 0.12)",
+    "pointBackgroundColor": "#5928ED",
+    "pointBorderColor": "#ffffff",
+    "pointBorderWidth": 2,
+    "pointRadius": 4,
+    "pointHoverRadius": 6,
+    "borderWidth": 3,
+    "fill": true,
+    "tension": 0.35
+   }
+  ]
+ },
+ "defaults": {
+  "font": {
+   "family": "'Helvetica Neue', 'Helvetica', 'Arial', sans-serif",
+   "size": 12,
+   "style": "normal",
+   "lineHeight": 1.2,
+   "weight": null
+  },
+  "color": "#666",
+  "borderColor": "rgba(0,0,0,0.1)"
+ },
+ "resolvedY": {
+  "axis": "y",
+  "beginAtZero": true,
+  "title": {
+   "display": true,
+   "text": "Cost (USD)",
+   "color": "#64748b",
+   "font": {
+    "weight": "bold"
+   },
+   "padding": {
+    "top": 4,
+    "bottom": 4
+   }
+  },
+  "grid": {
+   "color": "#e2e8f0",
+   "display": true,
+   "lineWidth": 1,
+   "drawOnChartArea": true,
+   "drawTicks": true,
+   "tickLength": 8,
+   "tickWidth": 1,
+   "tickColor": "#e2e8f0",
+   "offset": false
+  },
+  "ticks": {
+   "color": "#64748b",
+   "callback": "FN:function(e){var t=Number(e);return o?Bt(t):zt(t)}",
+   "minRotation": 0,
+   "maxRotation": 50,
+   "mirror": false,
+   "textStrokeWidth": 0,
+   "textStrokeColor": "",
+   "padding": 3,
+   "display": true,
+   "autoSkip": true,
+   "autoSkipPadding": 3,
+   "labelOffset": 0,
+   "minor": {},
+   "major": {},
+   "align": "center",
+   "crossAlign": "near",
+   "showLabelBackdrop": false,
+   "backdropColor": "rgba(255, 255, 255, 0.75)",
+   "backdropPadding": 2
+  },
+  "type": "linear",
+  "display": true,
+  "offset": false,
+  "reverse": false,
+  "bounds": "ticks",
+  "clip": true,
+  "grace": 0,
+  "border": {
+   "display": true,
+   "dash": [],
+   "dashOffset": 0,
+   "width": 1,
+   "color": "rgba(0,0,0,0.1)"
+  },
+  "id": "y",
+  "position": "left"
+ },
+ "resolvedX": {
+  "axis": "x",
+  "title": {
+   "display": true,
+   "text": "Date",
+   "color": "#64748b",
+   "font": {
+    "weight": "bold"
+   },
+   "padding": {
+    "top": 4,
+    "bottom": 4
+   }
+  },
+  "grid": {
+   "display": false,
+   "lineWidth": 1,
+   "drawOnChartArea": true,
+   "drawTicks": true,
+   "tickLength": 8,
+   "tickWidth": 1,
+   "tickColor": "rgba(0,0,0,0.1)",
+   "offset": false,
+   "color": "rgba(0,0,0,0.1)"
+  },
+  "ticks": {
+   "color": "#64748b",
+   "callback": "FN:function Wo(e){const t=this.getLabels();return e>=0&&e<t.length?t[e]:e}",
+   "minRotation": 0,
+   "maxRotation": 50,
+   "mirror": false,
+   "textStrokeWidth": 0,
+   "textStrokeColor": "",
+   "padding": 3,
+   "display": true,
+   "autoSkip": true,
+   "autoSkipPadding": 3,
+   "labelOffset": 0,
+   "minor": {},
+   "major": {},
+   "align": "center",
+   "crossAlign": "near",
+   "showLabelBackdrop": false,
+   "backdropColor": "rgba(255, 255, 255, 0.75)",
+   "backdropPadding": 2
+  },
+  "type": "category",
+  "display": true,
+  "offset": false,
+  "reverse": false,
+  "beginAtZero": false,
+  "bounds": "ticks",
+  "clip": true,
+  "grace": 0,
+  "border": {
+   "display": true,
+   "dash": [],
+   "dashOffset": 0,
+   "width": 1,
+   "color": "rgba(0,0,0,0.1)"
+  },
+  "id": "x",
+  "position": "bottom"
+ },
+ "chartArea": {
+  "left": 63.08798828125,
+  "top": 10.2,
+  "right": 689.0580123901367,
+  "bottom": 217.2,
+  "height": 207,
+  "width": 625.9700241088867
+ },
+ "version": "4.5.1"
+}

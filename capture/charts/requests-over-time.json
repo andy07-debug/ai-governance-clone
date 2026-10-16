@@ -1,0 +1,195 @@
+{
+ "raw": {
+  "maintainAspectRatio": false,
+  "plugins": {
+   "legend": {
+    "display": false
+   }
+  },
+  "scales": {
+   "x": {
+    "axis": "x",
+    "ticks": {
+     "color": "#666",
+     "maxRotation": 45,
+     "autoSkip": true,
+     "maxTicksLimit": 16,
+     "callback": "FN:function Wo(e){const t=this.getLabels();return e>=0&&e<t.length?t[e]:e}",
+     "minRotation": 0,
+     "mirror": false,
+     "textStrokeWidth": 0,
+     "textStrokeColor": "",
+     "padding": 3,
+     "display": true,
+     "autoSkipPadding": 3,
+     "labelOffset": 0,
+     "minor": {},
+     "major": {},
+     "align": "center",
+     "crossAlign": "near",
+     "showLabelBackdrop": false,
+     "backdropColor": "rgba(255, 255, 255, 0.75)",
+     "backdropPadding": 2
+    },
+    "grid": {
+     "color": "#eee",
+     "offset": true,
+     "display": true,
+     "lineWidth": 1,
+     "drawOnChartArea": true,
+     "drawTicks": true,
+     "tickLength": 8,
+     "tickWidth": "FN:(e,t)=>t.lineWidth",
+     "tickColor": "FN:(e,t)=>t.color"
+    },
+    "title": {
+     "display": true,
+     "text": "Time",
+     "color": "#999",
+     "font": {
+      "size": 11
+     },
+     "padding": {
+      "top": 4,
+      "bottom": 4
+     }
+    },
+    "type": "category",
+    "offset": true,
+    "display": true,
+    "reverse": false,
+    "beginAtZero": false,
+    "bounds": "ticks",
+    "clip": true,
+    "grace": 0,
+    "border": {
+     "display": true,
+     "dash": [],
+     "dashOffset": 0,
+     "width": 1,
+     "color": "rgba(0,0,0,0.1)"
+    },
+    "id": "x",
+    "position": "bottom"
+   },
+   "y": {
+    "axis": "y",
+    "beginAtZero": true,
+    "ticks": {
+     "color": "#666",
+     "callback": "FN:numeric(e,t,n){if(0===e)return\"0\";const a=this.chart.options.locale;let r,o=e;if(n.length>1){const t=Math.max(Math.abs(n[0].value),Math.abs(n[n.length-1].value));(t<1e-4||t>1e15)&&(r=\"scientific\"),o=function(e,t){let n=t.length>3?t[2].value-t[1].value:t[1].value-t[0].value;return Math.abs(n)>=1&&e!==Math.floor(e)&&(n=e-Math.floor(e)),n}(e,n)}const i=ce(Math.abs(o)),l=isNaN(i)?1:Math.max(Math.min(-1*Math.floor(i),20),0),p={notation:r,minimumFractionDigits:l,maximumFractionDigits:l};return Object.assign(p,this.options.ticks.format),Ye(e,a,p)}",
+     "minRotation": 0,
+     "maxRotation": 50,
+     "mirror": false,
+     "textStrokeWidth": 0,
+     "textStrokeColor": "",
+     "padding": 3,
+     "display": true,
+     "autoSkip": true,
+     "autoSkipPadding": 3,
+     "labelOffset": 0,
+     "minor": {},
+     "major": {},
+     "align": "center",
+     "crossAlign": "near",
+     "showLabelBackdrop": false,
+     "backdropColor": "rgba(255, 255, 255, 0.75)",
+     "backdropPadding": 2
+    },
+    "grid": {
+     "color": "#eee",
+     "display": true,
+     "lineWidth": 1,
+     "drawOnChartArea": true,
+     "drawTicks": true,
+     "tickLength": 8,
+     "tickWidth": "FN:(e,t)=>t.lineWidth",
+     "tickColor": "FN:(e,t)=>t.color",
+     "offset": false
+    },
+    "title": {
+     "display": true,
+     "text": "Requests",
+     "color": "#999",
+     "font": {
+      "size": 11
+     },
+     "padding": {
+      "top": 4,
+      "bottom": 4
+     }
+    },
+    "type": "linear",
+    "display": true,
+    "offset": false,
+    "reverse": false,
+    "bounds": "ticks",
+    "clip": true,
+    "grace": 0,
+    "border": {
+     "display": true,
+     "dash": [],
+     "dashOffset": 0,
+     "width": 1,
+     "color": "rgba(0,0,0,0.1)"
+    },
+    "id": "y",
+    "position": "left"
+   }
+  }
+ },
+ "data": {
+  "labels": [
+   "18:34",
+   "18:35",
+   "18:36",
+   "18:37",
+   "18:38",
+   "18:39"
+  ],
+  "datasets": [
+   {
+    "label": "Total Requests",
+    "data": [
+     138,
+     190,
+     185,
+     220,
+     273,
+     168
+    ],
+    "backgroundColor": [
+     "rgba(99, 102, 241, 0.6)",
+     "rgba(99, 102, 241, 0.6)",
+     "rgba(99, 102, 241, 0.6)",
+     "rgba(99, 102, 241, 0.6)",
+     "rgba(99, 102, 241, 0.6)",
+     "rgba(99, 102, 241, 0.6)"
+    ],
+    "borderColor": [
+     "rgb(99, 102, 241)",
+     "rgb(99, 102, 241)",
+     "rgb(99, 102, 241)",
+     "rgb(99, 102, 241)",
+     "rgb(99, 102, 241)",
+     "rgb(99, 102, 241)"
+    ],
+    "borderWidth": 1
+   }
+  ]
+ },
+ "type": "bar",
+ "version": "4.5.1",
+ "canvas": [
+  351,
+  300
+ ],
+ "attrs": [
+  "role",
+  "data-pc-section",
+  "style",
+  "width",
+  "height"
+ ],
+ "parentClass": "p-chart"
+}

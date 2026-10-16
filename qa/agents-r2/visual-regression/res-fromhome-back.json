@@ -1,0 +1,170 @@
+{
+ "00-home <- 05c-traffic-model-config": [
+  0.0,
+  null
+ ],
+ "00-home back": [
+  0.0,
+  null
+ ],
+ "01-llm-analytics <- 00-home": [
+  0.0,
+  null
+ ],
+ "01-llm-analytics back": [
+  0.0,
+  null
+ ],
+ "02-firewall <- 00-home": [
+  0.0,
+  null
+ ],
+ "02-firewall back": [
+  0.0,
+  null
+ ],
+ "03-live-events <- 00-home": [
+  0.0,
+  null
+ ],
+ "03-live-events back": [
+  0.0,
+  null
+ ],
+ "04-policies <- 00-home": [
+  0.0,
+  null
+ ],
+ "04-policies back": [
+  0.0,
+  null
+ ],
+ "04b-policies-changelogs <- 00-home": [
+  0.0,
+  null
+ ],
+ "04b-policies-changelogs back": [
+  0.0,
+  null
+ ],
+ "04c-policies-newpolicy-modal <- 00-home": [
+  0.0,
+  null
+ ],
+ "04c-policies-newpolicy-modal back": [
+  0.0,
+  null
+ ],
+ "05-traffic <- 00-home": [
+  0.0,
+  null
+ ],
+ "05-traffic back": [
+  0.0,
+  null
+ ],
+ "05a-traffic-projects <- 00-home": [
+  0.0,
+  null
+ ],
+ "05a-traffic-projects back": [
+  0.0,
+  null
+ ],
+ "05b-traffic-project-usage <- 00-home": [
+  0.0,
+  null
+ ],
+ "05b-traffic-project-usage back": [
+  0.0,
+  null
+ ],
+ "05c-traffic-model-config <- 00-home": [
+  0.0,
+  null
+ ],
+ "05c-traffic-model-config back": [
+  0.0,
+  null
+ ],
+ "05d-traffic-statistics <- 00-home": [
+  0.0,
+  null
+ ],
+ "05d-traffic-statistics back": [
+  0.0,
+  null
+ ],
+ "05e-traffic-applications <- 00-home": [
+  0.0,
+  null
+ ],
+ "05e-traffic-applications back": [
+  0.0,
+  null
+ ],
+ "05f-traffic-errorlogs <- 00-home": [
+  0.0,
+  null
+ ],
+ "05f-traffic-errorlogs back": [
+  0.0,
+  null
+ ],
+ "06-rbac-access <- 00-home": [
+  0.0,
+  null
+ ],
+ "06-rbac-access back": [
+  0.0,
+  null
+ ],
+ "06b-rbac-usergroups <- 00-home": [
+  0.0,
+  null
+ ],
+ "06b-rbac-usergroups back": [
+  0.0,
+  null
+ ],
+ "06c-rbac-config-modules <- 00-home": [
+  0.0,
+  null
+ ],
+ "06c-rbac-config-modules back": [
+  0.0,
+  null
+ ],
+ "06d-rbac-config-permissions <- 00-home": [
+  0.0,
+  null
+ ],
+ "06d-rbac-config-permissions back": [
+  0.0,
+  null
+ ],
+ "06e-rbac-config-roles <- 00-home": [
+  0.0,
+  null
+ ],
+ "06e-rbac-config-roles back": [
+  0.0,
+  null
+ ],
+ "06f-rbac-config-mapping <- 00-home": [
+  0.0,
+  null
+ ],
+ "06f-rbac-config-mapping back": [
+  0.0,
+  null
+ ],
+ "07c-shell-projects <- 00-home": [
+  0.0,
+  null
+ ],
+ "07c-shell-projects back": [
+  0.0,
+  null
+ ]
+}

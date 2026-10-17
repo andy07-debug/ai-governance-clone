@@ -60,8 +60,18 @@ def build_shell():
     if title_row is not None:
         title_row.decompose()
     msgs = side.select_one('.relative.flex.flex-col.flex-1.px-5.pt-5.pb-0.overflow-y-auto')
+    bot_tpl = ''
     if msgs is not None:
+        # keep the real AskMod bot-message markup as a template for the scripted chat (chat.js)
+        bot = msgs.select_one('.delayed-messages > div')
+        if bot is not None:
+            count = bot.select_one('.text-\\[10px\\] > span')
+            if count is not None:
+                count.decompose()  # "(50)" counter next to the time: meaning unknown, not reproduced
+            bot_tpl = '<template id="chat-bot-tpl">%s</template>' % str(bot)
         msgs.clear()
+        msgs.append(BeautifulSoup('<div class="mt-auto flex flex-col"><div id="chat-log" class="flex flex-col"></div>'
+                                  '<div id="chat-chips" class="flex flex-col items-start gap-2 pb-3"></div></div>', 'lxml').body.div)
     tools = side.select_one('.w-full.flex.items-end')
     if tools is not None:
         btns = tools.select('.relative.inline-block')
@@ -83,7 +93,7 @@ def build_shell():
     content.replace_with(BeautifulSoup('<div id="screen" class="flex-1 overflow-y-auto relative"></div>', 'lxml').body.div)
     root = s.select_one('#root')
     root.append(BeautifulSoup('<div id="overlay-root"></div>', 'lxml').body.div)
-    return ha, ba, ''.join(str(c) for c in s.body.contents)
+    return ha, ba, ''.join(str(c) for c in s.body.contents) + bot_tpl
 
 
 META = re.compile(r'^\s*<!--(.*?)-->', re.S)
@@ -135,7 +145,7 @@ def build_html(out_dir=OUT, css_name='screens.css'):
     """out_dir=clone/ for the real build; a private dir (e.g. v2/out/<label>) for parallel builders."""
     ha, ba, shell = build_shell()
     tpls = read_fragments('screens', 's') + read_fragments('overlays', 'o')
-    js = open(os.path.join(V2, 'router.js'), encoding='utf-8').read()
+    js = open(os.path.join(V2, 'router.js'), encoding='utf-8').read() + '\n' + open(os.path.join(V2, 'chat.js'), encoding='utf-8').read()
     rel = os.path.relpath(ASSETS, out_dir).replace(os.sep, '/')
     body = shell + '\n' + '\n'.join(tpls)
     if rel != 'assets':  # private build: point asset references at the shared clone/assets

@@ -15,6 +15,8 @@ Text and numbers are copied verbatim from the demo frames; layout is matched sid
 | `#budget-setup` | My Usage, Platform Usage, Setup Budget tabs |
 
 Deep-link any screen with its hash; open an overlay too with `#screen+overlay`, e.g. `#llm-studio+llm-assistant-ggcllmprgenie`.
+**AskMod.AI chat (left panel):** scripted for the trailer — the demo never uses the chat. Three suggestion chips (or typed questions with similar wording) get replies built only from figures shown on the screens: where the money went this week, who uses ggcllmprgenie, and critical security alerts. Edit the exchanges in `v2/chat.js`.
+
 Sections of the demo not yet rebuilt (Live Events, Traffic Analysis, IP Whitelisting, System Health, global Change Logs, RBAC) are linked but inert.
 
 ## How it's built
@@ -23,6 +25,7 @@ Sections of the demo not yet rebuilt (Live Events, Traffic Analysis, IP Whitelis
 | `clone/` | Built site (`index.html` + `assets/`) |
 | `v2/screens/`, `v2/overlays/` | Hand-built screen and drawer/modal fragments (Tailwind classes) |
 | `v2/build_v2.py` | Builds `clone/`: real captured AppMod shell (re-themed) + screens + Tailwind CSS |
+| `v2/chat.js` | Scripted AskMod chat (suggestion chips, typing indicator, replies in the real AskMod message markup) |
 | `v2/router.js` | Navigation, overlays, tabs, toggles, Chart.js charts (`data-go`, `data-open`, `data-tab`, `data-chart` …) |
 | `v2/BUILDING.md` | Conventions for adding screens |
 | `v2/tools/shot.py` | Render a screen at the demo's 1512×863 @2x and compare with a demo frame |

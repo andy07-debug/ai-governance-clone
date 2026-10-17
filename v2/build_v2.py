@@ -96,6 +96,15 @@ def build_shell():
     return ha, ba, ''.join(str(c) for c in s.body.contents) + bot_tpl
 
 
+def projects_template():
+    """The real Projects page (captured from the live app, capture/07c-shell-projects) as a full-panel screen."""
+    _, _, body = v1.view_parts('07c-shell-projects')
+    s = BeautifulSoup(body, 'lxml')
+    right = s.select('[data-panel]')[-1]
+    inner = ''.join(str(c) for c in right.contents)
+    return '<template id="s-projects" data-title="Projects" data-fullpanel="1">%s</template>' % inner
+
+
 META = re.compile(r'^\s*<!--(.*?)-->', re.S)
 
 
@@ -144,7 +153,7 @@ def build_css():
 def build_html(out_dir=OUT, css_name='screens.css'):
     """out_dir=clone/ for the real build; a private dir (e.g. v2/out/<label>) for parallel builders."""
     ha, ba, shell = build_shell()
-    tpls = read_fragments('screens', 's') + read_fragments('overlays', 'o')
+    tpls = read_fragments('screens', 's') + read_fragments('overlays', 'o') + [projects_template()]
     js = open(os.path.join(V2, 'router.js'), encoding='utf-8').read() + '\n' + open(os.path.join(V2, 'chat.js'), encoding='utf-8').read()
     rel = os.path.relpath(ASSETS, out_dir).replace(os.sep, '/')
     body = shell + '\n' + '\n'.join(tpls)

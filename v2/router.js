@@ -13,6 +13,8 @@
   var screenEl = document.getElementById('screen');
   var overlayRoot = document.getElementById('overlay-root');
   var crumb = document.getElementById('crumb-title');
+  var crumbBar = crumb && crumb.closest('.w-full.flex.items-center.justify-between');
+  var modeLabel = document.querySelector('.h-20 .p-dropdown-label .ml-2');
   var current = null, overlays = [], charts = [], fullscreen = false, fsUndo = null;
   var tpl = function (p, id) { return document.getElementById(p + '-' + id); };
 
@@ -67,6 +69,11 @@
     screenEl.scrollTop = 0;
     current = id;
     if (crumb) crumb.textContent = t.getAttribute('data-title') || crumb.textContent;
+    // full-panel screens (Projects) cover the whole right panel and, as in the live app, the mode dropdown reads "Select Mode"
+    var full = t.hasAttribute('data-fullpanel');
+    if (crumbBar) crumbBar.style.display = full ? 'none' : '';
+    screenEl.classList.toggle('h-full', full);
+    if (modeLabel) modeLabel.textContent = full ? 'Select Mode' : 'AI Governance';
     initCharts(screenEl);
     setHash(id, push !== false);
   }
@@ -100,6 +107,23 @@
   }
   function exitFullscreen() { if (fsUndo) fsUndo.reverse().forEach(function (f) { f(); }); fsUndo = null; fullscreen = false; }
 
+  // ---------- "Expand to right": the chat panel takes the full width; click again to restore the split ----------
+  var chatExpanded = false, chatUndo = null;
+  function toggleChatExpand(btn) {
+    if (fullscreen) exitFullscreen();
+    if (chatExpanded) { chatUndo.reverse().forEach(function (f) { f(); }); chatExpanded = false; btn.setAttribute('aria-label', 'Expand to right'); return; }
+    var panels = document.querySelectorAll('[data-panel]'), right = panels[panels.length - 1], side = document.getElementById('sidebar');
+    var handle = document.querySelector('[data-resize-handle]');
+    var undo = [], set = function (el, a, v) { var old = el.getAttribute(a); undo.push(function () { old === null ? el.removeAttribute(a) : el.setAttribute(a, old); }); el.setAttribute(a, v); };
+    if (side) set(side, 'style', 'flex: 100 1 0px; overflow: hidden;');
+    if (right) set(right, 'style', 'flex: 0 1 0px; overflow: hidden;');
+    if (handle) set(handle, 'style', (handle.getAttribute('style') || '') + ';display:none');
+    var icon = btn.querySelector('svg');
+    if (icon) set(icon, 'style', 'transform: scaleX(-1)');
+    btn.setAttribute('aria-label', 'Collapse to left');
+    chatUndo = undo; chatExpanded = true;
+  }
+
   // ---------- in-place tabs / toggles ----------
   function switchTab(btn) {
     var spec = btn.getAttribute('data-tab').split(':'), group = spec[0], panel = spec[1];
@@ -129,6 +153,10 @@
     if ((el = t.closest('a[href^="#"]')) && !el.hasAttribute('data-go')) e.preventDefault();
     if (t.closest('form') && t.closest('button')) e.preventDefault();
     if ((el = t.closest('[title="Toggle Fullscreen"]'))) { fullscreen ? exitFullscreen() : enterFullscreen(); return; }
+    // AskMod chat-panel header buttons
+    if ((el = t.closest('[data-testid="headerProjectsButton"]'))) { e.preventDefault(); if (current !== 'projects') show('projects'); return; }
+    if ((el = t.closest('[data-testid="headerNewChatButton"]'))) { e.preventDefault(); if (window.__chat) window.__chat.reset(); return; }
+    if ((el = t.closest('[data-testid="headerExpandChatButton"]'))) { e.preventDefault(); toggleChatExpand(el); return; }
     if ((el = t.closest('[data-close]'))) { e.preventDefault(); closeTop(); return; }
     if ((el = t.closest('[data-backdrop]')) && el === t) { closeTop(); return; }
     if ((el = t.closest('[data-open]'))) { e.preventDefault(); open(el.getAttribute('data-open')); return; }

@@ -106,5 +106,8 @@
   });
   if (send) send.addEventListener('click', function (e) { e.preventDefault(); ask(input.value); });
   renderChips();
-  window.__chat = { ask: ask };
+  function reset() {
+    log.innerHTML = ''; asked = {}; busy = false; input.value = ''; renderChips();
+  }
+  window.__chat = { ask: ask, reset: reset };
 })();

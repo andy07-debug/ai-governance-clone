@@ -96,6 +96,26 @@ def build_shell():
     return ha, ba, ''.join(str(c) for c in s.body.contents) + bot_tpl
 
 
+def shell_extras():
+    """Live-app pieces captured on their own: the chat-tools (⋮) menu, the minimized-chat bubble,
+    and the Conversation History drawer (also opened by the header ☰)."""
+    out = []
+    menu = open(os.path.join(ROOT, 'capture', 'live2', 'kebab-popover.html'), encoding='utf-8').read()
+    out.append('<template id="chat-tools-menu">%s</template>' % menu)
+    _, _, fs = v1.view_parts('08-fullscreen-live-events')
+    bubble = re.search(r'<span class="">\s*<div class="fixed bottom-\[90px\].*?maximizeChatButton.*?</button></span>', fs, re.S).group(0)
+    out.append('<template id="chat-min-bubble">%s</template>' % bubble)
+    _, _, hb = v1.view_parts('07b-shell-hamburger')
+    hs = BeautifulSoup(hb, 'lxml')
+    mask = hs.select_one('.p-sidebar-mask')
+    mask['data-backdrop'] = ''
+    close = mask.select_one('[title="Click to close sidebar"]')
+    if close is not None:
+        close['data-close'] = ''
+    out.append('<template id="o-conversation-history">%s</template>' % str(mask))
+    return out
+
+
 def projects_template():
     """The real Projects page (captured from the live app, capture/07c-shell-projects) as a full-panel screen."""
     _, _, body = v1.view_parts('07c-shell-projects')
@@ -153,7 +173,7 @@ def build_css():
 def build_html(out_dir=OUT, css_name='screens.css'):
     """out_dir=clone/ for the real build; a private dir (e.g. v2/out/<label>) for parallel builders."""
     ha, ba, shell = build_shell()
-    tpls = read_fragments('screens', 's') + read_fragments('overlays', 'o') + [projects_template()]
+    tpls = read_fragments('screens', 's') + read_fragments('overlays', 'o') + [projects_template()] + shell_extras()
     js = open(os.path.join(V2, 'router.js'), encoding='utf-8').read() + '\n' + open(os.path.join(V2, 'chat.js'), encoding='utf-8').read()
     rel = os.path.relpath(ASSETS, out_dir).replace(os.sep, '/')
     body = shell + '\n' + '\n'.join(tpls)

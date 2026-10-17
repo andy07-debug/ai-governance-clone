@@ -107,21 +107,66 @@
   }
   function exitFullscreen() { if (fsUndo) fsUndo.reverse().forEach(function (f) { f(); }); fsUndo = null; fullscreen = false; }
 
-  // ---------- "Expand to right": the chat panel takes the full width; click again to restore the split ----------
-  var chatExpanded = false, chatUndo = null;
-  function toggleChatExpand(btn) {
-    if (fullscreen) exitFullscreen();
-    if (chatExpanded) { chatUndo.reverse().forEach(function (f) { f(); }); chatExpanded = false; btn.setAttribute('aria-label', 'Expand to right'); return; }
+  // ---------- chat panel width: "Expand to right" switches the chat between 50% and 75% (as observed live) ----------
+  function setChatWidth(pct) {
     var panels = document.querySelectorAll('[data-panel]'), right = panels[panels.length - 1], side = document.getElementById('sidebar');
-    var handle = document.querySelector('[data-resize-handle]');
-    var undo = [], set = function (el, a, v) { var old = el.getAttribute(a); undo.push(function () { old === null ? el.removeAttribute(a) : el.setAttribute(a, old); }); el.setAttribute(a, v); };
-    if (side) set(side, 'style', 'flex: 100 1 0px; overflow: hidden;');
-    if (right) set(right, 'style', 'flex: 0 1 0px; overflow: hidden;');
-    if (handle) set(handle, 'style', (handle.getAttribute('style') || '') + ';display:none');
-    var icon = btn.querySelector('svg');
-    if (icon) set(icon, 'style', 'transform: scaleX(-1)');
-    btn.setAttribute('aria-label', 'Collapse to left');
-    chatUndo = undo; chatExpanded = true;
+    if (side) { side.style.flex = pct + ' 1 0px'; side.setAttribute('data-panel-size', pct.toFixed(1)); }
+    if (right) { right.style.flex = (100 - pct) + ' 1 0px'; right.setAttribute('data-panel-size', (100 - pct).toFixed(1)); }
+  }
+  function chatWidth() { var s = document.getElementById('sidebar'); return s ? parseFloat(s.style.flex) || 0 : 0; }
+  function toggleChatExpand() {
+    if (fullscreen) exitFullscreen();
+    if (minimized) restoreChat();
+    setChatWidth(chatWidth() === 50 ? 75 : 50);
+  }
+
+  // ---------- "Minimize Chat": chat panel collapses; the floating AskMod button brings it back ----------
+  var minimized = null;
+  function minimizeChat() {
+    if (minimized) return;
+    var prev = chatWidth(), handle = document.querySelector('[data-resize-handle]'), group = document.querySelector('[data-panel-group]');
+    setChatWidth(0);
+    if (handle) handle.style.display = 'none';
+    var bubble = document.getElementById('chat-min-bubble').content.firstElementChild.cloneNode(true);
+    if (group) group.parentElement.insertBefore(bubble, group);
+    minimized = { prev: prev, bubble: bubble, handle: handle };
+  }
+  function restoreChat() {
+    if (!minimized) return;
+    setChatWidth(minimized.prev || 20);
+    if (minimized.handle) minimized.handle.style.display = '';
+    minimized.bubble.remove();
+    minimized = null;
+  }
+
+  // ---------- chat-tools (⋮) menu ----------
+  function closeToolsMenu() { var m = document.getElementById('chat-tools-open'); if (m) m.remove(); }
+  function toggleToolsMenu(btn) {
+    if (document.getElementById('chat-tools-open')) { closeToolsMenu(); return; }
+    var menu = document.getElementById('chat-tools-menu').content.cloneNode(true);
+    var host = btn.closest('.relative.inline-block') || btn.parentElement;
+    var wrap = document.createElement('div'); wrap.id = 'chat-tools-open'; wrap.style.display = 'contents';
+    wrap.appendChild(menu); host.appendChild(wrap);
+  }
+  function toolsMenuAction(item) {
+    var id = item.getAttribute('data-testid');
+    if (id === 'headerMinimizeChatButton') { closeToolsMenu(); minimizeChat(); return; }
+    if (id === 'headerHistoryButton') { closeToolsMenu(); open('conversation-history'); return; }
+    if (id === 'headerThinkHarderButton') {
+      var on = item.getAttribute('aria-pressed') !== 'true';
+      item.setAttribute('aria-pressed', String(on));
+      item.querySelector('span').textContent = 'Recollect Harder ' + (on ? 'On' : 'Off');
+      return;
+    }
+    var sw = item.querySelector('.p-inputswitch');
+    if (sw) {
+      var onS = sw.getAttribute('aria-checked') !== 'true';
+      sw.setAttribute('aria-checked', String(onS)); sw.setAttribute('data-p-highlight', String(onS));
+      sw.classList.toggle('p-highlight', onS);
+      var inp = sw.querySelector('input'); if (inp) { inp.checked = onS; inp.setAttribute('aria-checked', String(onS)); }
+      return;
+    }
+    closeToolsMenu();  // Pre-Release Quality Checklist / Log Controls: their targets were not captured
   }
 
   // ---------- in-place tabs / toggles ----------
@@ -156,7 +201,13 @@
     // AskMod chat-panel header buttons
     if ((el = t.closest('[data-testid="headerProjectsButton"]'))) { e.preventDefault(); if (current !== 'projects') show('projects'); return; }
     if ((el = t.closest('[data-testid="headerNewChatButton"]'))) { e.preventDefault(); if (window.__chat) window.__chat.reset(); return; }
-    if ((el = t.closest('[data-testid="headerExpandChatButton"]'))) { e.preventDefault(); toggleChatExpand(el); return; }
+    if ((el = t.closest('[data-testid="headerExpandChatButton"]'))) { e.preventDefault(); toggleChatExpand(); return; }
+    if ((el = t.closest('#chat-tools-open button, #chat-tools-open .flex.w-full'))) { e.preventDefault(); toolsMenuAction(el); return; }
+    if ((el = t.closest('.chatToolsPopoverBtn'))) { e.preventDefault(); toggleToolsMenu(el); return; }
+    if (!t.closest('#chat-tools-open')) closeToolsMenu();
+    if ((el = t.closest('.maximizeChatButton'))) { e.preventDefault(); restoreChat(); return; }
+    if ((el = t.closest('[aria-label="Close messages"]'))) { e.preventDefault(); [].slice.call(el.parentElement.children).forEach(function (c) { c.remove(); }); return; }
+    if ((el = t.closest('.h-20 [title="Open sidebar"]'))) { e.preventDefault(); open('conversation-history'); return; }
     if ((el = t.closest('[data-close]'))) { e.preventDefault(); closeTop(); return; }
     if ((el = t.closest('[data-backdrop]')) && el === t) { closeTop(); return; }
     if ((el = t.closest('[data-open]'))) { e.preventDefault(); open(el.getAttribute('data-open')); return; }

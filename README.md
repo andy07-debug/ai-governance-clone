@@ -1,24 +1,33 @@
-# AI Governance Mode — UX replica
+# AI Governance — UX replica (demo version)
 
-Static, clickable replica of the **AI Governance** mode of AppMod.AI, built from live DOM snapshots of the logged-in app (captured 2026-10-15).
+Clickable replica of the **AI Governance** mode of AppMod.AI, rebuilt to match the product demo recording (Appmod.AI theme).
+Text and numbers are copied verbatim from the demo frames; layout is matched side-by-side against them.
 
-## View it
-Live: https://andy07-debug.github.io/ai-governance-clone/ — or open `clone/index.html` locally in Chrome (works offline). Deep-link to any screen with a hash, e.g. `clone/index.html#05d-traffic-statistics`.
+**Live:** https://andy07-debug.github.io/ai-governance-clone/
 
-23 screens: landing grid, LLM Studio Analytics, Firewall Overview, Live Events, Policies (deck / change logs / New Policy), Smart LLM Load Balancer (projects, usage, model config, statistics, applications, error logs), RBAC (access management, user groups, modules, permissions, roles, mapping), and the shell overlays (mode dropdown, conversation drawer, projects).
+## Screens
+| Screen | What's in it |
+|---|---|
+| `#dashboard` | Global dashboard: Security, FinOps, System Health, Change Management panels with trend charts, breaking news, key metrics, live alerts, recent activity, section cards |
+| `#llm-studio` | LLM Studio Analytics: cost trend (LLM / Infra / Total), KPI tiles, Top assistants / users / agents tabs, All Records; drill-down drawers for assistant **ggcllmprgenie** and user **aadhithya.sendhilmanian** |
+| `#firewall` | Firewall Overview: security trend, KPI cards, real-time event stream with inline alert detail and Cognitive Decisioning AI |
+| `#policies` / `#policies-change-logs` | Smart AI Prompt Policies deck, Create New Governance Policy modal, change-log audit table |
+| `#budget-setup` | My Usage, Platform Usage, Setup Budget tabs |
 
-Working interactions: navigation and breadcrumbs, fullscreen mode, mode dropdown + search, drawer, segmented pills, collapsible sections, accordion, log "more", checkbox, typing in chat/forms, browser Back/Forward. Charts are live Chart.js 4.5.1 canvases with the app's own configs. Data is frozen at capture time; nothing submits or saves.
+Deep-link any screen with its hash; open an overlay too with `#screen+overlay`, e.g. `#llm-studio+llm-assistant-ggcllmprgenie`.
+Sections of the demo not yet rebuilt (Live Events, Traffic Analysis, IP Whitelisting, System Health, global Change Logs, RBAC) are linked but inert.
 
-## Layout
+## How it's built
 | Path | What |
 |---|---|
-| `clone/` | The built replica (`index.html` + `assets/`) |
-| `capture/` | Raw DOM + CSSOM snapshots per screen (source for the build) |
-| `build.py` | Builds `clone/` from `capture/` (CSS merge, font localisation, overlay stripping, templates) |
-| `router.js` | Click/hash router inlined into the build |
-| `charts.js` | Chart configs + recovered data |
-| `qa/` | Playwright test suites (`test_router.py`, `test_findings.py`), render/diff and chart-fitting scripts, QA artefacts |
+| `clone/` | Built site (`index.html` + `assets/`) |
+| `v2/screens/`, `v2/overlays/` | Hand-built screen and drawer/modal fragments (Tailwind classes) |
+| `v2/build_v2.py` | Builds `clone/`: real captured AppMod shell (re-themed) + screens + Tailwind CSS |
+| `v2/router.js` | Navigation, overlays, tabs, toggles, Chart.js charts (`data-go`, `data-open`, `data-tab`, `data-chart` …) |
+| `v2/BUILDING.md` | Conventions for adding screens |
+| `v2/tools/shot.py` | Render a screen at the demo's 1512×863 @2x and compare with a demo frame |
+| `v2/tools/test_v2.py` | Clicks every wired control on every screen |
+| `demo/sections/`, `demo/transcript.txt` | Per-section demo frame index + narration transcript |
+| `capture/`, `build.py` | Original live-app DOM captures (source of the shell) and the v1 build pipeline |
 
-Rebuild: `python3 build.py`. Tests: `python3 qa/test_router.py && python3 qa/test_findings.py`.
-
-> Contains data captured from the live app (names, emails, usage and cost figures).
+Rebuild: `cd v2 && npm install && cd .. && python3 v2/build_v2.py`. Test: `python3 v2/tools/test_v2.py`.

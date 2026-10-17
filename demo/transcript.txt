@@ -1,0 +1,408 @@
+[   0.85 -    4.85] Hello everyone, so this is a walkthrough of AI governance platform.
+[   4.85 -    9.85] So firstly when you enter into AI governance, the first thing you see is the global dashboard.
+[   9.85 -   12.85] This is the global dashboard.
+[  12.85 -   17.85] So this is a high overview of all the major components available in the platform.
+[  17.85 -   23.85] So let's start with this security section which is based from the live event page.
+[  23.85 -   29.85] Here you can view the number of critical incidents that have occurred since yesterday
+[  29.85 -   33.85] and which is 3 more than yesterday.
+[  33.85 -   38.85] And also you can see a dynamic graph displaying the alerts generated throughout the day
+[  38.85 -   42.85] along with the active alert categories.
+[  42.85 -   47.85] There are key metric sections so highlights that the active categories
+[  47.85 -   52.85] and also the live alert section displays the top 4 active alerts.
+[  52.85 -   57.85] Next we have the LLM Studio and Magic Setup.
+[  57.85 -   63.85] And the LLM Studio provides the overall cost range over a period of days
+[  63.85 -   69.85] and also it shows the highest cost app and its budget
+[  69.85 -   75.85] and the cost that has been spent, the active apps, the total, the top agent
+[  75.85 -   83.85] and its budget and the top 3 agents with the cost that has been used,
+[  83.85 -   89.85] the top user and the cost that has been used, the top 3 users.
+[  89.85 -   95.85] In budget status you can see the total API calls that have happened today
+[  95.85 -  101.85] across 1.1 apps and 1.17 users and the top spenders, the top 3 spenders,
+[ 101.85 -  104.85] the top agent and the top 3 agents.
+[ 104.85 -  110.85] As you can see here the budget indicators are color coded
+[ 110.85 -  115.85] that is into green which indicates that the spending is within the defined threshold
+[ 115.85 -  125.85] and it appears red if it is above or if it has crossed the limit of the budget.
+[ 125.85 -  127.85] Next we have the System Health.
+[ 127.85 -  134.85] So this system health section provides an overview of the platform operational status
+[ 134.85 -  139.85] so it displays the total number of API requests that has been needed.
+[ 139.85 -  147.85] And the performance of the agents, the models, the service reliability, the peak throughput
+[ 147.85 -  149.85] and the active models.
+[ 149.85 -  159.85] It also shows what are the limit violations, how many rate limit violations that has been detected
+[ 159.85 -  162.85] and also the top models by volume.
+[ 162.85 -  167.10] And finally we have the Change Management.
+[ 167.10 -  177.10] So this section is about, it provides information about deployments, like how many deployments were there,
+[ 177.10 -  185.10] how many approvals, how many releases, how many were revertable and how many life changes are happening
+[ 185.10 -  190.10] and the top user responsible for that particular deployment.
+[ 190.10 -  195.10] And also you can see the recent activities of those deployments.
+[ 195.10 -  199.10] These are all the components that you can see from the global dashboard.
+[ 199.10 -  211.64] So now let's start with, let's look into them individually and let's start with LLM Studio Analytics.
+[ 211.64 -  220.37] So here as you enter LLM Studio Analytics, the first thing you see is the cost range.
+[ 220.37 -  230.37] So this cost range tells us about the total infra cost, the total cost, the LLM cost
+[ 230.37 -  233.37] of each day, the total cost of each day.
+[ 233.37 -  239.37] You can make, you can take any range of days you want, like let me show you the 30 days.
+[ 239.37 -  252.71] So this is the graph for 30 days and similarly you can select any of the time range that you want
+[ 252.71 -  255.71] or you would like to see.
+[ 255.71 -  262.71] For now I will select it as 7 days and you can also unselect them and if you want to see only infra cost
+[ 262.71 -  270.71] you can only see infra cost or if you want to see, compare both infra cost and total cost you can see this.
+[ 270.71 -  278.71] So you can see however you want to or you want to compare with, you can watch accordingly.
+[ 278.71 -  286.37] Next we have this, this is the dashboard for total spend.
+[ 286.37 -  296.37] If we consider infra cost of available infra, non-available infra, top users, top model, the discount,
+[ 296.37 -  304.37] the LLM cost which was the input cost as well as the output cost, the input tokens, output tokens
+[ 304.37 -  308.37] and the top assistant like how much has the top assistant spent.
+[ 308.37 -  315.37] So this last period means that previously the assistant which was the top assistant is this.
+[ 315.37 -  318.37] So that is what last period means.
+[ 318.37 -  328.67] So as we scroll down you can see that we have top assistants, top users, user group, top agents,
+[ 328.67 -  332.67] infra companies, billable components and the non-billable components.
+[ 332.67 -  339.67] So here all the top things are then written which means all the top 10 of these will be shown.
+[ 339.67 -  344.67] So for example if you select top assistant, all the top 10 assistants will be shown here
+[ 344.67 -  348.67] and with the cost that they have was spent.
+[ 348.67 -  353.67] And if you want to know more detail about any of these assistants, you can just click on it
+[ 353.67 -  362.67] and you can see a drill down sharing all the detailed information about this particular assistant.
+[ 362.67 -  370.67] You can see that these people have used this assistant spending these many dollars
+[ 371.67 -  374.67] and 116 users have used it.
+[ 374.67 -  382.67] This is the total input cost and suppose if the total budget has been gone above the limit,
+[ 382.67 -  388.67] you can just request a budget here and similarly the top users.
+[ 388.67 -  397.95] So these are the top 10 users for today and if I click on any of them,
+[ 398.95 -  405.95] let's say if I click on this particular user, you can see the overall information about this user,
+[ 405.95 -  412.95] the top assistants, like how many assistants that this person has used,
+[ 412.95 -  419.95] the 4 apps here use 4 apps, 10 agents, the total cost, the LLM cost, the infra cost,
+[ 419.95 -  424.95] input cost and the output cost of this particular user will be seen as that.
+[ 424.95 -  432.95] You can also filter it out as per URL, like at what time period you want to check,
+[ 432.95 -  434.95] you can filter it out here.
+[ 434.95 -  444.84] You can also see a cost training graph and this is the usage history of this particular user
+[ 444.84 -  450.84] and if you want to trace any of the or if you want to know more details about this particular user,
+[ 450.84 -  455.84] you can see that this is the total input cost, output cost
+[ 455.84 -  458.84] and if you want to view this trace, you can view it here.
+[ 458.84 -  479.72] This trace will show you all the root of like any of the flows like the orchestrator or the gemiare orchestrator flow
+[ 479.72 -  483.72] or any of the flow that this user has been using.
+[ 483.72 -  488.72] So simply you can check for any of the users that you want to check
+[ 489.72 -  500.72] and user groups is an impact and also you can pass the user to any of, there's a feature called tag
+[ 500.72 -  506.72] and also add to graph, which means that if I want to see this person in a graph format,
+[ 506.72 -  512.72] so I can just add this person to the graph and I can see here, right?
+[ 512.72 -  517.72] Then I remove all this because this is comparing with all those three.
+[ 517.72 -  523.10] So this is the graph for that particular person.
+[ 523.10 -  527.10] So this is how it works and you can tag them here.
+[ 527.10 -  535.10] Since I don't have any user groups currently, it is showing as no tag user groups yet
+[ 535.10 -  538.10] and it's same for the top agents.
+[ 538.10 -  548.30] It has each of them has their childrens and top infra components.
+[ 548.30 -  555.59] Similarly, it has the top 10 for components.
+[ 555.59 -  569.04] It's similar to all that but here when I click on any of the drill down or the drop down,
+[ 569.04 -  571.04] you can see this AI suggestion.
+[ 571.04 -  574.04] You can know more about this particular workload.
+[ 574.04 -  582.04] When I click on AI suggestion, I can see the AI scores, the citations, the total citations,
+[ 582.04 -  587.04] that the how much cost is wasted out of how much that is spent
+[ 587.04 -  592.04] and the other required details, the gap in decisioning
+[ 592.04 -  595.04] and you can also optimize in the project.
+[ 595.04 -  601.04] So this is all that it can show and also there are different types, not just workloads.
+[ 601.04 -  605.04] You can see different sections also here.
+[ 605.04 -  610.70] There are different drill downs and options.
+[ 610.70 -  614.70] You can choose any of them as per your liking
+[ 614.70 -  621.70] and also it is that each of this infra component has its own unique drill down
+[ 621.70 -  627.70] because these are not same as another infra component.
+[ 627.70 -  634.70] It's because of the available metrics differ depending on that particular infra component.
+[ 634.70 -  645.70] So everything is different and it is same for the level and not the level also.
+[ 645.70 -  649.46] It's the same as others.
+[ 649.46 -  663.37] And as we scroll down, you can see the all records.
+[ 663.37 -  672.37] This all records show that these are the total models, agents, the total assistants, the top 10
+[ 672.37 -  676.37] and if you want to see 11, 12 or there are 42 of them
+[ 676.37 -  681.37] and if you want to see, you can just move on to next page and you can see
+[ 681.37 -  686.62] and these are the total calls, inputs and outputs.
+[ 686.62 -  695.62] This is the total cost and you can view by assistants, by agents,
+[ 695.62 -  701.62] like how much each of the agent has spent by users
+[ 701.62 -  707.73] and if you want to tag a user also, you can tag a user
+[ 708.73 -  710.73] and by methods.
+[ 710.73 -  718.48] So this is all about and also yes, we have my usage
+[ 718.48 -  724.48] and this is a part of the budget set up where you can see the total usage,
+[ 724.48 -  726.48] the cost usage that you have done today.
+[ 726.48 -  732.48] I have not spent any of it today so it's zero
+[ 732.48 -  736.48] and the total that is remaining, what is my daily limit
+[ 736.48 -  739.48] and if there is any request that is pending
+[ 739.48 -  743.48] and suppose if I have crossed the limit of my daily budget,
+[ 743.48 -  747.48] I can just fill this form and request for more budget
+[ 747.48 -  752.48] and till then, do you need that until and what is the reason for it,
+[ 752.48 -  757.48] is there any business reason or why was the, you have to say that
+[ 757.48 -  763.48] why was the present usage completed so you can fill this form.
+[ 763.48 -  768.48] I am not able to load this chart because I have not used any of the
+[ 769.48 -  772.48] cost today.
+[ 772.48 -  776.48] So if I have used then you can see a graph out here.
+[ 776.48 -  781.82] So this is all about Relevestodia.
+[ 781.82 -  787.38] Okay, next we have the firewall overview.
+[ 787.38 -  791.38] So this page is about the security trends dashboard.
+[ 791.38 -  796.38] So it provides the overview of firewall related security events and alerts.
+[ 796.38 -  800.38] So here you can see the security trend graph.
+[ 800.38 -  804.38] So this graph shows us the total number of alerts generated over time.
+[ 804.38 -  809.38] So it categorizes based on the severity that is that critical,
+[ 809.38 -  813.38] high-end, how many of them are blocked and etc.
+[ 813.38 -  818.38] So here there are cards that shows the total events, the critical alerts,
+[ 818.38 -  822.38] what is the severity and the request blocked.
+[ 822.38 -  829.38] And here you can see the real-time, the security alerts list
+[ 829.38 -  836.38] For example, if you open the, you can see how many of them are marked as critical here.
+[ 836.38 -  840.38] So and if you want to know more information about them, you can just click on that
+[ 840.38 -  846.38] and you can see a detailed information such as the source IP, the user ID,
+[ 846.38 -  851.38] the user email, what is the status, for now it is flagged
+[ 851.38 -  856.38] and what is the summary, the triage region summary and etc.
+[ 856.38 -  860.38] And also you can see a cognitive decisioning in the section,
+[ 860.38 -  865.38] which explains, there is a section called as firewall is categorized.
+[ 865.38 -  869.38] So you can just click on it and you can see a cognitive decisioning
+[ 869.38 -  871.38] AI that is coming out here.
+[ 871.38 -  877.38] So this evaluate, which explains how alert was evaluated
+[ 877.38 -  883.38] and it displays the decision strength and highlights the gaps
+[ 883.38 -  886.38] in the decision making process.
+[ 886.38 -  895.38] So this can be seen for each and every alert that has been shown here.
+[ 895.38 -  901.38] And if you want to investigate the alert further, you can just click on any of them
+[ 901.38 -  905.38] and you can see the Google Cloud alerting you,
+[ 905.38 -  908.38] where you can explore the complete alert details
+[ 908.38 -  919.94] and understand how the incident was generated and processed.
+[ 919.94 -  921.94] Now let's come into policies.
+[ 921.94 -  926.94] So this is a smart AI policy is your page.
+[ 926.94 -  931.94] Here when I, it's like you can create your own policy here.
+[ 931.94 -  934.94] For example, let me create a test policy.
+[ 934.94 -  938.94] You can select any of the category here that I'm selecting privacy
+[ 938.94 -  946.35] and test again and deploy it.
+[ 946.35 -  950.35] So I can see though, my one of my policies has been deployed.
+[ 950.35 -  957.35] If I disable it, I can see that there are two disabled
+[ 957.35 -  960.35] and there are 13 other active policies.
+[ 960.35 -  972.25] And if I want to, I can just edit this rule or I can delete this rule.
+[ 972.25 -  980.58] And it also has a change loss that is whatever that I have done here
+[ 980.58 -  984.58] will be reflected here in the change loss that is I have today,
+[ 984.58 -  989.58] I have firstly created it, then I've disabled it,
+[ 989.58 -  995.58] then I have updated it and I've deleted it at this particular time stamp.
+[ 995.58 - 1001.58] So like that, similarly, you can see all the users have created it.
+[1001.58 - 1006.58] You can see that and you can also filter it, filter them accordingly.
+[1006.58 - 1015.53] Then you can put the oldest first or the, so it depends.
+[1015.53 - 1018.53] So this is about smart AI policy.
+[1018.53 - 1026.00] And next, if you come into traffic analysis, you can see the four sections here.
+[1026.00 - 1028.00] Firstly, let's go to project section.
+[1028.00 - 1031.00] You can see there are a lot of projects and if you want,
+[1031.00 - 1039.00] if I have to, let's say I click on view usage of that particular project,
+[1039.00 - 1043.00] you can see a statistical view of this project
+[1043.00 - 1047.00] and what are the models that are being used here.
+[1047.00 - 1049.00] There are nine models that are used.
+[1049.00 - 1051.00] And if I have to know more about the project,
+[1051.00 - 1057.00] I can just click on the dropdown and know more about the project.
+[1057.00 - 1069.50] And I can also select the time stamp whenever I want,
+[1069.50 - 1074.50] so that it is all the data that was selected for 30 days.
+[1074.50 - 1078.50] So all that will be displayed here.
+[1078.50 - 1085.78] So like this.
+[1085.78 - 1088.78] So this is about the statistics.
+[1088.78 - 1092.78] You can view the statistics directly from here
+[1092.78 - 1095.78] or you can view it from the projects also.
+[1095.78 - 1105.79] And if we come to applications, these are the total applications
+[1105.79 - 1108.79] and similarly, if we click on the dropdown,
+[1108.79 - 1114.79] you can see a detailed view or more information about that particular application.
+[1114.79 - 1117.79] So there are these many applications for now
+[1117.79 - 1120.79] and also the time limit.
+[1120.79 - 1123.79] You can filter it by time.
+[1123.79 - 1128.79] So this is all about the traffic analysis.
+[1128.79 - 1135.80] Now if we come to IP whitelisting,
+[1135.80 - 1140.80] so not everybody has access to view the IP whitelisting
+[1140.80 - 1142.80] or whitelisting.
+[1142.80 - 1144.80] So you have to get their access.
+[1144.80 - 1147.80] So if I click on this,
+[1147.80 - 1151.80] a mail will be sent to the admins requesting for access
+[1151.80 - 1153.80] and they will provide the access.
+[1153.80 - 1168.02] Currently, I will provide the access from my site.
+[1168.02 - 1172.02] You have two roles here that is user and super admin.
+[1172.02 - 1180.82] Firstly, I'll let you know the user's functionalities.
+[1180.82 - 1185.32] So firstly, when I enter into IP whitelisting,
+[1185.32 - 1189.32] so this is a form where you can whitelist your IP
+[1189.32 - 1191.32] or whitelist your IP.
+[1191.32 - 1194.32] You can either enter your IP address or IP v6 address.
+[1194.32 - 1201.32] You can use your current automatically fetched IP address
+[1201.32 - 1203.32] or you can just enter it manually.
+[1203.32 - 1207.32] It depends on however the user likes.
+[1207.32 - 1211.32] And also the reason for it, you can whitelist IP here.
+[1211.32 - 1215.32] And you can see the IP whitelist,
+[1215.32 - 1220.32] whatever you have whitelisted, you can see it here.
+[1220.32 - 1225.32] For example, let me whitelist my IP.
+[1225.32 - 1228.32] This is the duration. You can select any duration here.
+[1228.32 - 1236.04] I have whitelisted this now.
+[1236.04 - 1242.04] And these are all the IP whitelisting that I have done so far.
+[1242.04 - 1247.64] The expired and the remote.
+[1247.64 - 1249.64] Next is the metrics.
+[1249.64 - 1254.64] These are the total records, the unique caller IPs
+[1254.64 - 1258.64] or the mapped records and mapped IPs.
+[1258.64 - 1261.64] The total tokens, the output tokens, everything.
+[1261.64 - 1263.64] Everything can be seen here.
+[1263.64 - 1266.64] And if there is any user transactions that are going on,
+[1266.64 - 1268.64] I currently don't have any user transactions
+[1268.64 - 1270.64] so currently it's showing a view.
+[1270.64 - 1272.64] But if there is any user transactions,
+[1272.64 - 1275.64] all the transaction blocks will be shown here.
+[1275.64 - 1280.64] And if I come to audit blocks, this shows access net
+[1280.64 - 1283.64] because I have an access of user.
+[1283.64 - 1287.64] So users cannot access this particular section
+[1287.64 - 1292.64] because this can be viewed only by the super admins.
+[1292.64 - 1296.64] So once I give myself a super admin access,
+[1296.64 - 1301.06] let me show you.
+[1301.06 - 1328.51] Now I can view the audit blocks.
+[1328.51 - 1332.82] So these are the audit blocks.
+[1332.82 - 1334.82] So there are one or two audit blocks,
+[1334.82 - 1337.82] means that not only just mine, I can see anybody's,
+[1337.82 - 1341.82] everybody's logs, what all everybody is doing.
+[1341.82 - 1344.82] I can see all the logs of all the users
+[1344.82 - 1348.82] using this IP whitelisting, whoever has whitelisted
+[1348.82 - 1350.82] or whoever has removed all the logs.
+[1350.82 - 1352.82] I can see it here.
+[1352.82 - 1356.82] And this is only visible to the admins.
+[1356.82 - 1359.82] So this is about the IP whitelisting.
+[1359.82 - 1368.45] Now let's go to system health.
+[1369.45 - 1373.45] So as you can see, this also has an impact restriction
+[1373.45 - 1377.45] that is whoever, only a few people whoever has access
+[1377.45 - 1379.45] can access this page.
+[1379.45 - 1380.45] That is, they do not.
+[1380.45 - 1397.11] So let me quickly just give access to my health.
+[1397.11 - 1401.11] So this is the overall system health dashboard.
+[1401.11 - 1405.11] Here, as you can see, there are policies,
+[1405.11 - 1411.58] runs, clusters, and conflicts.
+[1411.58 - 1415.58] And here is the total savings, the total hibernation runs,
+[1415.58 - 1417.58] the latest savings.
+[1417.58 - 1421.58] So here, the overall system health component
+[1421.58 - 1425.58] helps us to monitor and manage the cost optimization policies
+[1425.58 - 1429.58] for any cloud or Kubernetes environment.
+[1429.58 - 1433.58] So it shows us how much money has been saved,
+[1433.58 - 1436.58] how much hibernation actions have run,
+[1436.58 - 1440.58] and the latest savings from the recent policy implications.
+[1441.58 - 1445.58] So the main feature for this is the policy step.
+[1445.58 - 1448.58] Here, it shows the cost optimization policies,
+[1448.58 - 1452.58] including the policies, names, and all of these.
+[1452.58 - 1455.58] And here is the environment.
+[1455.58 - 1459.58] It shows the policies, names, the type,
+[1459.58 - 1465.58] the environment, the schedule, and the last runs of this.
+[1465.58 - 1468.58] And next is the savings summary.
+[1468.58 - 1472.58] And you can just click on it for what it tells you,
+[1472.58 - 1478.06] and you can also scan this, or you can also delete this.
+[1478.06 - 1482.06] In the runs, it tracks how many hibernation actions
+[1482.06 - 1485.06] have been executed across the environment.
+[1485.06 - 1490.06] So these are the 47 runs, and you can view it.
+[1490.06 - 1493.06] You can view the status whenever it started
+[1493.06 - 1497.06] and the ENV, the type, and et cetera.
+[1497.06 - 1501.06] Next is the clusters.
+[1501.06 - 1503.06] You can see how many clusters.
+[1503.06 - 1507.71] There are three clusters here.
+[1507.71 - 1510.71] You can either scale down, scale up, or remove them.
+[1510.71 - 1515.71] And next, you can also register a cluster with this.
+[1515.71 - 1518.71] Next, we have a config.
+[1518.71 - 1525.71] Here in the config, you can just create your own environment,
+[1525.71 - 1528.71] either in dev, prod, QA, or any testing.
+[1528.71 - 1530.71] You can add an environment.
+[1530.71 - 1532.71] Here are the environments that have been added.
+[1532.71 - 1536.71] You can add an environment if you want, and you can create it.
+[1536.71 - 1538.71] And you can save the changes here.
+[1538.71 - 1540.71] And if you want to create a policy,
+[1540.71 - 1543.71] you can just create these policies by these,
+[1543.71 - 1546.71] putting out these forms as per the user requirement
+[1546.71 - 1549.71] by giving the policy name here,
+[1549.71 - 1552.71] and you can create a policy here.
+[1552.71 - 1560.54] So this is all about the system height.
+[1560.54 - 1563.54] Now, let's look into budget setup.
+[1563.54 - 1566.54] So the budget setup module consists of three main sections.
+[1566.54 - 1570.54] That is my usage, platform usage, and the setup budget.
+[1570.54 - 1573.54] My usage and platform usage sections
+[1573.54 - 1575.54] are accessible to all the users,
+[1575.54 - 1579.54] but the setup budget is not accessible to everybody.
+[1579.54 - 1582.54] It has a callback functionality.
+[1582.54 - 1587.54] But since I have the access to it, I'm able to see it.
+[1587.54 - 1591.54] And at the top of this page,
+[1591.54 - 1594.54] you can see there's pending approvals, approved requests,
+[1594.54 - 1597.54] the user budgets, and extra budgets.
+[1597.54 - 1600.54] So this is how many pending approvals are there.
+[1600.54 - 1605.54] Any approval requests, any requests that have been approved,
+[1605.54 - 1608.54] since I have not approved any of the requests so far,
+[1608.54 - 1609.54] so it's zero.
+[1609.54 - 1614.54] And user budget rules and extra budgets that are queued.
+[1614.54 - 1616.54] Also, you can see the requests that are queued
+[1616.54 - 1619.54] if there is anything pending, approved, or rejected.
+[1619.54 - 1623.54] Or you can also review it when there are any queues.
+[1623.54 - 1627.54] And extra budget changes, the budget coverage,
+[1627.54 - 1628.54] the total budget coverage.
+[1628.54 - 1631.54] And since I have zero requests,
+[1631.54 - 1634.54] so it's just showing the zero requests
+[1634.54 - 1637.54] across the data user threshold.
+[1637.54 - 1642.54] And when we come into the admin budget rules,
+[1643.54 - 1646.54] you can, this is the daily budget.
+[1646.54 - 1649.54] We have five active rules for now.
+[1649.54 - 1651.54] And the approval manager,
+[1651.54 - 1654.54] approval workloads manager.
+[1654.54 - 1658.54] So you have three sections here,
+[1658.54 - 1661.54] that is for users, assistants, and agents.
+[1661.54 - 1665.54] For users, so we have these five people.
+[1665.54 - 1667.54] These are the five pools.
+[1667.54 - 1669.54] These are the owners for them.
+[1669.54 - 1672.54] The daily limit, the one percentage,
+[1672.54 - 1674.54] the blocked percentage,
+[1674.54 - 1678.54] and the what are the manager pool for users,
+[1678.54 - 1681.54] or to approve within limit, or this one.
+[1681.54 - 1684.54] Or the status is active.
+[1684.54 - 1688.54] So we have another default rule that is,
+[1688.54 - 1692.54] you can either default the daily limit,
+[1692.54 - 1697.54] or you can reset the daily, this one,
+[1697.54 - 1700.54] as per your time zone.
+[1700.54 - 1704.54] And you can over show, notify only do not block,
+[1704.54 - 1706.54] you can select any of these options,
+[1706.54 - 1708.54] and just save the budget rules,
+[1708.54 - 1711.54] or you can also schedule this change later.
+[1711.54 - 1714.54] So this is about set up budget.
+[1714.54 - 1717.54] Now if we look in the platform usage,
+[1717.54 - 1723.33] you can see that how much platform usage
+[1723.33 - 1725.33] has been spent, how many requests,
+[1725.33 - 1729.33] the total entities, and if there is anything
+[1729.33 - 1733.33] that is over the budget and current bid zero.
+[1733.33 - 1735.33] You can see the range summary,
+[1735.33 - 1738.33] like what are the total summary of the requests.
+[1738.33 - 1741.33] It is like, this is the total spent.
+[1741.33 - 1744.33] There are these many calls happening,
+[1744.33 - 1747.33] and these are the input tokens, output tokens.
+[1747.33 - 1749.33] Is there any budget pressure?
+[1749.33 - 1751.33] There is no budget pressure,
+[1751.33 - 1753.33] so it's currently showing it as heavy.
+[1753.33 - 1757.33] And you can also see the logs here,
+[1757.33 - 1759.33] like this particular person,
+[1759.33 - 1761.33] this particular user has these many calls
+[1761.33 - 1763.33] and these many requests.
+[1763.33 - 1766.33] This is the budget, and there is this much,
+[1766.33 - 1768.33] like 69% of the budget,
+[1768.33 - 1771.33] and they have what is the remaining budget,
+[1771.33 - 1776.33] and if they exceed more than a particular truck,
+[1776.33 - 1779.33] if they exceed this limit,
+[1779.33 - 1782.33] they can just request the budget.
+[1782.33 - 1785.33] Also there are assistance agents and blocks.
+[1785.33 - 1787.33] Currently there is nothing, if there are,
+[1787.33 - 1791.47] you can also see the logs here.
+[1791.47 - 1797.47] So there is one block, so there are three assistants here.
+[1797.47 - 1799.47] So there are 25 assistants here.
+[1799.47 - 1803.47] So here it is showing yellow because it is 85% done.
+[1803.47 - 1807.47] So it is closer to the limit.
+[1807.47 - 1811.47] And similarly, this is what will be shown here.
+[1811.47 - 1815.47] And in my usage, you can see that
+[1815.47 - 1817.47] I have used zero usage today,
+[1817.47 - 1819.47] so it's showing zero dollars.
+[1819.47 - 1821.47] How much is the remaining?
+[1821.47 - 1822.47] What is the daily limit?
+[1822.47 - 1824.47] This is the same page that I explained
+[1824.47 - 1829.47] in the previous Element Studio Analytics page.
+[1829.47 - 1833.91] So this is all about budget setup.
+[1833.91 - 1837.91] And we have one more thing that is global change logs.
+[1837.91 - 1842.50] So this is about everything.
+[1842.50 - 1844.50] This shows all the,
+[1844.50 - 1848.50] all the components, logs or changes
+[1848.50 - 1850.50] of whatever that has been done.
+[1850.50 - 1854.50] All over the platform will be logged here
+[1854.50 - 1856.50] and will be shown here.
+[1856.50 - 1858.50] And this will, in this particular page
+[1858.50 - 1861.50] or the several button will only be seen
+[1861.50 - 1863.50] to the people who have access.
+[1863.50 - 1865.50] So this is that.
+[1865.50 - 1870.77] There are more.
+[1870.77 - 1873.77] So you can filter however the user wants
+[1873.77 - 1875.77] and they can check there.
+[1875.77 - 1877.77] There are 669 entries.
+[1877.77 - 1882.77] So you can filter it as per your, let me say,
+[1882.77 - 1888.17] filter for budget setup.
+[1888.17 - 1890.17] And I can see the logs for budget setup.
+[1890.17 - 1893.58] And if I click on view,
+[1893.58 - 1896.58] I can see the overall more detailed view,
+[1896.58 - 1899.58] like the metadata, the change log metadata.
+[1899.58 - 1902.58] Who has it changed by, what was the resource
+[1902.58 - 1904.58] I did at the exchange file.
+[1904.58 - 1906.58] So this is all that you can see.
+[1906.58 - 1909.58] So this is all about the EO Governments platform.

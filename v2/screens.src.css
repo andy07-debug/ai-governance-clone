@@ -1,0 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* screen-level defaults (match the app's right panel) */
+#screen { font-family: "Inter var", Inter, ui-sans-serif, system-ui, sans-serif; color: #0f172a; }
+#overlay-root { font-family: "Inter var", Inter, ui-sans-serif, system-ui, sans-serif; color: #0f172a; }

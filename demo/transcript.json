@@ -1,0 +1,2042 @@
+[
+ {
+  "start": 0.85,
+  "end": 4.85,
+  "text": "Hello everyone, so this is a walkthrough of AI governance platform."
+ },
+ {
+  "start": 4.85,
+  "end": 9.85,
+  "text": "So firstly when you enter into AI governance, the first thing you see is the global dashboard."
+ },
+ {
+  "start": 9.85,
+  "end": 12.85,
+  "text": "This is the global dashboard."
+ },
+ {
+  "start": 12.85,
+  "end": 17.85,
+  "text": "So this is a high overview of all the major components available in the platform."
+ },
+ {
+  "start": 17.85,
+  "end": 23.85,
+  "text": "So let's start with this security section which is based from the live event page."
+ },
+ {
+  "start": 23.85,
+  "end": 29.85,
+  "text": "Here you can view the number of critical incidents that have occurred since yesterday"
+ },
+ {
+  "start": 29.85,
+  "end": 33.85,
+  "text": "and which is 3 more than yesterday."
+ },
+ {
+  "start": 33.85,
+  "end": 38.85,
+  "text": "And also you can see a dynamic graph displaying the alerts generated throughout the day"
+ },
+ {
+  "start": 38.85,
+  "end": 42.85,
+  "text": "along with the active alert categories."
+ },
+ {
+  "start": 42.85,
+  "end": 47.85,
+  "text": "There are key metric sections so highlights that the active categories"
+ },
+ {
+  "start": 47.85,
+  "end": 52.85,
+  "text": "and also the live alert section displays the top 4 active alerts."
+ },
+ {
+  "start": 52.85,
+  "end": 57.85,
+  "text": "Next we have the LLM Studio and Magic Setup."
+ },
+ {
+  "start": 57.85,
+  "end": 63.85,
+  "text": "And the LLM Studio provides the overall cost range over a period of days"
+ },
+ {
+  "start": 63.85,
+  "end": 69.85,
+  "text": "and also it shows the highest cost app and its budget"
+ },
+ {
+  "start": 69.85,
+  "end": 75.85,
+  "text": "and the cost that has been spent, the active apps, the total, the top agent"
+ },
+ {
+  "start": 75.85,
+  "end": 83.85,
+  "text": "and its budget and the top 3 agents with the cost that has been used,"
+ },
+ {
+  "start": 83.85,
+  "end": 89.85,
+  "text": "the top user and the cost that has been used, the top 3 users."
+ },
+ {
+  "start": 89.85,
+  "end": 95.85,
+  "text": "In budget status you can see the total API calls that have happened today"
+ },
+ {
+  "start": 95.85,
+  "end": 101.85,
+  "text": "across 1.1 apps and 1.17 users and the top spenders, the top 3 spenders,"
+ },
+ {
+  "start": 101.85,
+  "end": 104.85,
+  "text": "the top agent and the top 3 agents."
+ },
+ {
+  "start": 104.85,
+  "end": 110.85,
+  "text": "As you can see here the budget indicators are color coded"
+ },
+ {
+  "start": 110.85,
+  "end": 115.85,
+  "text": "that is into green which indicates that the spending is within the defined threshold"
+ },
+ {
+  "start": 115.85,
+  "end": 125.85,
+  "text": "and it appears red if it is above or if it has crossed the limit of the budget."
+ },
+ {
+  "start": 125.85,
+  "end": 127.85,
+  "text": "Next we have the System Health."
+ },
+ {
+  "start": 127.85,
+  "end": 134.85,
+  "text": "So this system health section provides an overview of the platform operational status"
+ },
+ {
+  "start": 134.85,
+  "end": 139.85,
+  "text": "so it displays the total number of API requests that has been needed."
+ },
+ {
+  "start": 139.85,
+  "end": 147.85,
+  "text": "And the performance of the agents, the models, the service reliability, the peak throughput"
+ },
+ {
+  "start": 147.85,
+  "end": 149.85,
+  "text": "and the active models."
+ },
+ {
+  "start": 149.85,
+  "end": 159.85,
+  "text": "It also shows what are the limit violations, how many rate limit violations that has been detected"
+ },
+ {
+  "start": 159.85,
+  "end": 162.85,
+  "text": "and also the top models by volume."
+ },
+ {
+  "start": 162.85,
+  "end": 167.1,
+  "text": "And finally we have the Change Management."
+ },
+ {
+  "start": 167.1,
+  "end": 177.1,
+  "text": "So this section is about, it provides information about deployments, like how many deployments were there,"
+ },
+ {
+  "start": 177.1,
+  "end": 185.1,
+  "text": "how many approvals, how many releases, how many were revertable and how many life changes are happening"
+ },
+ {
+  "start": 185.1,
+  "end": 190.1,
+  "text": "and the top user responsible for that particular deployment."
+ },
+ {
+  "start": 190.1,
+  "end": 195.1,
+  "text": "And also you can see the recent activities of those deployments."
+ },
+ {
+  "start": 195.1,
+  "end": 199.1,
+  "text": "These are all the components that you can see from the global dashboard."
+ },
+ {
+  "start": 199.1,
+  "end": 211.64,
+  "text": "So now let's start with, let's look into them individually and let's start with LLM Studio Analytics."
+ },
+ {
+  "start": 211.64,
+  "end": 220.37,
+  "text": "So here as you enter LLM Studio Analytics, the first thing you see is the cost range."
+ },
+ {
+  "start": 220.37,
+  "end": 230.37,
+  "text": "So this cost range tells us about the total infra cost, the total cost, the LLM cost"
+ },
+ {
+  "start": 230.37,
+  "end": 233.37,
+  "text": "of each day, the total cost of each day."
+ },
+ {
+  "start": 233.37,
+  "end": 239.37,
+  "text": "You can make, you can take any range of days you want, like let me show you the 30 days."
+ },
+ {
+  "start": 239.37,
+  "end": 252.71,
+  "text": "So this is the graph for 30 days and similarly you can select any of the time range that you want"
+ },
+ {
+  "start": 252.71,
+  "end": 255.71,
+  "text": "or you would like to see."
+ },
+ {
+  "start": 255.71,
+  "end": 262.71,
+  "text": "For now I will select it as 7 days and you can also unselect them and if you want to see only infra cost"
+ },
+ {
+  "start": 262.71,
+  "end": 270.71,
+  "text": "you can only see infra cost or if you want to see, compare both infra cost and total cost you can see this."
+ },
+ {
+  "start": 270.71,
+  "end": 278.71,
+  "text": "So you can see however you want to or you want to compare with, you can watch accordingly."
+ },
+ {
+  "start": 278.71,
+  "end": 286.37,
+  "text": "Next we have this, this is the dashboard for total spend."
+ },
+ {
+  "start": 286.37,
+  "end": 296.37,
+  "text": "If we consider infra cost of available infra, non-available infra, top users, top model, the discount,"
+ },
+ {
+  "start": 296.37,
+  "end": 304.37,
+  "text": "the LLM cost which was the input cost as well as the output cost, the input tokens, output tokens"
+ },
+ {
+  "start": 304.37,
+  "end": 308.37,
+  "text": "and the top assistant like how much has the top assistant spent."
+ },
+ {
+  "start": 308.37,
+  "end": 315.37,
+  "text": "So this last period means that previously the assistant which was the top assistant is this."
+ },
+ {
+  "start": 315.37,
+  "end": 318.37,
+  "text": "So that is what last period means."
+ },
+ {
+  "start": 318.37,
+  "end": 328.67,
+  "text": "So as we scroll down you can see that we have top assistants, top users, user group, top agents,"
+ },
+ {
+  "start": 328.67,
+  "end": 332.67,
+  "text": "infra companies, billable components and the non-billable components."
+ },
+ {
+  "start": 332.67,
+  "end": 339.67,
+  "text": "So here all the top things are then written which means all the top 10 of these will be shown."
+ },
+ {
+  "start": 339.67,
+  "end": 344.67,
+  "text": "So for example if you select top assistant, all the top 10 assistants will be shown here"
+ },
+ {
+  "start": 344.67,
+  "end": 348.67,
+  "text": "and with the cost that they have was spent."
+ },
+ {
+  "start": 348.67,
+  "end": 353.67,
+  "text": "And if you want to know more detail about any of these assistants, you can just click on it"
+ },
+ {
+  "start": 353.67,
+  "end": 362.67,
+  "text": "and you can see a drill down sharing all the detailed information about this particular assistant."
+ },
+ {
+  "start": 362.67,
+  "end": 370.67,
+  "text": "You can see that these people have used this assistant spending these many dollars"
+ },
+ {
+  "start": 371.67,
+  "end": 374.67,
+  "text": "and 116 users have used it."
+ },
+ {
+  "start": 374.67,
+  "end": 382.67,
+  "text": "This is the total input cost and suppose if the total budget has been gone above the limit,"
+ },
+ {
+  "start": 382.67,
+  "end": 388.67,
+  "text": "you can just request a budget here and similarly the top users."
+ },
+ {
+  "start": 388.67,
+  "end": 397.95,
+  "text": "So these are the top 10 users for today and if I click on any of them,"
+ },
+ {
+  "start": 398.95,
+  "end": 405.95,
+  "text": "let's say if I click on this particular user, you can see the overall information about this user,"
+ },
+ {
+  "start": 405.95,
+  "end": 412.95,
+  "text": "the top assistants, like how many assistants that this person has used,"
+ },
+ {
+  "start": 412.95,
+  "end": 419.95,
+  "text": "the 4 apps here use 4 apps, 10 agents, the total cost, the LLM cost, the infra cost,"
+ },
+ {
+  "start": 419.95,
+  "end": 424.95,
+  "text": "input cost and the output cost of this particular user will be seen as that."
+ },
+ {
+  "start": 424.95,
+  "end": 432.95,
+  "text": "You can also filter it out as per URL, like at what time period you want to check,"
+ },
+ {
+  "start": 432.95,
+  "end": 434.95,
+  "text": "you can filter it out here."
+ },
+ {
+  "start": 434.95,
+  "end": 444.84,
+  "text": "You can also see a cost training graph and this is the usage history of this particular user"
+ },
+ {
+  "start": 444.84,
+  "end": 450.84,
+  "text": "and if you want to trace any of the or if you want to know more details about this particular user,"
+ },
+ {
+  "start": 450.84,
+  "end": 455.84,
+  "text": "you can see that this is the total input cost, output cost"
+ },
+ {
+  "start": 455.84,
+  "end": 458.84,
+  "text": "and if you want to view this trace, you can view it here."
+ },
+ {
+  "start": 458.84,
+  "end": 479.72,
+  "text": "This trace will show you all the root of like any of the flows like the orchestrator or the gemiare orchestrator flow"
+ },
+ {
+  "start": 479.72,
+  "end": 483.72,
+  "text": "or any of the flow that this user has been using."
+ },
+ {
+  "start": 483.72,
+  "end": 488.72,
+  "text": "So simply you can check for any of the users that you want to check"
+ },
+ {
+  "start": 489.72,
+  "end": 500.72,
+  "text": "and user groups is an impact and also you can pass the user to any of, there's a feature called tag"
+ },
+ {
+  "start": 500.72,
+  "end": 506.72,
+  "text": "and also add to graph, which means that if I want to see this person in a graph format,"
+ },
+ {
+  "start": 506.72,
+  "end": 512.72,
+  "text": "so I can just add this person to the graph and I can see here, right?"
+ },
+ {
+  "start": 512.72,
+  "end": 517.72,
+  "text": "Then I remove all this because this is comparing with all those three."
+ },
+ {
+  "start": 517.72,
+  "end": 523.1,
+  "text": "So this is the graph for that particular person."
+ },
+ {
+  "start": 523.1,
+  "end": 527.1,
+  "text": "So this is how it works and you can tag them here."
+ },
+ {
+  "start": 527.1,
+  "end": 535.1,
+  "text": "Since I don't have any user groups currently, it is showing as no tag user groups yet"
+ },
+ {
+  "start": 535.1,
+  "end": 538.1,
+  "text": "and it's same for the top agents."
+ },
+ {
+  "start": 538.1,
+  "end": 548.3,
+  "text": "It has each of them has their childrens and top infra components."
+ },
+ {
+  "start": 548.3,
+  "end": 555.59,
+  "text": "Similarly, it has the top 10 for components."
+ },
+ {
+  "start": 555.59,
+  "end": 569.04,
+  "text": "It's similar to all that but here when I click on any of the drill down or the drop down,"
+ },
+ {
+  "start": 569.04,
+  "end": 571.04,
+  "text": "you can see this AI suggestion."
+ },
+ {
+  "start": 571.04,
+  "end": 574.04,
+  "text": "You can know more about this particular workload."
+ },
+ {
+  "start": 574.04,
+  "end": 582.04,
+  "text": "When I click on AI suggestion, I can see the AI scores, the citations, the total citations,"
+ },
+ {
+  "start": 582.04,
+  "end": 587.04,
+  "text": "that the how much cost is wasted out of how much that is spent"
+ },
+ {
+  "start": 587.04,
+  "end": 592.04,
+  "text": "and the other required details, the gap in decisioning"
+ },
+ {
+  "start": 592.04,
+  "end": 595.04,
+  "text": "and you can also optimize in the project."
+ },
+ {
+  "start": 595.04,
+  "end": 601.04,
+  "text": "So this is all that it can show and also there are different types, not just workloads."
+ },
+ {
+  "start": 601.04,
+  "end": 605.04,
+  "text": "You can see different sections also here."
+ },
+ {
+  "start": 605.04,
+  "end": 610.7,
+  "text": "There are different drill downs and options."
+ },
+ {
+  "start": 610.7,
+  "end": 614.7,
+  "text": "You can choose any of them as per your liking"
+ },
+ {
+  "start": 614.7,
+  "end": 621.7,
+  "text": "and also it is that each of this infra component has its own unique drill down"
+ },
+ {
+  "start": 621.7,
+  "end": 627.7,
+  "text": "because these are not same as another infra component."
+ },
+ {
+  "start": 627.7,
+  "end": 634.7,
+  "text": "It's because of the available metrics differ depending on that particular infra component."
+ },
+ {
+  "start": 634.7,
+  "end": 645.7,
+  "text": "So everything is different and it is same for the level and not the level also."
+ },
+ {
+  "start": 645.7,
+  "end": 649.46,
+  "text": "It's the same as others."
+ },
+ {
+  "start": 649.46,
+  "end": 663.37,
+  "text": "And as we scroll down, you can see the all records."
+ },
+ {
+  "start": 663.37,
+  "end": 672.37,
+  "text": "This all records show that these are the total models, agents, the total assistants, the top 10"
+ },
+ {
+  "start": 672.37,
+  "end": 676.37,
+  "text": "and if you want to see 11, 12 or there are 42 of them"
+ },
+ {
+  "start": 676.37,
+  "end": 681.37,
+  "text": "and if you want to see, you can just move on to next page and you can see"
+ },
+ {
+  "start": 681.37,
+  "end": 686.62,
+  "text": "and these are the total calls, inputs and outputs."
+ },
+ {
+  "start": 686.62,
+  "end": 695.62,
+  "text": "This is the total cost and you can view by assistants, by agents,"
+ },
+ {
+  "start": 695.62,
+  "end": 701.62,
+  "text": "like how much each of the agent has spent by users"
+ },
+ {
+  "start": 701.62,
+  "end": 707.73,
+  "text": "and if you want to tag a user also, you can tag a user"
+ },
+ {
+  "start": 708.73,
+  "end": 710.73,
+  "text": "and by methods."
+ },
+ {
+  "start": 710.73,
+  "end": 718.48,
+  "text": "So this is all about and also yes, we have my usage"
+ },
+ {
+  "start": 718.48,
+  "end": 724.48,
+  "text": "and this is a part of the budget set up where you can see the total usage,"
+ },
+ {
+  "start": 724.48,
+  "end": 726.48,
+  "text": "the cost usage that you have done today."
+ },
+ {
+  "start": 726.48,
+  "end": 732.48,
+  "text": "I have not spent any of it today so it's zero"
+ },
+ {
+  "start": 732.48,
+  "end": 736.48,
+  "text": "and the total that is remaining, what is my daily limit"
+ },
+ {
+  "start": 736.48,
+  "end": 739.48,
+  "text": "and if there is any request that is pending"
+ },
+ {
+  "start": 739.48,
+  "end": 743.48,
+  "text": "and suppose if I have crossed the limit of my daily budget,"
+ },
+ {
+  "start": 743.48,
+  "end": 747.48,
+  "text": "I can just fill this form and request for more budget"
+ },
+ {
+  "start": 747.48,
+  "end": 752.48,
+  "text": "and till then, do you need that until and what is the reason for it,"
+ },
+ {
+  "start": 752.48,
+  "end": 757.48,
+  "text": "is there any business reason or why was the, you have to say that"
+ },
+ {
+  "start": 757.48,
+  "end": 763.48,
+  "text": "why was the present usage completed so you can fill this form."
+ },
+ {
+  "start": 763.48,
+  "end": 768.48,
+  "text": "I am not able to load this chart because I have not used any of the"
+ },
+ {
+  "start": 769.48,
+  "end": 772.48,
+  "text": "cost today."
+ },
+ {
+  "start": 772.48,
+  "end": 776.48,
+  "text": "So if I have used then you can see a graph out here."
+ },
+ {
+  "start": 776.48,
+  "end": 781.82,
+  "text": "So this is all about Relevestodia."
+ },
+ {
+  "start": 781.82,
+  "end": 787.38,
+  "text": "Okay, next we have the firewall overview."
+ },
+ {
+  "start": 787.38,
+  "end": 791.38,
+  "text": "So this page is about the security trends dashboard."
+ },
+ {
+  "start": 791.38,
+  "end": 796.38,
+  "text": "So it provides the overview of firewall related security events and alerts."
+ },
+ {
+  "start": 796.38,
+  "end": 800.38,
+  "text": "So here you can see the security trend graph."
+ },
+ {
+  "start": 800.38,
+  "end": 804.38,
+  "text": "So this graph shows us the total number of alerts generated over time."
+ },
+ {
+  "start": 804.38,
+  "end": 809.38,
+  "text": "So it categorizes based on the severity that is that critical,"
+ },
+ {
+  "start": 809.38,
+  "end": 813.38,
+  "text": "high-end, how many of them are blocked and etc."
+ },
+ {
+  "start": 813.38,
+  "end": 818.38,
+  "text": "So here there are cards that shows the total events, the critical alerts,"
+ },
+ {
+  "start": 818.38,
+  "end": 822.38,
+  "text": "what is the severity and the request blocked."
+ },
+ {
+  "start": 822.38,
+  "end": 829.38,
+  "text": "And here you can see the real-time, the security alerts list"
+ },
+ {
+  "start": 829.38,
+  "end": 836.38,
+  "text": "For example, if you open the, you can see how many of them are marked as critical here."
+ },
+ {
+  "start": 836.38,
+  "end": 840.38,
+  "text": "So and if you want to know more information about them, you can just click on that"
+ },
+ {
+  "start": 840.38,
+  "end": 846.38,
+  "text": "and you can see a detailed information such as the source IP, the user ID,"
+ },
+ {
+  "start": 846.38,
+  "end": 851.38,
+  "text": "the user email, what is the status, for now it is flagged"
+ },
+ {
+  "start": 851.38,
+  "end": 856.38,
+  "text": "and what is the summary, the triage region summary and etc."
+ },
+ {
+  "start": 856.38,
+  "end": 860.38,
+  "text": "And also you can see a cognitive decisioning in the section,"
+ },
+ {
+  "start": 860.38,
+  "end": 865.38,
+  "text": "which explains, there is a section called as firewall is categorized."
+ },
+ {
+  "start": 865.38,
+  "end": 869.38,
+  "text": "So you can just click on it and you can see a cognitive decisioning"
+ },
+ {
+  "start": 869.38,
+  "end": 871.38,
+  "text": "AI that is coming out here."
+ },
+ {
+  "start": 871.38,
+  "end": 877.38,
+  "text": "So this evaluate, which explains how alert was evaluated"
+ },
+ {
+  "start": 877.38,
+  "end": 883.38,
+  "text": "and it displays the decision strength and highlights the gaps"
+ },
+ {
+  "start": 883.38,
+  "end": 886.38,
+  "text": "in the decision making process."
+ },
+ {
+  "start": 886.38,
+  "end": 895.38,
+  "text": "So this can be seen for each and every alert that has been shown here."
+ },
+ {
+  "start": 895.38,
+  "end": 901.38,
+  "text": "And if you want to investigate the alert further, you can just click on any of them"
+ },
+ {
+  "start": 901.38,
+  "end": 905.38,
+  "text": "and you can see the Google Cloud alerting you,"
+ },
+ {
+  "start": 905.38,
+  "end": 908.38,
+  "text": "where you can explore the complete alert details"
+ },
+ {
+  "start": 908.38,
+  "end": 919.94,
+  "text": "and understand how the incident was generated and processed."
+ },
+ {
+  "start": 919.94,
+  "end": 921.94,
+  "text": "Now let's come into policies."
+ },
+ {
+  "start": 921.94,
+  "end": 926.94,
+  "text": "So this is a smart AI policy is your page."
+ },
+ {
+  "start": 926.94,
+  "end": 931.94,
+  "text": "Here when I, it's like you can create your own policy here."
+ },
+ {
+  "start": 931.94,
+  "end": 934.94,
+  "text": "For example, let me create a test policy."
+ },
+ {
+  "start": 934.94,
+  "end": 938.94,
+  "text": "You can select any of the category here that I'm selecting privacy"
+ },
+ {
+  "start": 938.94,
+  "end": 946.35,
+  "text": "and test again and deploy it."
+ },
+ {
+  "start": 946.35,
+  "end": 950.35,
+  "text": "So I can see though, my one of my policies has been deployed."
+ },
+ {
+  "start": 950.35,
+  "end": 957.35,
+  "text": "If I disable it, I can see that there are two disabled"
+ },
+ {
+  "start": 957.35,
+  "end": 960.35,
+  "text": "and there are 13 other active policies."
+ },
+ {
+  "start": 960.35,
+  "end": 972.25,
+  "text": "And if I want to, I can just edit this rule or I can delete this rule."
+ },
+ {
+  "start": 972.25,
+  "end": 980.58,
+  "text": "And it also has a change loss that is whatever that I have done here"
+ },
+ {
+  "start": 980.58,
+  "end": 984.58,
+  "text": "will be reflected here in the change loss that is I have today,"
+ },
+ {
+  "start": 984.58,
+  "end": 989.58,
+  "text": "I have firstly created it, then I've disabled it,"
+ },
+ {
+  "start": 989.58,
+  "end": 995.58,
+  "text": "then I have updated it and I've deleted it at this particular time stamp."
+ },
+ {
+  "start": 995.58,
+  "end": 1001.58,
+  "text": "So like that, similarly, you can see all the users have created it."
+ },
+ {
+  "start": 1001.58,
+  "end": 1006.58,
+  "text": "You can see that and you can also filter it, filter them accordingly."
+ },
+ {
+  "start": 1006.58,
+  "end": 1015.53,
+  "text": "Then you can put the oldest first or the, so it depends."
+ },
+ {
+  "start": 1015.53,
+  "end": 1018.53,
+  "text": "So this is about smart AI policy."
+ },
+ {
+  "start": 1018.53,
+  "end": 1026.0,
+  "text": "And next, if you come into traffic analysis, you can see the four sections here."
+ },
+ {
+  "start": 1026.0,
+  "end": 1028.0,
+  "text": "Firstly, let's go to project section."
+ },
+ {
+  "start": 1028.0,
+  "end": 1031.0,
+  "text": "You can see there are a lot of projects and if you want,"
+ },
+ {
+  "start": 1031.0,
+  "end": 1039.0,
+  "text": "if I have to, let's say I click on view usage of that particular project,"
+ },
+ {
+  "start": 1039.0,
+  "end": 1043.0,
+  "text": "you can see a statistical view of this project"
+ },
+ {
+  "start": 1043.0,
+  "end": 1047.0,
+  "text": "and what are the models that are being used here."
+ },
+ {
+  "start": 1047.0,
+  "end": 1049.0,
+  "text": "There are nine models that are used."
+ },
+ {
+  "start": 1049.0,
+  "end": 1051.0,
+  "text": "And if I have to know more about the project,"
+ },
+ {
+  "start": 1051.0,
+  "end": 1057.0,
+  "text": "I can just click on the dropdown and know more about the project."
+ },
+ {
+  "start": 1057.0,
+  "end": 1069.5,
+  "text": "And I can also select the time stamp whenever I want,"
+ },
+ {
+  "start": 1069.5,
+  "end": 1074.5,
+  "text": "so that it is all the data that was selected for 30 days."
+ },
+ {
+  "start": 1074.5,
+  "end": 1078.5,
+  "text": "So all that will be displayed here."
+ },
+ {
+  "start": 1078.5,
+  "end": 1085.78,
+  "text": "So like this."
+ },
+ {
+  "start": 1085.78,
+  "end": 1088.78,
+  "text": "So this is about the statistics."
+ },
+ {
+  "start": 1088.78,
+  "end": 1092.78,
+  "text": "You can view the statistics directly from here"
+ },
+ {
+  "start": 1092.78,
+  "end": 1095.78,
+  "text": "or you can view it from the projects also."
+ },
+ {
+  "start": 1095.78,
+  "end": 1105.79,
+  "text": "And if we come to applications, these are the total applications"
+ },
+ {
+  "start": 1105.79,
+  "end": 1108.79,
+  "text": "and similarly, if we click on the dropdown,"
+ },
+ {
+  "start": 1108.79,
+  "end": 1114.79,
+  "text": "you can see a detailed view or more information about that particular application."
+ },
+ {
+  "start": 1114.79,
+  "end": 1117.79,
+  "text": "So there are these many applications for now"
+ },
+ {
+  "start": 1117.79,
+  "end": 1120.79,
+  "text": "and also the time limit."
+ },
+ {
+  "start": 1120.79,
+  "end": 1123.79,
+  "text": "You can filter it by time."
+ },
+ {
+  "start": 1123.79,
+  "end": 1128.79,
+  "text": "So this is all about the traffic analysis."
+ },
+ {
+  "start": 1128.79,
+  "end": 1135.8,
+  "text": "Now if we come to IP whitelisting,"
+ },
+ {
+  "start": 1135.8,
+  "end": 1140.8,
+  "text": "so not everybody has access to view the IP whitelisting"
+ },
+ {
+  "start": 1140.8,
+  "end": 1142.8,
+  "text": "or whitelisting."
+ },
+ {
+  "start": 1142.8,
+  "end": 1144.8,
+  "text": "So you have to get their access."
+ },
+ {
+  "start": 1144.8,
+  "end": 1147.8,
+  "text": "So if I click on this,"
+ },
+ {
+  "start": 1147.8,
+  "end": 1151.8,
+  "text": "a mail will be sent to the admins requesting for access"
+ },
+ {
+  "start": 1151.8,
+  "end": 1153.8,
+  "text": "and they will provide the access."
+ },
+ {
+  "start": 1153.8,
+  "end": 1168.02,
+  "text": "Currently, I will provide the access from my site."
+ },
+ {
+  "start": 1168.02,
+  "end": 1172.02,
+  "text": "You have two roles here that is user and super admin."
+ },
+ {
+  "start": 1172.02,
+  "end": 1180.82,
+  "text": "Firstly, I'll let you know the user's functionalities."
+ },
+ {
+  "start": 1180.82,
+  "end": 1185.32,
+  "text": "So firstly, when I enter into IP whitelisting,"
+ },
+ {
+  "start": 1185.32,
+  "end": 1189.32,
+  "text": "so this is a form where you can whitelist your IP"
+ },
+ {
+  "start": 1189.32,
+  "end": 1191.32,
+  "text": "or whitelist your IP."
+ },
+ {
+  "start": 1191.32,
+  "end": 1194.32,
+  "text": "You can either enter your IP address or IP v6 address."
+ },
+ {
+  "start": 1194.32,
+  "end": 1201.32,
+  "text": "You can use your current automatically fetched IP address"
+ },
+ {
+  "start": 1201.32,
+  "end": 1203.32,
+  "text": "or you can just enter it manually."
+ },
+ {
+  "start": 1203.32,
+  "end": 1207.32,
+  "text": "It depends on however the user likes."
+ },
+ {
+  "start": 1207.32,
+  "end": 1211.32,
+  "text": "And also the reason for it, you can whitelist IP here."
+ },
+ {
+  "start": 1211.32,
+  "end": 1215.32,
+  "text": "And you can see the IP whitelist,"
+ },
+ {
+  "start": 1215.32,
+  "end": 1220.32,
+  "text": "whatever you have whitelisted, you can see it here."
+ },
+ {
+  "start": 1220.32,
+  "end": 1225.32,
+  "text": "For example, let me whitelist my IP."
+ },
+ {
+  "start": 1225.32,
+  "end": 1228.32,
+  "text": "This is the duration. You can select any duration here."
+ },
+ {
+  "start": 1228.32,
+  "end": 1236.04,
+  "text": "I have whitelisted this now."
+ },
+ {
+  "start": 1236.04,
+  "end": 1242.04,
+  "text": "And these are all the IP whitelisting that I have done so far."
+ },
+ {
+  "start": 1242.04,
+  "end": 1247.64,
+  "text": "The expired and the remote."
+ },
+ {
+  "start": 1247.64,
+  "end": 1249.64,
+  "text": "Next is the metrics."
+ },
+ {
+  "start": 1249.64,
+  "end": 1254.64,
+  "text": "These are the total records, the unique caller IPs"
+ },
+ {
+  "start": 1254.64,
+  "end": 1258.64,
+  "text": "or the mapped records and mapped IPs."
+ },
+ {
+  "start": 1258.64,
+  "end": 1261.64,
+  "text": "The total tokens, the output tokens, everything."
+ },
+ {
+  "start": 1261.64,
+  "end": 1263.64,
+  "text": "Everything can be seen here."
+ },
+ {
+  "start": 1263.64,
+  "end": 1266.64,
+  "text": "And if there is any user transactions that are going on,"
+ },
+ {
+  "start": 1266.64,
+  "end": 1268.64,
+  "text": "I currently don't have any user transactions"
+ },
+ {
+  "start": 1268.64,
+  "end": 1270.64,
+  "text": "so currently it's showing a view."
+ },
+ {
+  "start": 1270.64,
+  "end": 1272.64,
+  "text": "But if there is any user transactions,"
+ },
+ {
+  "start": 1272.64,
+  "end": 1275.64,
+  "text": "all the transaction blocks will be shown here."
+ },
+ {
+  "start": 1275.64,
+  "end": 1280.64,
+  "text": "And if I come to audit blocks, this shows access net"
+ },
+ {
+  "start": 1280.64,
+  "end": 1283.64,
+  "text": "because I have an access of user."
+ },
+ {
+  "start": 1283.64,
+  "end": 1287.64,
+  "text": "So users cannot access this particular section"
+ },
+ {
+  "start": 1287.64,
+  "end": 1292.64,
+  "text": "because this can be viewed only by the super admins."
+ },
+ {
+  "start": 1292.64,
+  "end": 1296.64,
+  "text": "So once I give myself a super admin access,"
+ },
+ {
+  "start": 1296.64,
+  "end": 1301.06,
+  "text": "let me show you."
+ },
+ {
+  "start": 1301.06,
+  "end": 1328.51,
+  "text": "Now I can view the audit blocks."
+ },
+ {
+  "start": 1328.51,
+  "end": 1332.82,
+  "text": "So these are the audit blocks."
+ },
+ {
+  "start": 1332.82,
+  "end": 1334.82,
+  "text": "So there are one or two audit blocks,"
+ },
+ {
+  "start": 1334.82,
+  "end": 1337.82,
+  "text": "means that not only just mine, I can see anybody's,"
+ },
+ {
+  "start": 1337.82,
+  "end": 1341.82,
+  "text": "everybody's logs, what all everybody is doing."
+ },
+ {
+  "start": 1341.82,
+  "end": 1344.82,
+  "text": "I can see all the logs of all the users"
+ },
+ {
+  "start": 1344.82,
+  "end": 1348.82,
+  "text": "using this IP whitelisting, whoever has whitelisted"
+ },
+ {
+  "start": 1348.82,
+  "end": 1350.82,
+  "text": "or whoever has removed all the logs."
+ },
+ {
+  "start": 1350.82,
+  "end": 1352.82,
+  "text": "I can see it here."
+ },
+ {
+  "start": 1352.82,
+  "end": 1356.82,
+  "text": "And this is only visible to the admins."
+ },
+ {
+  "start": 1356.82,
+  "end": 1359.82,
+  "text": "So this is about the IP whitelisting."
+ },
+ {
+  "start": 1359.82,
+  "end": 1368.45,
+  "text": "Now let's go to system health."
+ },
+ {
+  "start": 1369.45,
+  "end": 1373.45,
+  "text": "So as you can see, this also has an impact restriction"
+ },
+ {
+  "start": 1373.45,
+  "end": 1377.45,
+  "text": "that is whoever, only a few people whoever has access"
+ },
+ {
+  "start": 1377.45,
+  "end": 1379.45,
+  "text": "can access this page."
+ },
+ {
+  "start": 1379.45,
+  "end": 1380.45,
+  "text": "That is, they do not."
+ },
+ {
+  "start": 1380.45,
+  "end": 1397.11,
+  "text": "So let me quickly just give access to my health."
+ },
+ {
+  "start": 1397.11,
+  "end": 1401.11,
+  "text": "So this is the overall system health dashboard."
+ },
+ {
+  "start": 1401.11,
+  "end": 1405.11,
+  "text": "Here, as you can see, there are policies,"
+ },
+ {
+  "start": 1405.11,
+  "end": 1411.58,
+  "text": "runs, clusters, and conflicts."
+ },
+ {
+  "start": 1411.58,
+  "end": 1415.58,
+  "text": "And here is the total savings, the total hibernation runs,"
+ },
+ {
+  "start": 1415.58,
+  "end": 1417.58,
+  "text": "the latest savings."
+ },
+ {
+  "start": 1417.58,
+  "end": 1421.58,
+  "text": "So here, the overall system health component"
+ },
+ {
+  "start": 1421.58,
+  "end": 1425.58,
+  "text": "helps us to monitor and manage the cost optimization policies"
+ },
+ {
+  "start": 1425.58,
+  "end": 1429.58,
+  "text": "for any cloud or Kubernetes environment."
+ },
+ {
+  "start": 1429.58,
+  "end": 1433.58,
+  "text": "So it shows us how much money has been saved,"
+ },
+ {
+  "start": 1433.58,
+  "end": 1436.58,
+  "text": "how much hibernation actions have run,"
+ },
+ {
+  "start": 1436.58,
+  "end": 1440.58,
+  "text": "and the latest savings from the recent policy implications."
+ },
+ {
+  "start": 1441.58,
+  "end": 1445.58,
+  "text": "So the main feature for this is the policy step."
+ },
+ {
+  "start": 1445.58,
+  "end": 1448.58,
+  "text": "Here, it shows the cost optimization policies,"
+ },
+ {
+  "start": 1448.58,
+  "end": 1452.58,
+  "text": "including the policies, names, and all of these."
+ },
+ {
+  "start": 1452.58,
+  "end": 1455.58,
+  "text": "And here is the environment."
+ },
+ {
+  "start": 1455.58,
+  "end": 1459.58,
+  "text": "It shows the policies, names, the type,"
+ },
+ {
+  "start": 1459.58,
+  "end": 1465.58,
+  "text": "the environment, the schedule, and the last runs of this."
+ },
+ {
+  "start": 1465.58,
+  "end": 1468.58,
+  "text": "And next is the savings summary."
+ },
+ {
+  "start": 1468.58,
+  "end": 1472.58,
+  "text": "And you can just click on it for what it tells you,"
+ },
+ {
+  "start": 1472.58,
+  "end": 1478.06,
+  "text": "and you can also scan this, or you can also delete this."
+ },
+ {
+  "start": 1478.06,
+  "end": 1482.06,
+  "text": "In the runs, it tracks how many hibernation actions"
+ },
+ {
+  "start": 1482.06,
+  "end": 1485.06,
+  "text": "have been executed across the environment."
+ },
+ {
+  "start": 1485.06,
+  "end": 1490.06,
+  "text": "So these are the 47 runs, and you can view it."
+ },
+ {
+  "start": 1490.06,
+  "end": 1493.06,
+  "text": "You can view the status whenever it started"
+ },
+ {
+  "start": 1493.06,
+  "end": 1497.06,
+  "text": "and the ENV, the type, and et cetera."
+ },
+ {
+  "start": 1497.06,
+  "end": 1501.06,
+  "text": "Next is the clusters."
+ },
+ {
+  "start": 1501.06,
+  "end": 1503.06,
+  "text": "You can see how many clusters."
+ },
+ {
+  "start": 1503.06,
+  "end": 1507.71,
+  "text": "There are three clusters here."
+ },
+ {
+  "start": 1507.71,
+  "end": 1510.71,
+  "text": "You can either scale down, scale up, or remove them."
+ },
+ {
+  "start": 1510.71,
+  "end": 1515.71,
+  "text": "And next, you can also register a cluster with this."
+ },
+ {
+  "start": 1515.71,
+  "end": 1518.71,
+  "text": "Next, we have a config."
+ },
+ {
+  "start": 1518.71,
+  "end": 1525.71,
+  "text": "Here in the config, you can just create your own environment,"
+ },
+ {
+  "start": 1525.71,
+  "end": 1528.71,
+  "text": "either in dev, prod, QA, or any testing."
+ },
+ {
+  "start": 1528.71,
+  "end": 1530.71,
+  "text": "You can add an environment."
+ },
+ {
+  "start": 1530.71,
+  "end": 1532.71,
+  "text": "Here are the environments that have been added."
+ },
+ {
+  "start": 1532.71,
+  "end": 1536.71,
+  "text": "You can add an environment if you want, and you can create it."
+ },
+ {
+  "start": 1536.71,
+  "end": 1538.71,
+  "text": "And you can save the changes here."
+ },
+ {
+  "start": 1538.71,
+  "end": 1540.71,
+  "text": "And if you want to create a policy,"
+ },
+ {
+  "start": 1540.71,
+  "end": 1543.71,
+  "text": "you can just create these policies by these,"
+ },
+ {
+  "start": 1543.71,
+  "end": 1546.71,
+  "text": "putting out these forms as per the user requirement"
+ },
+ {
+  "start": 1546.71,
+  "end": 1549.71,
+  "text": "by giving the policy name here,"
+ },
+ {
+  "start": 1549.71,
+  "end": 1552.71,
+  "text": "and you can create a policy here."
+ },
+ {
+  "start": 1552.71,
+  "end": 1560.54,
+  "text": "So this is all about the system height."
+ },
+ {
+  "start": 1560.54,
+  "end": 1563.54,
+  "text": "Now, let's look into budget setup."
+ },
+ {
+  "start": 1563.54,
+  "end": 1566.54,
+  "text": "So the budget setup module consists of three main sections."
+ },
+ {
+  "start": 1566.54,
+  "end": 1570.54,
+  "text": "That is my usage, platform usage, and the setup budget."
+ },
+ {
+  "start": 1570.54,
+  "end": 1573.54,
+  "text": "My usage and platform usage sections"
+ },
+ {
+  "start": 1573.54,
+  "end": 1575.54,
+  "text": "are accessible to all the users,"
+ },
+ {
+  "start": 1575.54,
+  "end": 1579.54,
+  "text": "but the setup budget is not accessible to everybody."
+ },
+ {
+  "start": 1579.54,
+  "end": 1582.54,
+  "text": "It has a callback functionality."
+ },
+ {
+  "start": 1582.54,
+  "end": 1587.54,
+  "text": "But since I have the access to it, I'm able to see it."
+ },
+ {
+  "start": 1587.54,
+  "end": 1591.54,
+  "text": "And at the top of this page,"
+ },
+ {
+  "start": 1591.54,
+  "end": 1594.54,
+  "text": "you can see there's pending approvals, approved requests,"
+ },
+ {
+  "start": 1594.54,
+  "end": 1597.54,
+  "text": "the user budgets, and extra budgets."
+ },
+ {
+  "start": 1597.54,
+  "end": 1600.54,
+  "text": "So this is how many pending approvals are there."
+ },
+ {
+  "start": 1600.54,
+  "end": 1605.54,
+  "text": "Any approval requests, any requests that have been approved,"
+ },
+ {
+  "start": 1605.54,
+  "end": 1608.54,
+  "text": "since I have not approved any of the requests so far,"
+ },
+ {
+  "start": 1608.54,
+  "end": 1609.54,
+  "text": "so it's zero."
+ },
+ {
+  "start": 1609.54,
+  "end": 1614.54,
+  "text": "And user budget rules and extra budgets that are queued."
+ },
+ {
+  "start": 1614.54,
+  "end": 1616.54,
+  "text": "Also, you can see the requests that are queued"
+ },
+ {
+  "start": 1616.54,
+  "end": 1619.54,
+  "text": "if there is anything pending, approved, or rejected."
+ },
+ {
+  "start": 1619.54,
+  "end": 1623.54,
+  "text": "Or you can also review it when there are any queues."
+ },
+ {
+  "start": 1623.54,
+  "end": 1627.54,
+  "text": "And extra budget changes, the budget coverage,"
+ },
+ {
+  "start": 1627.54,
+  "end": 1628.54,
+  "text": "the total budget coverage."
+ },
+ {
+  "start": 1628.54,
+  "end": 1631.54,
+  "text": "And since I have zero requests,"
+ },
+ {
+  "start": 1631.54,
+  "end": 1634.54,
+  "text": "so it's just showing the zero requests"
+ },
+ {
+  "start": 1634.54,
+  "end": 1637.54,
+  "text": "across the data user threshold."
+ },
+ {
+  "start": 1637.54,
+  "end": 1642.54,
+  "text": "And when we come into the admin budget rules,"
+ },
+ {
+  "start": 1643.54,
+  "end": 1646.54,
+  "text": "you can, this is the daily budget."
+ },
+ {
+  "start": 1646.54,
+  "end": 1649.54,
+  "text": "We have five active rules for now."
+ },
+ {
+  "start": 1649.54,
+  "end": 1651.54,
+  "text": "And the approval manager,"
+ },
+ {
+  "start": 1651.54,
+  "end": 1654.54,
+  "text": "approval workloads manager."
+ },
+ {
+  "start": 1654.54,
+  "end": 1658.54,
+  "text": "So you have three sections here,"
+ },
+ {
+  "start": 1658.54,
+  "end": 1661.54,
+  "text": "that is for users, assistants, and agents."
+ },
+ {
+  "start": 1661.54,
+  "end": 1665.54,
+  "text": "For users, so we have these five people."
+ },
+ {
+  "start": 1665.54,
+  "end": 1667.54,
+  "text": "These are the five pools."
+ },
+ {
+  "start": 1667.54,
+  "end": 1669.54,
+  "text": "These are the owners for them."
+ },
+ {
+  "start": 1669.54,
+  "end": 1672.54,
+  "text": "The daily limit, the one percentage,"
+ },
+ {
+  "start": 1672.54,
+  "end": 1674.54,
+  "text": "the blocked percentage,"
+ },
+ {
+  "start": 1674.54,
+  "end": 1678.54,
+  "text": "and the what are the manager pool for users,"
+ },
+ {
+  "start": 1678.54,
+  "end": 1681.54,
+  "text": "or to approve within limit, or this one."
+ },
+ {
+  "start": 1681.54,
+  "end": 1684.54,
+  "text": "Or the status is active."
+ },
+ {
+  "start": 1684.54,
+  "end": 1688.54,
+  "text": "So we have another default rule that is,"
+ },
+ {
+  "start": 1688.54,
+  "end": 1692.54,
+  "text": "you can either default the daily limit,"
+ },
+ {
+  "start": 1692.54,
+  "end": 1697.54,
+  "text": "or you can reset the daily, this one,"
+ },
+ {
+  "start": 1697.54,
+  "end": 1700.54,
+  "text": "as per your time zone."
+ },
+ {
+  "start": 1700.54,
+  "end": 1704.54,
+  "text": "And you can over show, notify only do not block,"
+ },
+ {
+  "start": 1704.54,
+  "end": 1706.54,
+  "text": "you can select any of these options,"
+ },
+ {
+  "start": 1706.54,
+  "end": 1708.54,
+  "text": "and just save the budget rules,"
+ },
+ {
+  "start": 1708.54,
+  "end": 1711.54,
+  "text": "or you can also schedule this change later."
+ },
+ {
+  "start": 1711.54,
+  "end": 1714.54,
+  "text": "So this is about set up budget."
+ },
+ {
+  "start": 1714.54,
+  "end": 1717.54,
+  "text": "Now if we look in the platform usage,"
+ },
+ {
+  "start": 1717.54,
+  "end": 1723.33,
+  "text": "you can see that how much platform usage"
+ },
+ {
+  "start": 1723.33,
+  "end": 1725.33,
+  "text": "has been spent, how many requests,"
+ },
+ {
+  "start": 1725.33,
+  "end": 1729.33,
+  "text": "the total entities, and if there is anything"
+ },
+ {
+  "start": 1729.33,
+  "end": 1733.33,
+  "text": "that is over the budget and current bid zero."
+ },
+ {
+  "start": 1733.33,
+  "end": 1735.33,
+  "text": "You can see the range summary,"
+ },
+ {
+  "start": 1735.33,
+  "end": 1738.33,
+  "text": "like what are the total summary of the requests."
+ },
+ {
+  "start": 1738.33,
+  "end": 1741.33,
+  "text": "It is like, this is the total spent."
+ },
+ {
+  "start": 1741.33,
+  "end": 1744.33,
+  "text": "There are these many calls happening,"
+ },
+ {
+  "start": 1744.33,
+  "end": 1747.33,
+  "text": "and these are the input tokens, output tokens."
+ },
+ {
+  "start": 1747.33,
+  "end": 1749.33,
+  "text": "Is there any budget pressure?"
+ },
+ {
+  "start": 1749.33,
+  "end": 1751.33,
+  "text": "There is no budget pressure,"
+ },
+ {
+  "start": 1751.33,
+  "end": 1753.33,
+  "text": "so it's currently showing it as heavy."
+ },
+ {
+  "start": 1753.33,
+  "end": 1757.33,
+  "text": "And you can also see the logs here,"
+ },
+ {
+  "start": 1757.33,
+  "end": 1759.33,
+  "text": "like this particular person,"
+ },
+ {
+  "start": 1759.33,
+  "end": 1761.33,
+  "text": "this particular user has these many calls"
+ },
+ {
+  "start": 1761.33,
+  "end": 1763.33,
+  "text": "and these many requests."
+ },
+ {
+  "start": 1763.33,
+  "end": 1766.33,
+  "text": "This is the budget, and there is this much,"
+ },
+ {
+  "start": 1766.33,
+  "end": 1768.33,
+  "text": "like 69% of the budget,"
+ },
+ {
+  "start": 1768.33,
+  "end": 1771.33,
+  "text": "and they have what is the remaining budget,"
+ },
+ {
+  "start": 1771.33,
+  "end": 1776.33,
+  "text": "and if they exceed more than a particular truck,"
+ },
+ {
+  "start": 1776.33,
+  "end": 1779.33,
+  "text": "if they exceed this limit,"
+ },
+ {
+  "start": 1779.33,
+  "end": 1782.33,
+  "text": "they can just request the budget."
+ },
+ {
+  "start": 1782.33,
+  "end": 1785.33,
+  "text": "Also there are assistance agents and blocks."
+ },
+ {
+  "start": 1785.33,
+  "end": 1787.33,
+  "text": "Currently there is nothing, if there are,"
+ },
+ {
+  "start": 1787.33,
+  "end": 1791.47,
+  "text": "you can also see the logs here."
+ },
+ {
+  "start": 1791.47,
+  "end": 1797.47,
+  "text": "So there is one block, so there are three assistants here."
+ },
+ {
+  "start": 1797.47,
+  "end": 1799.47,
+  "text": "So there are 25 assistants here."
+ },
+ {
+  "start": 1799.47,
+  "end": 1803.47,
+  "text": "So here it is showing yellow because it is 85% done."
+ },
+ {
+  "start": 1803.47,
+  "end": 1807.47,
+  "text": "So it is closer to the limit."
+ },
+ {
+  "start": 1807.47,
+  "end": 1811.47,
+  "text": "And similarly, this is what will be shown here."
+ },
+ {
+  "start": 1811.47,
+  "end": 1815.47,
+  "text": "And in my usage, you can see that"
+ },
+ {
+  "start": 1815.47,
+  "end": 1817.47,
+  "text": "I have used zero usage today,"
+ },
+ {
+  "start": 1817.47,
+  "end": 1819.47,
+  "text": "so it's showing zero dollars."
+ },
+ {
+  "start": 1819.47,
+  "end": 1821.47,
+  "text": "How much is the remaining?"
+ },
+ {
+  "start": 1821.47,
+  "end": 1822.47,
+  "text": "What is the daily limit?"
+ },
+ {
+  "start": 1822.47,
+  "end": 1824.47,
+  "text": "This is the same page that I explained"
+ },
+ {
+  "start": 1824.47,
+  "end": 1829.47,
+  "text": "in the previous Element Studio Analytics page."
+ },
+ {
+  "start": 1829.47,
+  "end": 1833.91,
+  "text": "So this is all about budget setup."
+ },
+ {
+  "start": 1833.91,
+  "end": 1837.91,
+  "text": "And we have one more thing that is global change logs."
+ },
+ {
+  "start": 1837.91,
+  "end": 1842.5,
+  "text": "So this is about everything."
+ },
+ {
+  "start": 1842.5,
+  "end": 1844.5,
+  "text": "This shows all the,"
+ },
+ {
+  "start": 1844.5,
+  "end": 1848.5,
+  "text": "all the components, logs or changes"
+ },
+ {
+  "start": 1848.5,
+  "end": 1850.5,
+  "text": "of whatever that has been done."
+ },
+ {
+  "start": 1850.5,
+  "end": 1854.5,
+  "text": "All over the platform will be logged here"
+ },
+ {
+  "start": 1854.5,
+  "end": 1856.5,
+  "text": "and will be shown here."
+ },
+ {
+  "start": 1856.5,
+  "end": 1858.5,
+  "text": "And this will, in this particular page"
+ },
+ {
+  "start": 1858.5,
+  "end": 1861.5,
+  "text": "or the several button will only be seen"
+ },
+ {
+  "start": 1861.5,
+  "end": 1863.5,
+  "text": "to the people who have access."
+ },
+ {
+  "start": 1863.5,
+  "end": 1865.5,
+  "text": "So this is that."
+ },
+ {
+  "start": 1865.5,
+  "end": 1870.77,
+  "text": "There are more."
+ },
+ {
+  "start": 1870.77,
+  "end": 1873.77,
+  "text": "So you can filter however the user wants"
+ },
+ {
+  "start": 1873.77,
+  "end": 1875.77,
+  "text": "and they can check there."
+ },
+ {
+  "start": 1875.77,
+  "end": 1877.77,
+  "text": "There are 669 entries."
+ },
+ {
+  "start": 1877.77,
+  "end": 1882.77,
+  "text": "So you can filter it as per your, let me say,"
+ },
+ {
+  "start": 1882.77,
+  "end": 1888.17,
+  "text": "filter for budget setup."
+ },
+ {
+  "start": 1888.17,
+  "end": 1890.17,
+  "text": "And I can see the logs for budget setup."
+ },
+ {
+  "start": 1890.17,
+  "end": 1893.58,
+  "text": "And if I click on view,"
+ },
+ {
+  "start": 1893.58,
+  "end": 1896.58,
+  "text": "I can see the overall more detailed view,"
+ },
+ {
+  "start": 1896.58,
+  "end": 1899.58,
+  "text": "like the metadata, the change log metadata."
+ },
+ {
+  "start": 1899.58,
+  "end": 1902.58,
+  "text": "Who has it changed by, what was the resource"
+ },
+ {
+  "start": 1902.58,
+  "end": 1904.58,
+  "text": "I did at the exchange file."
+ },
+ {
+  "start": 1904.58,
+  "end": 1906.58,
+  "text": "So this is all that you can see."
+ },
+ {
+  "start": 1906.58,
+  "end": 1909.58,
+  "text": "So this is all about the EO Governments platform."
+ }
+]

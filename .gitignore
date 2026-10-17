@@ -1,3 +1,12 @@
 __pycache__/
 *.pyc
 .DS_Store
+v1-archive-clone/
+v2/node_modules/
+demo/frames/
+demo/audio.wav
+demo/scratch/
+demo/sheets/
+demo/states.json
+v2/shots/
+v2/out/

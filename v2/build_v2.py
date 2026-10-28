@@ -196,6 +196,10 @@ def build_html(out_dir=OUT, css_name='screens.css'):
 </script>
 </body>
 </html>''' % (ha, rel, rel, css_name, ba, body, rel, js)
+    if os.environ.get('REAL_DATA') != '1':  # dummy people/apps/IPs + spiky charts (v2/tools/dummy.py)
+        sys.path.insert(0, os.path.join(V2, 'tools'))
+        from dummy import dummy
+        page = dummy(page)
     os.makedirs(out_dir, exist_ok=True)
     open(os.path.join(out_dir, 'index.html'), 'w', encoding='utf-8').write(page)
     print('screens+overlays', len(tpls), '->', os.path.relpath(os.path.join(out_dir, 'index.html'), ROOT), len(page), 'bytes')
